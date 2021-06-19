@@ -27,6 +27,8 @@ MAX_STEPS=${12}
 TEST_BATCH_SIZE=${13}
 MODULUS_WEIGHT=${14}
 PHASE_WEIGHT=${15}
+CMIN=${16}
+CMAX=${17}
 
 if [ $MODE == "train" ]
 then
@@ -45,6 +47,19 @@ echo "Start Training......"
             -lr $LEARNING_RATE --max_steps $MAX_STEPS \
             -save $SAVE --test_batch_size $TEST_BATCH_SIZE \
             -mw $MODULUS_WEIGHT -pw $PHASE_WEIGHT
+     elif [ $MODEL == "KG2E_KL" ] || [ $MODEL == "KG2E_EL" ] 
+     then
+        CUDA_VISIBLE_DEVICES=$GPU_DEVICE python -u $CODE_PATH/runs.py --do_train \
+            --do_valid \
+            --do_test \
+            --data_path $FULL_DATA_PATH \
+            --model $MODEL \
+            -n $NEGATIVE_SAMPLE_SIZE -b $BATCH_SIZE -d $HIDDEN_DIM \
+            -g $GAMMA -a $ALPHA \
+            -lr $LEARNING_RATE --max_steps $MAX_STEPS \
+            -save $SAVE --test_batch_size $TEST_BATCH_SIZE \
+            -cmin $CMIN -cmax $CMAX
+     
      else
          CUDA_VISIBLE_DEVICES=$GPU_DEVICE python -u $CODE_PATH/runs.py --do_train \
             --do_valid \
