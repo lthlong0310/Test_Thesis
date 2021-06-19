@@ -1,6 +1,7 @@
 import os
 import logging
 import numpy as np
+import math
 from abc import ABC, abstractmethod
 
 import torch
@@ -78,6 +79,25 @@ class KGEModel(nn.Module, ABC):
                 dim=0,
                 index=sample[:, 2]
             ).unsqueeze(1)
+            
+            if ('sefl.entity_cov' in locals()) & ('sefl.relation_cov' in locals()):
+                head_v = torch.index_select(
+                    self.entity_cov,
+                    dim=0,
+                    index=sample[:, 0]
+                ).unsqueeze(1)
+
+                relation_v = torch.index_select(
+                    self.relation_cov,
+                    dim=0,
+                    index=sample[:, 1]
+                ).unsqueeze(1)
+
+                tail_v = torch.index_select(
+                    self.entity_cov,
+                    dim=0,
+                    index=sample[:, 2]
+                ).unsqueeze(1)
 
         elif batch_type == BatchType.HEAD_BATCH:
             tail_part, head_part = sample
@@ -100,6 +120,25 @@ class KGEModel(nn.Module, ABC):
                 dim=0,
                 index=tail_part[:, 2]
             ).unsqueeze(1)
+            
+            if ('sefl.entity_cov' in locals()) & ('sefl.relation_cov' in locals()):
+                head_v = torch.index_select(
+                    self.entity_cov,
+                    dim=0,
+                    index=head_part.view(-1)
+                ).view(batch_size, negative_sample_size, -1)
+
+                relation_v = torch.index_select(
+                    self.relation_cov,
+                    dim=0,
+                    index=tail_part[:, 1]
+                ).unsqueeze(1)
+
+                tail_v = torch.index_select(
+                    self.entity_cov,
+                    dim=0,
+                    index=tail_part[:, 2]
+                ).unsqueeze(1)
 
         elif batch_type == BatchType.TAIL_BATCH:
             head_part, tail_part = sample
@@ -122,12 +161,34 @@ class KGEModel(nn.Module, ABC):
                 dim=0,
                 index=tail_part.view(-1)
             ).view(batch_size, negative_sample_size, -1)
+            
+            if ('sefl.entity_cov' in locals()) & ('sefl.relation_cov' in locals()):
+                head_v = torch.index_select(
+                self.entity_cov,
+                dim=0,
+                index=head_part[:, 0]
+            ).unsqueeze(1)
+
+            relation_v = torch.index_select(
+                self.relation_cov,
+                dim=0,
+                index=head_part[:, 1]
+            ).unsqueeze(1)
+
+            tail_v = torch.index_select(
+                self.entity_cov,
+                dim=0,
+                index=tail_part.view(-1)
+            ).view(batch_size, negative_sample_size, -1)
 
         else:
             raise ValueError('batch_type %s not supported!'.format(batch_type))
 
         # return scores
-        return self.func(head, relation, tail, batch_type)
+        if head_v in locals() & relation_v in locals() & tail_v in locals():
+            return self.func(head, relation, tail, batch_type, head_v, relation_v, tail_v)
+        else:
+            return self.func(head, relation, tail, batch_type)
 
     @staticmethod
     def train_step(model, optimizer, train_iterator, args):
@@ -556,7 +617,36 @@ class KG2E_KL(KGEModel):
         )
        
     
-    def func(self, head, rel, tail, batch_type):
+    def func(self, head, rel, tail, batch_type, head_v, rel_v, tail_v):
+        """
+        Calculate similarity based on KL divergence
+        D((\mu_e, \Sigma_e), (\mu_r, \Sigma_r)))
+            = \frac{1}{2} \left(
+                tr(\Sigma_r^{-1}\Sigma_e)
+                + (\mu_r - \mu_e)^T\Sigma_r^{-1}(\mu_r - \mu_e)
+                - \log \frac{det(\Sigma_e)}{det(\Sigma_r)} - k_e
+            \right)
+        """
+        mu_e = head - tail
+        sigma_e = head_v - tail_v
+        mu_r = rel
+        sigma_r = relation_v
+        
+        #: a = tr(\Sigma_r^{-1}\Sigma_e)
+        a = torch.sum(sigma_e / sigma_r, dim = 2)
+        
+        #: b = (\mu_r - \mu_e)^T\Sigma_r^{-1}(\mu_r - \mu_e)
+        if batch_type == BatchType.HEAD_BATCH:
+            b = torch.sum((mu_r - mu_e) ** 2 / sigma_r, dim = 2)
+        else:
+            b = torch.sum((mu_e - mu_r) ** 2 / sigma_r, dim = 2)
+        
+        
+        #: c = \log \frac{det(\Sigma_e)}{det(\Sigma_r)}
+        # = sum log (sigma_e)_i - sum log (sigma_r)_i
+        c = torch.sum(torch.log(sigma_e) - torch.og(sigma_r), dim = 2)
+        
+        return 0.5 * (a + b - c - self.hidden_dim)
        
     
     def normalize_embedding(self):
@@ -590,6 +680,7 @@ class KG2E_EL(KGEModel):
         self.cmin = cmin
         self.cmax = cmax
         self.epsilon = 2.0
+        self.log_2_pi = math.log(2. * math.pi)
 
         self.gamma = nn.Parameter(
             torch.Tensor([gamma]),
@@ -630,7 +721,34 @@ class KG2E_EL(KGEModel):
         )
         
        
-    def func(self, head, rel, tail, batch_type):
+    def func(self, head, rel, tail, batch_type, head_v, rel_v, tail_v):
+        """
+        Calculate similarity based on expected likelihood
+        D((\mu_e, \Sigma_e), (\mu_r, \Sigma_r)))
+            = \frac{1}{2} \left(
+                (\mu_e - \mu_r)^T(\Sigma_e + \Sigma_r)^{-1}(\mu_e - \mu_r)
+                + \log \det (\Sigma_e + \Sigma_r) + d \log (2 \pi)
+            \right)
+            = \frac{1}{2} \left(
+                \mu^T\Sigma^{-1}\mu
+                + \log \det \Sigma + d \log (2 \pi)
+            \right)
+        """
+        mu_e = head - tail
+        sigma_e = head_v - tail_v
+        mu_r = rel
+        sigma_r = relation_v
+        
+        #: a = \mu^T\Sigma^{-1}\mu
+        if batch_type == BatchType.HEAD_BATCH:
+            a = torch.sum((mu_e - mu_r) ** 2 / (sigma_e + sigma_r), dim=2)
+        else:
+            a = torch.sum((mu_r - mu_e) ** 2 / (sigma_e + sigma_r), dim=2)
+        
+        #: b = \log \det \Sigma
+        b = torch.sum(torch.log(sigma_e + sigma_r), dim=2)
+        
+        return 0.5 * (a + b + self.hidden_dim * self.log_2_pi)
        
     
     def normalize_embedding(self):
