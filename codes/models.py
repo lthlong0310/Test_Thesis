@@ -183,7 +183,7 @@ class KGEModel(nn.Module, ABC):
             raise ValueError('batch_type %s not supported!'.format(batch_type))
 
         # return scores
-        if head_v in locals() & relation_v in locals() & tail_v in locals():
+        if 'head_v' in locals() & 'relation_v' in locals() & 'tail_v' in locals():
             return self.func(head, relation, tail, batch_type, head_v, relation_v, tail_v)
         else:
             return self.func(head, relation, tail, batch_type)
