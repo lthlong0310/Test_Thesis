@@ -1,0 +1,4393 @@
+"id(n)","n.name","entity"
+"0","
+Complete guide to ASP.NET Core MVC (.NET 5)
+","[""Course""]"
+"1","
+Build a Real-world App with ASP.NET Core and Angular 2 (4+)
+","[""Course""]"
+"2","
+Programming in Blazor - ASP.NET Core 5
+","[""Course""]"
+"3","
+Advanced ASP.NET Core 3.1 MVC
+","[""Course""]"
+"4","
+.NET Core 3.1 Web API & Entity Framework Core Jumpstart
+","[""Course""]"
+"5","
+Complete ASP.Net Core 3.1 and Entity Framework Development
+","[""Course""]"
+"6","
+Rest Api's in Asp.Net Core and C#
+","[""Course""]"
+"7","
+Learn C#.Net Core With Real World Examples
+","[""Course""]"
+"8","
+The Complete ASP.NET MVC 5 Course
+","[""Course""]"
+"9","
+Asp.Net MVC 5 - Ultimate Guide - In depth & Sample Project
+","[""Course""]"
+"10","
+Dependency Injection in .NET Core & .NET 5 (Second Edition)
+","[""Course""]"
+"11","
+The Complete jQuery Course: From Beginner To Advanced!
+","[""Course""]"
+"12","
+jQuery for Absolute Beginners : From Beginning to Advanced
+","[""Course""]"
+"13","
+1 hour jQuery
+","[""Course""]"
+"14","
+jQuery Course Beginner to Professional jQuery for beginners
+","[""Course""]"
+"15","
+jQuery Crash Course: Learn the Essentials of jQuery Fast
+","[""Course""]"
+"16","
+jQuery UI in Action: Build 11 jQuery UI Projects
+","[""Course""]"
+"17","
+Complete Javascript Course for Beginners with jQuery & AJAX
+","[""Course""]"
+"18","
+Bootstrap & jQuery - Certification Course for Beginners
+","[""Course""]"
+"19","
+Superb jQuery Course - Become Certified jQuery Developer
+","[""Course""]"
+"20","
+jQuery Memory Game Project How to code a Project with jQuery
+","[""Course""]"
+"21","
+The complete beginner JavaScript ES5, ES6 and JQuery Course
+","[""Course""]"
+"22","
+jQuery for Absolute Beginners
+","[""Course""]"
+"23","
+React - The Complete Guide (incl Hooks, React Router, Redux)
+","[""Course""]"
+"24","
+Modern React with Redux [2020 Update]
+","[""Course""]"
+"25","
+The Complete React Native + Hooks Course [2020 Edition]
+","[""Course""]"
+"26","
+Complete React Developer in 2021 (w/ Redux, Hooks, GraphQL)
+","[""Course""]"
+"27","
+React Native - The Practical Guide [2021 Edition]
+","[""Course""]"
+"28","
+The Complete React Developer Course (w/ Hooks and Redux)
+","[""Course""]"
+"29","
+Node with React: Fullstack Web Development
+","[""Course""]"
+"30","
+Hello React - React Training for JavaScript Beginners
+","[""Course""]"
+"31","
+Complete React Hooks Course 2020: A - Z ( Scratch to React )
+","[""Course""]"
+"32","
+React js. From the beginning. w/ Redux and React Router
+","[""Course""]"
+"33","
+React Native and Redux Course using hooks
+","[""Course""]"
+"34","
+The complete React Native course ( 2021 edition )
+","[""Course""]"
+"35","
+Meteor and React for Realtime Apps
+","[""Course""]"
+"36","
+Full React Js Course: React JS, Redux, Hooks and Context
+","[""Course""]"
+"37","
+Introduction to D3.js with React
+","[""Course""]"
+"38","
+Angular - The Complete Guide (2021 Edition)
+","[""Course""]"
+"39","
+The Complete Angular Course: Beginner to Advanced
+","[""Course""]"
+"40","
+Angular Crash Course for Busy Developers
+","[""Course""]"
+"41","
+Learn and Understand AngularJS
+","[""Course""]"
+"42","
+Angular & NodeJS - The MEAN Stack Guide [2021 Edition]
+","[""Course""]"
+"43","
+Angular (Full App) with Angular Material, Angularfire & NgRx
+","[""Course""]"
+"44","
+Learn Protractor(Angular Testing) from scratch +Framework
+","[""Course""]"
+"45","
+Angular Router In Depth
+","[""Course""]"
+"46","
+Angular Core Deep Dive (with FREE E-Book)
+","[""Course""]"
+"47","
+Angular 4 Java Developers
+","[""Course""]"
+"48","
+Angular 11 Masterclass with TypeScript, Firebase, & Material
+","[""Course""]"
+"49","
+Build a Real-world App with ASP.NET Core and Angular 2 (4+)
+","[""Course""]"
+"50","
+Angular interview questions with answers
+","[""Course""]"
+"51","
+Node.js, Express, MongoDB & More: The Complete Bootcamp 2021
+","[""Course""]"
+"52","
+Node.js API Masterclass With Express & MongoDB
+","[""Course""]"
+"53","
+React, NodeJS, Express & MongoDB - The MERN Fullstack Guide
+","[""Course""]"
+"54","
+Node with React: Fullstack Web Development
+","[""Course""]"
+"55","
+Learn Express
+","[""Course""]"
+"56","
+The Complete Express And NodeJS Developer Course
+","[""Course""]"
+"57","
+Building REST API using Node.js and Express
+","[""Course""]"
+"58","
+Advanced Node.js Development
+","[""Course""]"
+"59","
+Getting Started with NodeJS for Beginners
+","[""Course""]"
+"60","
+Mastering NodeJs
+","[""Course""]"
+"61","
+The Complete Node Js + Express JS + Mongo DB Bootcamp 2020
+","[""Course""]"
+"62","
+Intro to NodeJS
+","[""Course""]"
+"63","
+Full Stack Isomorphic JavaScript with Vue.js & Node.js
+","[""Course""]"
+"64","
+Web Scraping in Nodejs & JavaScript
+","[""Course""]"
+"65","
+Learn and Understand NodeJS
+","[""Course""]"
+"66","
+NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)
+","[""Course""]"
+"67","
+Xamarin Forms: Build Native Cross-platform Apps with C#
+","[""Course""]"
+"68","
+The Complete Xamarin Developer Course: iOS And Android!
+","[""Course""]"
+"69","
+Xamarin on Steroids: Xamarin Forms Shell and MVVM
+","[""Course""]"
+"70","
+Xamarin Android: Learn to Build Native Android Apps With C#
+","[""Course""]"
+"71","
+Xamarin Quest: Build Maintainable Apps with Xamarin and MVVM
+","[""Course""]"
+"72","
+The Advanced Xamarin Developer Masterclass
+","[""Course""]"
+"73","
+Xamarin & Firebase: Authentication and Firestore for Xamarin
+","[""Course""]"
+"74","
+Learn MVVM in Xamarin Forms and C#
+","[""Course""]"
+"75","
+Build Real World App with Xamarin Forms
+","[""Course""]"
+"76","
+Integrate Payment In Xamarin Forms
+","[""Course""]"
+"77","
+Xamarin: Build Native Cross Platform Apps with C# Codes
+","[""Course""]"
+"78","
+Xamarin Android in C# and Firebase
+","[""Course""]"
+"79","
+Xamarin Android - A Master Guide to App Development in C#
+","[""Course""]"
+"80","
+The Ultimate Hands-On Hadoop: Tame your Big Data!
+","[""Course""]"
+"81","
+Taming Big Data with MapReduce and Hadoop - Hands On!
+","[""Course""]"
+"82","
+Learn Big Data: The Hadoop Ecosystem Masterclass
+","[""Course""]"
+"83","
+Hadoop Developer In Real World
+","[""Course""]"
+"84","
+CCA 175 - Spark and Hadoop Developer Certification - Scala
+","[""Course""]"
+"85","
+Learn By Example: Hadoop, MapReduce for Big Data problems
+","[""Course""]"
+"86","
+Become a Hadoop Developer |Training|Tutorial
+","[""Course""]"
+"87","
+Master Apache Hadoop - Infinite Skills Hadoop Training
+","[""Course""]"
+"88","
+A Big Data Hadoop and Spark project for absolute beginners
+","[""Course""]"
+"89","
+Hadoop MAPREDUCE in Depth | A Real-Time course on Mapreduce
+","[""Course""]"
+"90","
+Real World Hadoop - Automating Hadoop install with Python!
+","[""Course""]"
+"91","
+Real World Hadoop - Deploying Hadoop with Cloudera Manager
+","[""Course""]"
+"92","
+Learn how to Analyse Hadoop Data using Apache Pig
+","[""Course""]"
+"93","
+Flutter - Beginners Course
+","[""Course""]"
+"94","
+Flutter - Advanced Course
+","[""Course""]"
+"95","
+The Complete 2021 Flutter Development Bootcamp with Dart
+","[""Course""]"
+"96","
+Flutter & Dart - The Complete Guide [2021 Edition]
+","[""Course""]"
+"97","
+Dart and Flutter: The Complete Developer's Guide
+","[""Course""]"
+"98","
+Flutter & Firebase: Build a Complete App for iOS & Android
+","[""Course""]"
+"99","
+Master Flutter - Learn Dart & Flutter by Developing 5 Apps
+","[""Course""]"
+"100","
+The Complete Flutter Bootcamp: Zero to Hero in Flutter Dart
+","[""Course""]"
+"101","
+Build a Rental App with Flutter: iOS & Android Masterclass
+","[""Course""]"
+"102","
+Flutter For You
+","[""Course""]"
+"103","
+Flutter Mobile E-Commerce: In-App Purchase Flutter & Square
+","[""Course""]"
+"104","
+The Complete Flutter and Firebase Developer Course
+","[""Course""]"
+"105","
+Flutter with Firebase
+","[""Course""]"
+"106","
+Flutter & Dart - The Complete Flutter App Development Course
+","[""Course""]"
+"107","
+Bootstrap 4 From Scratch With 5 Projects
+","[""Course""]"
+"108","
+WordPress Theme Development with Bootstrap
+","[""Course""]"
+"109","
+The Bootstrap 4 Bootcamp
+","[""Course""]"
+"110","
+Responsive Web Design Essentials - HTML5 CSS3 Bootstrap
+","[""Course""]"
+"111","
+Learn Bootstrap 4 By Creating An Advanced Bootstrap Theme
+","[""Course""]"
+"112","
+Build Responsive Website Using HTML5, CSS3, JS And Bootstrap
+","[""Course""]"
+"113","
+HTML, JavaScript, & Bootstrap - Certification Course
+","[""Course""]"
+"114","
+Bootstrap - Create 4 Real World Projects
+","[""Course""]"
+"115","
+Bootstrap Basics: Program Responsive Websites
+","[""Course""]"
+"116","
+Master Bootstrap 5 and code 6 projects
+","[""Course""]"
+"117","
+Bootstrap 4 Beginners: Code a Responsive Landing Page
+","[""Course""]"
+"118","
+Build Modern Responsive Website With HTML5, CSS3 & Bootstrap
+","[""Course""]"
+"119","
+Bootstrap: Build a modern Responsive website with bootstrap
+","[""Course""]"
+"120","
+Learn Bootstrap By Building Projects - Includes Bootstrap 4
+","[""Course""]"
+"121","
+Learn Bootstrap - For Beginners
+","[""Course""]"
+"122","
+REST APIs with Flask and Python
+","[""Course""]"
+"123","
+Python and Flask Bootcamp: Create Websites using Flask!
+","[""Course""]"
+"124","
+Web Developer Bootcamp with Flask and Python
+","[""Course""]"
+"125","
+Python REST APIs with Flask, Docker, MongoDB, and AWS DevOps
+","[""Course""]"
+"126","
+Advanced REST APIs with Flask and Python
+","[""Course""]"
+"127","
+The Ultimate Flask Course
+","[""Course""]"
+"128","
+Python And Flask Framework Complete Course For Beginners
+","[""Course""]"
+"129","
+Scalable Web Applications with Python, Flask, and SQLAlchemy
+","[""Course""]"
+"130","
+Professional RESTful API Design using Python Flask
+","[""Course""]"
+"131","
+Face Recognition Web App with Machine Learning in Flask
+","[""Course""]"
+"132","
+Python,Flask Framework And Django Course For Beginners
+","[""Course""]"
+"133","
+The Flask Mega-Tutorial (Python Web Development)
+","[""Course""]"
+"134","
+Python And Flask Demonstrations Practice Course
+","[""Course""]"
+"135","
+Essential Docker for Python Flask Development
+","[""Course""]"
+"136","
+The Complete Python Masterclass: Learn Python From Scratch
+","[""Course""]"
+"137","
+Python and Django Full Stack Web Developer Bootcamp
+","[""Course""]"
+"138","
+Django 2.2 & Python | The Ultimate Web Development Bootcamp
+","[""Course""]"
+"139","
+Python Django Dev To Deployment
+","[""Course""]"
+"140","
+Build a Backend REST API with Python & Django - Advanced
+","[""Course""]"
+"141","
+Django 3 - Full Stack Websites with Python Web Development
+","[""Course""]"
+"142","
+Django Masterclass : Build Web Apps With Python & Django
+","[""Course""]"
+"143","
+Django & Python: complete BUNDLE + Django real project 2020
+","[""Course""]"
+"144","
+Build a Backend REST API with Python & Django - Beginner
+","[""Course""]"
+"145","
+The Complete Python 3 Course: Beginner to Advanced!
+","[""Course""]"
+"146","
+Django Core | A Reference Guide to Core Django Concepts
+","[""Course""]"
+"147","
+Build Python Django Real Project: Django Web Development
+","[""Course""]"
+"148","
+The Ultimate Beginner's Guide to Django 1.11
+","[""Course""]"
+"149","
+Django A-Z: Build & Deploy Web Project With Python & Django
+","[""Course""]"
+"150","
+Python Django Web Development: To-Do App
+","[""Course""]"
+"151","
+Python And Django Framework For Beginners Complete Course
+","[""Course""]"
+"152","
+The Complete Ruby on Rails Developer Course
+","[""Course""]"
+"153","
+Dissecting Ruby on Rails 5 - Become a Professional Developer
+","[""Course""]"
+"154","
+Professional Ruby on Rails Developer with Rails 5
+","[""Course""]"
+"155","
+Ruby and Ruby on Rails Starter
+","[""Course""]"
+"156","
+Ruby on Rails 6: Learn 25+ gems and build a Startup MVP 2021
+","[""Course""]"
+"157","
+Ruby on Rails Foundations
+","[""Course""]"
+"158","
+REST API with Ruby on Rails: The Complete Guide
+","[""Course""]"
+"159","
+Basics of GraphQL with Ruby on Rails
+","[""Course""]"
+"160","
+JavaScript and Ruby on Rails with React, Angular, and Vue
+","[""Course""]"
+"161","
+Ruby on Rails 6 Complete Beginner's Course [2020]
+","[""Course""]"
+"162","
+Ruby on Rails 5 Masterclass: Build Ajax web app from scratch
+","[""Course""]"
+"163","
+2020 Complete Ruby on Rails 6 Bootcamp: Learn Ruby on Rails
+","[""Course""]"
+"164","
+Ruby on Rails: Training and Skills to Build Web Applications
+","[""Course""]"
+"165","
+Ruby On Rails for Beginners
+","[""Course""]"
+"166","
+Master Ruby on Rails - For Beginners
+","[""Course""]"
+"167","
+PHP with Laravel for beginners - Become a Master in Laravel
+","[""Course""]"
+"168","
+Laravel Masterclass:Make 6 web apps with PHP,Laravel 8[2021]
+","[""Course""]"
+"169","
+RESTful API with Laravel: Build a Real API with Laravel
+","[""Course""]"
+"170","
+Laravel 2019, the complete guide with real world projects
+","[""Course""]"
+"171","
+Laravel with Vue.js - Fullstack Web Development (2020)
+","[""Course""]"
+"172","
+Master Laravel with Vue.js Fullstack Development
+","[""Course""]"
+"173","
+Master Laravel for Beginners & Intermediate [2020 Update]
+","[""Course""]"
+"174","
+Ultimate PHP, Laravel, CSS & Sass! Learn PHP, Laravel & Sass
+","[""Course""]"
+"175","
+Crash Course Laravel and Vue JS 2021 Bootcamp + free CMS
+","[""Course""]"
+"176","
+Laravel 7 for Beginners practical course
+","[""Course""]"
+"177","
+Laravel & Realtime: Build Several Realtime Apps with Laravel
+","[""Course""]"
+"178","
+Laravel 8 PHP Framework A - Z Build Professional Ecommerce
+","[""Course""]"
+"179","
+Laravel 8 Vuejs & RESTful API Course With Complete Project
+","[""Course""]"
+"180","
+Master Laravel & Create High-Level Applications with Laravel
+","[""Course""]"
+"181","
+Laravel API Development & Vue JS SPA from Scratch
+","[""Course""]"
+"182","
+Vue - The Complete Guide (w/ Router, Vuex, Composition API)
+","[""Course""]"
+"183","
+Build Web Apps with Vue JS 3 & Firebase
+","[""Course""]"
+"184","
+Vue JS Essentials with Vuex and Vue Router
+","[""Course""]"
+"185","
+Vue JS 2.0 - Mastering Web Apps
+","[""Course""]"
+"186","
+React JS, Angular & Vue JS - Quickstart & Comparison
+","[""Course""]"
+"187","
+Complete Vue.js 3 (Inc. Composition API, Vue Router, Vuex)
+","[""Course""]"
+"188","
+Vue.js Essentials - 3 Course Bundle
+","[""Course""]"
+"189","
+Vue JS 2: From Beginner to Professional (includes Vuex)
+","[""Course""]"
+"190","
+Master Laravel with Vue.js Fullstack Development
+","[""Course""]"
+"191","
+The Complete Vue JS Developer Course – inc. Vue JS 2!
+","[""Course""]"
+"192","
+Laravel with Vue.js - Fullstack Web Development (2020)
+","[""Course""]"
+"193","
+Complete Web Development Course: HTML, Vue.js, PHP, MySQL
+","[""Course""]"
+"194","
+The Complete Guide to Django REST Framework and Vue JS
+","[""Course""]"
+"195","
+Crash Course Laravel and Vue JS 2021 Bootcamp + free CMS
+","[""Course""]"
+"196","
+Application Development with Advanced Ember
+","[""Course""]"
+"197","
+Become a Professional JavaScript Programmer
+","[""Course""]"
+"198","
+Backbone Tutorial: Learn Backbonejs from Scratch
+","[""Course""]"
+"199","
+Learn to Program in BackboneJs : Code like a Pro
+","[""Course""]"
+"200","
+The Ultimate BackboneJS Course - Learn By Building a Website
+","[""Course""]"
+"201","
+Master Backbone JS: A Course For Web Developers & Designers
+","[""Course""]"
+"202","
+Learning BackboneJS Testing
+","[""Course""]"
+"203","
+Meteor and React for Realtime Apps
+","[""Course""]"
+"204","
+React Native Expo from Beginner to Pro :: Also with MeteorJS
+","[""Course""]"
+"205","
+Create Web Apps with Meteor & React
+","[""Course""]"
+"206","
+Advance Projects in Meteor : Build Apps Using JavaScript
+","[""Course""]"
+"207","
+Learn MeteorJS By Building 10 Real World Projects
+","[""Course""]"
+"208","
+Master Meteor - Meteor JS From the Ground up
+","[""Course""]"
+"209","
+Learn React and Meteor in 2021: Build a multiplayer game
+","[""Course""]"
+"210","
+Meteor: Build a real-time web app using only JavaScript!
+","[""Course""]"
+"211","
+Fundamentals of Meteor.js
+","[""Course""]"
+"212","
+Meteor: Full Stack JavaScript, MongoDB & App Development
+","[""Course""]"
+"213","
+Build your first real-time web application with MeteorJS
+","[""Course""]"
+"214","
+Learn Web Development by Creating a Social Network
+","[""Course""]"
+"215","
+CherryPy - A minimalist web framework for python
+","[""Course""]"
+"216","
+Python - Bottle Web Framework
+","[""Course""]"
+"217","
+Fun and creative web engineering with Python and Web2py
+","[""Course""]"
+"218","
+GitHub Ultimate: Master Git and GitHub - Beginner to Expert
+","[""Course""]"
+"219","
+Git & GitHub Complete Masterclass : Beginner to Git Expert
+","[""Course""]"
+"220","
+Git & GitHub Masterclass
+","[""Course""]"
+"221","
+Git & GitHub with Eclipse, Android studio & IntelliJ
+","[""Course""]"
+"222","
+The Complete GitHub Actions & Workflows Guide
+","[""Course""]"
+"223","
+Git & GitHub - The Complete Git & GitHub Course
+","[""Course""]"
+"224","
+Git & GitHub: Ultimate and Practical Guide for Beginners!
+","[""Course""]"
+"225","
+Git Github Gitkraken: Version Control without Command Line
+","[""Course""]"
+"226","
+Github introduction to version control and remote files
+","[""Course""]"
+"227","
+Sketch from A to Z (2020): Become an app designer
+","[""Course""]"
+"228","
+The Complete Sketch 5 Course - Design Apps & Websites 2020
+","[""Course""]"
+"229","
+Mobile App Design from scratch with Sketch 3 : UX and UI
+","[""Course""]"
+"230","
+UI Animation using Sketch 3, Principle App, and Flinto
+","[""Course""]"
+"231","
+The Complete Sketch 5 Course - Design Apps & Websites 2020
+","[""Course""]"
+"232","
+Mastering Mobile App Design With Sketch 3
+","[""Course""]"
+"233","
+Sketch 3: learn to create mobile and web designs
+","[""Course""]"
+"234","
+Learn Sketch in 30 Minutes
+","[""Course""]"
+"235","
+Sketch App - Modern UI Design
+","[""Course""]"
+"236","
+Hands on Sketch Training - Learn Website Design
+","[""Course""]"
+"237","
+Hands on Sketch Training - Learn Mobile App Design
+","[""Course""]"
+"238","
+Mastering Sublime Text 3 - Text Editing, Web and Python Dev
+","[""Course""]"
+"239","
+Customizing Sublime Text: Build Your Perfect Code Editor
+","[""Course""]"
+"240","
+Sublime Text 3 Editor for Developers to work like a Pro
+","[""Course""]"
+"241","
+Make Sublime Coders Friendly
+","[""Course""]"
+"242","
+Animating Sketch files in InVision Studio (2020)
+","[""Course""]"
+"243","
+Diving In with InVision Studio
+","[""Course""]"
+"244","
+Mastering Mobile App Design With InVision Studio
+","[""Course""]"
+"245","
+InVision Studio for UI Designers
+","[""Course""]"
+"246","
+Learn The Secrets of Web Design With Invision Studio
+","[""Course""]"
+"247","
+Learn JIRA with real-world examples (+Confluence bonus)
+","[""Course""]"
+"248","
+Understanding Jira for users, managers and admins
+","[""Course""]"
+"249","
+Best QA Manual Software Testing: Live Project+Agile+Jira+API
+","[""Course""]"
+"250","
+Team workflows in JIRA
+","[""Course""]"
+"251","
+Project Planning with Advanced Roadmaps for Jira
+","[""Course""]"
+"252","
+Learn Atlassian JIRA - For Agile Software Development Teams
+","[""Course""]"
+"253","
+JIRA Visual Reference: Issue Administration
+","[""Course""]"
+"254","
+The Complete JIRA Agile Project Management Course
+","[""Course""]"
+"255","
+Complete Agile scrum project management using JIRA tool
+","[""Course""]"
+"256","
+Learn JIRA Quickly - Enhance your resume, Move Ahead!
+","[""Course""]"
+"257","
+Jira Crash Course | Jira Fundamentals for Agile Projects
+","[""Course""]"
+"258","
+JIRA Administration - Getting Started with JIRA
+","[""Course""]"
+"259","
+Setting Up a Real-World Project in JIRA
+","[""Course""]"
+"260","
+Agile Project Management using Jira Software for Beginners!
+","[""Course""]"
+"261","
+Learn JIRA for Beginners
+","[""Course""]"
+"262","
+User Experience Design Essentials - Adobe XD UI UX Design
+","[""Course""]"
+"263","
+UI/UX design with Adobe XD: Design & Prototype a Mobile App
+","[""Course""]"
+"264","
+Adobe XD UI/UX Design, prototype, and handoff from scratch
+","[""Course""]"
+"265","
+Adobe XD: UI & UX Design with 14 real world project 2020 tut
+","[""Course""]"
+"266","
+Design Mobile Apps: UI, UX & Prototyping in Adobe XD & PS
+","[""Course""]"
+"267","
+UI UX Design & Prototyping using Adobe XD - 2020 Essentials
+","[""Course""]"
+"268","
+Adobe XD Masterclass: Learn UI & UX Design from Zero to Hero
+","[""Course""]"
+"269","
+Adobe Xd Masterclass - UI / UX Design From Scratch
+","[""Course""]"
+"270","
+Learn Adobe Xd Webdesign: Design websites from zero: UX & UI
+","[""Course""]"
+"271","
+Learn User Experience Design from A-Z: Adobe XD UI/UX Design
+","[""Course""]"
+"272","
+User Experience Design with Adobe XD- Learn UI and UXD
+","[""Course""]"
+"273","
+Adobe XD CC 2020
+","[""Course""]"
+"274","
+Adobe Xd Animation - Complete Guide From Icons To UI
+","[""Course""]"
+"275","
+App Design with Adobe Xd
+","[""Course""]"
+"276","
+User Experience Design - Learn the UX UI Process & Adobe XD
+","[""Course""]"
+"277","
+Learn Figma - UI/UX Design Essential Training
+","[""Course""]"
+"278","
+The Complete Figma Course – Designing Mobile & Web App UI/UX
+","[""Course""]"
+"279","
+Learn Figma: User Interface Design Essentials - UI/UX Design
+","[""Course""]"
+"280","
+Learn Figma for Web Design, User Interface, UI UX in an hour
+","[""Course""]"
+"281","
+Design & Prototype a Mobile UI/UX Experience - Learn Figma
+","[""Course""]"
+"282","
+Mastering Figma: Beginner to Expert [2020]
+","[""Course""]"
+"283","
+Learn Figma in 14 Days - Master UI Design and Prototyping
+","[""Course""]"
+"284","
+Learn Figma For Absolute Beginners 2021
+","[""Course""]"
+"285","
+Beginner's guide to figma
+","[""Course""]"
+"286","
+Figma Fundamentals: Use Figma Like a Pro
+","[""Course""]"
+"287","
+Figma for UI Designers
+","[""Course""]"
+"288","
+Figma UI/UX design in one hour
+","[""Course""]"
+"289","
+UX Design Course: A Complete Guide to User Experience Design
+","[""Course""]"
+"290","
+Framerjs: Innovative prototyping and design with interaction
+","[""Course""]"
+"291","
+Framer Crash Course – Design, Code, and Collaborate
+","[""Course""]"
+"292","
+Interactive Prototypes with Framer
+","[""Course""]"
+"293","
+VMware vSphere 6.0 Part 1 - Virtualization, ESXi and VMs
+","[""Course""]"
+"294","
+The Complete VMware vSphere 7: Beginner to Advanced-pt 1/2
+","[""Course""]"
+"295","
+Clear and Simple VMware vSphere 6.5 Foundations VCP - Part 1
+","[""Course""]"
+"296","
+Clear and Simple VMware Certified Associate (VCA-DBT)
+","[""Course""]"
+"297","
+Clear and Simple VMware vSphere 6.7 Professional VCP-DCV
+","[""Course""]"
+"298","
+Clear and Simple vSphere 7 Foundations (VCTA 2020 Associate)
+","[""Course""]"
+"299","
+Clear and Simple VMware NSX 6.2 and vSphere Virtual Networks
+","[""Course""]"
+"300","
+Complete VMWare vSphere ESXi and vCenter Administration
+","[""Course""]"
+"301","
+Wordpress for Beginners - Master Wordpress Quickly
+","[""Course""]"
+"302","
+Become a WordPress Developer: Unlocking Power With Code
+","[""Course""]"
+"303","
+The Complete WordPress Website Business Course
+","[""Course""]"
+"304","
+WordPress Theme Development with Bootstrap
+","[""Course""]"
+"305","
+WordPress for Beginners: Create a Website Step by Step
+","[""Course""]"
+"306","
+WordPress for Beginners: Create Your Own WordPress Website
+","[""Course""]"
+"307","
+Complete WordPress Theme & Plugin Development Course [2020]
+","[""Course""]"
+"308","
+Complete Wordpress Training For Beginners
+","[""Course""]"
+"309","
+WordPress 2021: The Complete WordPress Website Course
+","[""Course""]"
+"310","
+How To Make a Wordpress Website -Elementor Page Builder
+","[""Course""]"
+"311","
+WordPress Development - Themes, Plugins & Gutenberg
+","[""Course""]"
+"312","
+Wordpress Complete Web Design :Latest Wordpress Design Techs
+","[""Course""]"
+"313","
+The Complete WordPress Website & SEO Training Masterclass
+","[""Course""]"
+"314","
+WordPress Intermediate Skills
+","[""Course""]"
+"315","
+WordPress: Create Stunning Wordpress Websites for Business
+","[""Course""]"
+"316","
+IntelliJ IDEA Tricks to Boost Productivity for Java Devs
+ ","[""Course""]"
+"317","
+Learn TestNG using IntelliJ IDEA
+","[""Course""]"
+"318","
+Java Debugging With IntelliJ IDEA
+","[""Course""]"
+"319","
+Complete IntelliJ IDEA 2019 course for beginners
+","[""Course""]"
+"320","
+Refactoring Java with IntelliJ IDEA
+","[""Course""]"
+"321","
+Learn VirtualBox: Step by Step (Install 5 Operating Systems)
+","[""Course""]"
+"322","
+Learn VirtualBox Server and Network Virtualization!
+","[""Course""]"
+"323","
+Virtualbox Mastercourse: Virtual Machines Step by Step
+","[""Course""]"
+"324","
+VirtualBox 1.9: Advanced Features and Practical Use
+","[""Course""]"
+"325","
+Mastering VirtualBox and Network Virtualization
+","[""Course""]"
+"326","
+Devtools Pro: Beginner to Expert w/ Chrome Developer Tools
+","[""Course""]"
+"327","
+Chrome Developer Tools Course
+","[""Course""]"
+"328","
+Learn how to use chrome developer tools
+","[""Course""]"
+"329","
+Google Chrome Developer Tools
+","[""Course""]"
+"330","
+How to Use Chrome Developer Tools
+","[""Course""]"
+"331","
+Devtools Pro: The Basics of Chrome Developer Tools
+","[""Course""]"
+"332","
+Microsoft Power BI - A Complete Introduction [2021 EDITION]
+","[""Course""]"
+"333","
+Microsoft Power BI - Up & Running With Power BI Desktop
+","[""Course""]"
+"334","
+Power BI A-Z: Hands-On Power BI Training For Data Science!
+","[""Course""]"
+"335","
+Complete Introduction to Microsoft Power BI [2020 Edition]
+","[""Course""]"
+"336","
+Microsoft Power BI - Business Intelligence for Beginners
+","[""Course""]"
+"337","
+Power BI - Data Analytics Essentials with Power BI
+","[""Course""]"
+"338","
+Power BI Masterclass - beginners to advanced
+","[""Course""]"
+"339","
+Microsoft Power BI - Publishing to Power BI Service
+","[""Course""]"
+"340","
+Master in Microsoft Power BI Desktop and Service
+","[""Course""]"
+"341","
+DA-100: Analyzing and Visualizing Data with Power BI
+","[""Course""]"
+"342","
+Microsoft Certified: Data Analyst Associate with Power BI
+","[""Course""]"
+"343","
+Power BI Masterclass from Scratch in 60 minutes
+","[""Course""]"
+"344","
+Tableau 2020 A-Z: Hands-On Tableau Training for Data Science
+","[""Course""]"
+"345","
+Tableau 20 Advanced Training: Master Tableau in Data Science
+","[""Course""]"
+"346","
+Tableau for Beginners: Get CA Certified, Grow Your Career
+","[""Course""]"
+"347","
+Tableau 2020, 19, 18 & 10: Certified Associate certification
+","[""Course""]"
+"348","
+Master Course in Tableau 10 & 2020 for Business Intelligence
+","[""Course""]"
+"349","
+Tableau 2019 + Tableau 2018: Tableau DS Certification
+","[""Course""]"
+"350","
+Tableau Specialist Certification Prep
+","[""Course""]"
+"351","
+Tableau Expert: Top Visualization Techniques in Tableau 10
+","[""Course""]"
+"352","
+The Complete Tableau Bootcamp for Data Visualization
+","[""Course""]"
+"353","
+TABLEAU 2018: Hands-On Tableau Training For Data Science!
+","[""Course""]"
+"354","
+Complete Tableau 2020 Training for Absolute Beginners
+","[""Course""]"
+"355","
+Tableau 2019 + Tableau 2018: Tableau CA Certification 2020
+","[""Course""]"
+"356","
+Construct 2: Learn to Build Mobile Games in 2 Hours!
+","[""Course""]"
+"357","
+Construct 3 - The Complete Game Creation Learning Course
+","[""Course""]"
+"358","
+Epic Construct 2 Course: Complete 60 Beginner Games!
+","[""Course""]"
+"359","
+Create 20 sport casino games in Construct 2 / Construct 3
+","[""Course""]"
+"360","
+Introductory Game Development Course with Construct 2
+","[""Course""]"
+"361","
+Learn UI Mobile App Design & Game Mechanics in Construct 2
+","[""Course""]"
+"362","
+Wireshark: Packet Analysis and Ethical Hacking: Core Skills
+","[""Course""]"
+"363","
+The Complete Wireshark Course: Go from Beginner to Advanced!
+","[""Course""]"
+"364","
+Start Using Wireshark to Hack like a Pro
+","[""Course""]"
+"365","
+Wireshark Tutorial - Get Wireshark Certification
+","[""Course""]"
+"366","
+Mastering Wireshark 2
+","[""Course""]"
+"367","
+Wireshark Crash Course
+","[""Course""]"
+"368","
+Follow Me to Learn Wireshark Packet Capture
+","[""Course""]"
+"369","
+Master Wireshark 3 in 5 Days
+","[""Course""]"
+"370","
+Learning Path: Wireshark -The Advanced Network Analysis Tool
+","[""Course""]"
+"371","
+Docker Mastery: with Kubernetes +Swarm from a Docker Captain
+","[""Course""]"
+"372","
+Docker for the Absolute Beginner - Hands On - DevOps
+","[""Course""]"
+"373","
+Docker Crash Course for busy DevOps and Developers
+","[""Course""]"
+"374","
+Docker & Kubernetes: The Practical Guide
+","[""Course""]"
+"375","
+Docker Swarm Mastery: DevOps Style Cluster Orchestration
+","[""Course""]"
+"376","
+Docker - Introducing Docker Essentials, Containers, and more
+","[""Course""]"
+"377","
+Docker for Node.js Projects From a Docker Captain
+","[""Course""]"
+"378","
+Automation Testing using Selenium & Katalon Studio
+","[""Course""]"
+"379","
+Test Automation with Katalon Studio (Selenium WebDriver)
+","[""Course""]"
+"380","
+Katalon Studio Beginners - Hands-on Training
+","[""Course""]"
+"381","
+Complete Katalon Studio 2020 for Web + API Test Automation
+","[""Course""]"
+"382","
+Web & API Automation by KATALON STUDIO(Best for Newbies) ⭐️⭐
+","[""Course""]"
+"383","
+Web testing using Katalon Studio - Basic to advance
+","[""Course""]"
+"384","
+Microsoft SQL for Beginners
+","[""Course""]"
+"385","
+70-461, 761: Querying Microsoft SQL Server with Transact-SQL
+","[""Course""]"
+"386","
+Microsoft SQL from A to Z
+","[""Course""]"
+"387","
+Microsoft SQL Server Reporting Services (SSRS)
+","[""Course""]"
+"388","
+Learn SQL with Microsoft SQL Server
+","[""Course""]"
+"389","
+Microsoft SQL Server for Beginners | Crash Course
+","[""Course""]"
+"390","CS50's Web Programming with Python and JavaScript","[""Course""]"
+"391","JavaScript Introduction","[""Course""]"
+"392","Programming for the Web with JavaScript","[""Course""]"
+"393","Introduction to Cloud Development with HTML5, CSS3, and JavaScript","[""Course""]"
+"394","Using JavaScript, JQuery, and JSON in Django","[""Course""]"
+"395","Nature, in Code: Biology in JavaScript","[""Course""]"
+"396","CSS Basics","[""Course""]"
+"397","HTML5 and CSS Fundamentals","[""Course""]"
+"398","HTML5 Coding Essentials and Best Practices","[""Course""]"
+"399","Make Your Own App","[""Course""]"
+"400","SQL for Data Science","[""Course""]"
+"401","Databases: Advanced Topics in SQL","[""Course""]"
+"402","Structured Database Environments with SQL","[""Course""]"
+"403","Databases: Relational Databases and SQL","[""Course""]"
+"404","Querying Data with Transact-SQL","[""Course""]"
+"405","Programming for Everybody (Getting Started with Python)","[""Course""]"
+"406","CS50's Introduction to Artificial Intelligence with Python","[""Course""]"
+"407","Python Basics for Data Science","[""Course""]"
+"408","Computing in Python I: Fundamentals and Procedural Programming","[""Course""]"
+"409","Using Python for Research","[""Course""]"
+"410","Machine Learning with Python: A Practical Introduction","[""Course""]"
+"411","Analyzing Data with Python","[""Course""]"
+"412","Python for Data Science","[""Course""]"
+"413","Probability and Statistics in Data Science using Python","[""Course""]"
+"414","Data visualization is the graphical representation of data in order to interactively and efficiently convey insights to clients, customers, and stakeholders in general.","[""Course""]"
+"415","Data Science: Computational Thinking with Python","[""Course""]"
+"416","Python Data Structures","[""Course""]"
+"417","Introduction to Java Programming: Starting to code in Java","[""Course""]"
+"418","Java Programming Fundamentals","[""Course""]"
+"419","Introduction to Java Programming: Writing Good Code","[""Course""]"
+"420","Introduction to Java Programming: Fundamental Data Structures and Algorithms","[""Course""]"
+"421","Building Modern Java Applications on AWS","[""Course""]"
+"422","Introduction to Java Programming  Part 2","[""Course""]"
+"423","Introduction to Object-Oriented Programming with Java I: Foundations and Syntax Basics","[""Course""]"
+"424","Introduction to Object-Oriented Programming with Java II: Object-Oriented Programming and Algorithms","[""Course""]"
+"425","Introduction to Object-Oriented Programming with Java III: Exceptions, Data Structures, Recursion, and GUIs","[""Course""]"
+"426","Learn to Program in Java","[""Course""]"
+"427","Software Construction in Java","[""Course""]"
+"428","C Programming: Getting Started","[""Course""]"
+"429","Introduction to Programming in C++","[""Course""]"
+"430","C Programming: Language Foundations","[""Course""]"
+"431","Advanced Programming in C++","[""Course""]"
+"432","C Programming: Modular Programming and Memory Management","[""Course""]"
+"433","C Programming: Pointers and Memory Management","[""Course""]"
+"434","C Programming: Advanced Data Types","[""Course""]"
+"435","C Programming: Using Linux Tools and Libraries","[""Course""]"
+"436","Introduction to C++","[""Course""]"
+"437","Amazon DynamoDB: Building NoSQL Database-Driven Applications","[""Course""]"
+"438","Statistics and R","[""Course""]"
+"439","Agile Development Using Ruby on Rails - The Basics","[""Course""]"
+"440","Agile Development Using Ruby on Rails - Advanced","[""Course""]"
+"441","Basics of Scientific Visualization in Mathematical Modeling of Systems","[""Course""]"
+"442","Computing for Data Analysis","[""Course""]"
+"443","A-level Mathematics for Year 12 - Course 1: Algebraic Methods, Graphs and Applied Mathematics Methods","[""Course""]"
+"444","Mathematical Modelling Basics","[""Course""]"
+"445","Introduction to Engineering Mathematics with Applications","[""Course""]"
+"446","CS50's Introduction to Computer Science","[""Course""]"
+"447","Computer Science 101","[""Course""]"
+"448","CS50's Computer Science for Business Professionals","[""Course""]"
+"449","Introduction to Computer Science and Programming Using Python","[""Course""]"
+"450","Introduction to Computer Science and Programming","[""Course""]"
+"451","AP Computer Science A: Java Programming","[""Course""]"
+"452","CS For All: Introduction to Computer Science and Python Programming","[""Course""]"
+"453","AP Computer Science A: Java Programming Classes and Objects","[""Course""]"
+"454","AP Computer Science A: Java Programming Polymorphism and Advanced Data Structures","[""Course""]"
+"455","AP Computer Science A: Java Programming Loops and Data Structures","[""Course""]"
+"456","MyCS: Computer Science for Beginners","[""Course""]"
+"457","Preparing for the AP* Computer Science A Exam  Part 1","[""Course""]"
+"458","Preparing for the AP* Computer Science A Exam  Part 2","[""Course""]"
+"459","Network Security - Introduction to Network Security","[""Course""]"
+"460","Penetration Testing - Discovering Vulnerabilities","[""Course""]"
+"461","Introduction to Database Queries","[""Course""]"
+"462","Databases: Modeling and Theory","[""Course""]"
+"463","Advanced Database Administration","[""Course""]"
+"464","Databases: Semistructured Data","[""Course""]"
+"465","SQL for Data Science","[""Course""]"
+"466","Basic Network and Database Security","[""Course""]"
+"467","Structured Database Environments with SQL","[""Course""]"
+"468","SQL for Data Science","[""Course""]"
+"469","Data Science for Construction, Architecture and Engineering","[""Course""]"
+"470","Data Science Tools","[""Course""]"
+"471","The Math of Data Science: Linear Algebra","[""Course""]"
+"472","Statistical Thinking for Data Science and Analytics","[""Course""]"
+"473","Machine Learning for Data Science and Analytics","[""Course""]"
+"474","Data Science: Machine Learning and Predictions","[""Course""]"
+"475","Data Science and Machine Learning Capstone Project","[""Course""]"
+"476","The Data Science Method","[""Course""]"
+"477","Data Analytics Basics for Everyone","[""Course""]"
+"478","Introduction to Cloud Computing","[""Course""]"
+"479","Cloud Computing Security","[""Course""]"
+"480","Cloud Computing Infrastructure","[""Course""]"
+"481","Cloud Computing for Enterprises","[""Course""]"
+"482","Cloud Computing Engineering and Management","[""Course""]"
+"483","Implementation Strategies: Cloud Computing","[""Course""]"
+"484","Implementation of Data Structures","[""Course""]"
+"485","Computing in Python III: Data Structures","[""Course""]"
+"486","Introduction to Data Structures","[""Course""]"
+"487","Data Structures: An Active Learning Approach","[""Course""]"
+"488","Data Structures and Software Design","[""Course""]"
+"489","Data Structures Fundamentals","[""Course""]"
+"490","Introduction to Data Structures","[""Course""]"
+"491","Advanced Data Structures","[""Course""]"
+"492","Foundations of Data Structures","[""Course""]"
+"493","Data Structures & Algorithms II: Binary Trees, Heaps, SkipLists and HashMaps","[""Course""]"
+"494","Data Processing and Analysis with Excel","[""Course""]"
+"495","Excel for Everyone: Data Analysis Fundamentals","[""Course""]"
+"496","Excel for Everyone: Data Management","[""Course""]"
+"497","Analyzing Data with Excel","[""Course""]"
+"498","Data Visualization and Building Dashboards with Excel and Cognos","[""Course""]"
+"499","Excel for Everyone: Core Foundations","[""Course""]"
+"500","Introduction to Data Analysis using Excel","[""Course""]"
+"501","Analyzing and Visualizing Data with Excel","[""Course""]"
+"502","Computer Hardware and Operating Systems","[""Course""]"
+"503","Cybersecurity Roles and Operating System Security","[""Course""]"
+"504","Linux Basics: The Command Line Interface","[""Course""]"
+"505","Advanced Power Searching With Google","[""Course""]"
+"506","Introduction to Networking","[""Course""]"
+"507","Introduction to Open Source Networking Technologies","[""Course""]"
+"508","Data Analytics and Visualization in Health Care","[""Course""]"
+"509","Basics of Scientific Visualization in Mathematical Modeling of Systems","[""Course""]"
+"510","Data Representation and Visualization in Tableau","[""Course""]"
+"511","Data Analytics and Visualization Capstone Project","[""Course""]"
+"512","Data Visualization for All","[""Course""]"
+"513","Visualizing Data with Python","[""Course""]"
+"514","Analyzing and Visualizing Data with Power BI","[""Course""]"
+"515","Critical Thinking & Problem Solving","[""Course""]"
+"516","Critical thinking: reasoned decision making","[""Course""]"
+"517","Teaching Critical Thinking through Art with the National Gallery of Art","[""Course""]"
+"518","Problem Solving and Critical Thinking Skills","[""Course""]"
+"519","Philosophy and Critical Thinking","[""Course""]"
+"520","Thinking Critically: Interpreting Randomized Clinical Trials","[""Course""]"
+"521","Critical Thinking: Fundamentals of Good Reasoning","[""Course""]"
+"522","Thinking Critically Series: Interpreting Screening Trials","[""Course""]"
+"523","Automated Software Testing: Unit Testing, Coverage Criteria and Design for Testability","[""Course""]"
+"524","Automated Software Testing: Model and State-based Testing","[""Course""]"
+"525","Software Testing Fundamentals","[""Course""]"
+"526","Software Testing Management","[""Course""]"
+"527","Network Security - Protocols","[""Course""]"
+"528","Network and Security Foundations","[""Course""]"
+"529","Introduction to ONAP: Complete Network Automation","[""Course""]"
+"530","Data, Models and Decisions in Business Analytics","[""Course""]"
+"531","Data, Analytics and Learning","[""Course""]"
+"532","Data Science: Inference and Modeling","[""Course""]"
+"533","Data Analysis Essentials","[""Course""]"
+"534","High-Dimensional Data Analysis","[""Course""]"
+"535","Stochastic Processes: Data Analysis and Computer Simulation","[""Course""]"
+"536","Business and Data Analysis Skills","[""Course""]"
+"537","Silicon Photonics Design, Fabrication and Data Analysis","[""Course""]"
+"538","Data Analysis: Statistical Modeling and Computation in Applications","[""Course""]"
+"539","Data Analysis for Decision Making","[""Course""]"
+"540","UX Data Analysis","[""Course""]"
+"541","Excel for Everyone: Data Analysis Fundamentals","[""Course""]"
+"542","Introduction to Data Analysis using Excel","[""Course""]"
+"543","Big Data Analysis with Apache Spark","[""Course""]"
+"544","Data Analysis: Building Your Own Business Dashboard","[""Course""]"
+"545","Data Analysis for Social Scientists","[""Course""]"
+"546","Professional Business Presentations","[""Course""]"
+"547","Visual Presentation","[""Course""]"
+"548","Unleashing Creativity at the Workplace","[""Course""]"
+"549","Project Management: Mastering Complexity","[""Course""]"
+"550","Research Methods: An Engineering Approach","[""Course""]"
+"551","UX Research","[""Course""]"
+"552","Scientific Methods and Research","[""Course""]"
+"553","The Science of Everyday Thinking","[""Course""]"
+"554","Unlocking Information Security I: From Cryptography to Buffer Overflows","[""Course""]"
+"555","Information Security - Introduction to Information Security","[""Course""]"
+"556","Cyber Security Basics: A Hands-on Approach","[""Course""]"
+"557","Network Security - Introduction to Network Security","[""Course""]"
+"558","AWS: Getting Started with Cloud Security","[""Course""]"
+"559","Unlocking Information Security II: An Internet Perspective","[""Course""]"
+"560","Network Security - Protocols","[""Course""]"
+"561","Network Security - Advanced Topics","[""Course""]"
+"562","Mobile Payment Security","[""Course""]"
+"563","Information Security - Advanced topics","[""Course""]"
+"564","Network Security","[""Course""]"
+"565","Machine Learning Fundamentals","[""Course""]"
+"566","Amazon SageMaker: Simplifying Machine Learning Application Development","[""Course""]"
+"567","Introduction to Machine Learning","[""Course""]"
+"568","Advanced Machine Learning","[""Course""]"
+"569","Dynamic Programming: Applications In Machine Learning and Genomics","[""Course""]"
+"570","Classical Machine Learning for Financial Engineering","[""Course""]"
+"571","Fintech: AI & Machine Learning in the Financial Industry","[""Course""]"
+"572","Data Science: Machine Learning","[""Course""]"
+"573","Machine Learning with Python: from Linear Models to Deep Learning","[""Course""]"
+"574","Machine Learning","[""Course""]"
+"575","Deep Learning with Python and PyTorch","[""Course""]"
+"576","Deep Learning Fundamentals with Keras","[""Course""]"
+"577","Deep Learning with Tensorflow","[""Course""]"
+"578","Deep Learning through Transformative Pedagogy","[""Course""]"
+"579","Deep Learning Essentials","[""Course""]"
+"580","Using GPUs to Scale and Speed-up Deep Learning","[""Course""]"
+"581","Applied Deep Learning Capstone Project","[""Course""]"
+"582","Deep Learning and Neural Networks for Financial Engineering","[""Course""]"
+"583","Machine Learning with Python: from Linear Models to Deep Learning","[""Course""]"
+"584","AI for Everyone: Master the Basics","[""Course""]"
+"585","PyTorch Basics for Machine Learning","[""Course""]"
+"586","Fundamentals of TinyML","[""Course""]"
+"587","Applications of TinyML","[""Course""]"
+"588","AI in Practice: Applying AI","[""Course""]"
+"589","Python Basics for Data Science","[""Course""]"
+"590","Introduction to Data Science","[""Course""]"
+"591","Probability and Statistics in Data Science using Python","[""Course""]"
+"592","Principles, Statistical and Computational Tools for Reproducible Data Science","[""Course""]"
+"593","Statistical Thinking for Data Science and Analytics","[""Course""]"
+"594","The Math of Data Science: Linear Algebra","[""Course""]"
+"595","Machine Learning for Data Science and Analytics","[""Course""]"
+"596","The Data Science Method","[""Course""]"
+"597","Video Game Design and Balance","[""Course""]"
+"598","Introduction to Game Design","[""Course""]"
+"599","Introduction to video game development with Unity","[""Course""]"
+"600","CS50's Introduction to Game Development","[""Course""]"
+"601","Persuasion and Presence for Program and Project Managers","[""Course""]"
+"602","Project Management Life Cycle","[""Course""]"
+"603","Strategic Applications of IT Project & Program Management","[""Course""]"
+"604","Project Management of Engineering Projects: Preparing for Success","[""Course""]"
+"605","Introduction to Project Management","[""Course""]"
+"606","Best Practices for Project Management Success","[""Course""]"
+"607","Product Management with Lean, Agile and System Design Thinking","[""Course""]"
+"608","Project Management: Mastering Complexity","[""Course""]"
+"609","Software Development Fundamentals","[""Course""]"
+"610","Software Testing Fundamentals","[""Course""]"
+"611","Software Testing Management","[""Course""]"
+"612","Web App Development with the Power of Node.js","[""Course""]"
+"613","Computer Vision Fundamentals with Watson and OpenCV","[""Course""]"
+"614","Deploying TinyML","[""Course""]"
+"615","PyTorch Basics for Machine Learning","[""Course""]"
+"616","Using JavaScript, JQuery, and JSON in Django","[""Course""]"
+"617","Programming Reactive Systems","[""Course""]"
+"618","CS50's Mobile App Development with React Native","[""Course""]"
+"619","Web Application Technologies and Django","[""Course""]"
+"620","Building Web Applications in Django","[""Course""]"
+"621","Django Features and Libraries","[""Course""]"
+"622","Using JavaScript, JQuery, and JSON in Django","[""Course""]"
+"623","Basics of Power BI","[""Course""]"
+"624","
+The Complete JavaScript Course 2021: From Zero to Expert!
+","[""Course""]"
+"625","
+JavaScript: Understanding the Weird Parts
+","[""Course""]"
+"626","
+JavaScript - The Complete Guide 2021 (Beginner + Advanced)
+","[""Course""]"
+"627","
+Modern JavaScript From The Beginning
+","[""Course""]"
+"628","
+JavaScript: The Advanced Concepts
+","[""Course""]"
+"629","
+JavaScript Basics for Beginners
+","[""Course""]"
+"630","
+Advanced Javascript
+","[""Course""]"
+"631","
+Modern JavaScript (Complete guide, from Novice to Ninja)
+","[""Course""]"
+"632","
+The Modern Javascript Bootcamp Course (2020)
+","[""Course""]"
+"633","
+Javascript Tutorial and Projects Course
+","[""Course""]"
+"634","
+The Complete JavaScript Course - Beginner to Professional
+","[""Course""]"
+"635","
+Modern HTML & CSS From The Beginning (Including Sass)
+","[""Course""]"
+"636","
+Web Design for Beginners: Real World Coding in HTML & CSS
+","[""Course""]"
+"637","
+Build Websites from Scratch with HTML & CSS
+","[""Course""]"
+"638","
+Beginner Full Stack Web Development: HTML, CSS, React & Node
+","[""Course""]"
+"639","
+HTML, CSS, & JavaScript - Certification Course for Beginners
+","[""Course""]"
+"640","
+Responsive Web Design Essentials - HTML5 CSS3 Bootstrap
+","[""Course""]"
+"641","
+HTML/CSS Bootcamp - Learn HTML, CSS, Flexbox, and CSS Grid
+","[""Course""]"
+"642","
+HTML & CSS Tutorial and Projects Course
+","[""Course""]"
+"643","
+HTML & CSS - Certification Course for Beginners
+","[""Course""]"
+"644","
+The Web Developer Bootcamp 2021
+","[""Course""]"
+"645","
+The Complete Web Developer Course 2.0
+","[""Course""]"
+"646","
+HTML5 Mastery—Build Superior Websites & Mobile Apps NEW 2020
+","[""Course""]"
+"647","
+Build Responsive Website Using HTML5, CSS3, JS And Bootstrap
+","[""Course""]"
+"648","
+The Complete SQL Bootcamp 2021: Go from Zero to Hero
+","[""Course""]"
+"649","
+The Complete Oracle SQL Certification Course
+","[""Course""]"
+"650","
+SQL - MySQL for Data Analytics and Business Intelligence
+","[""Course""]"
+"651","
+Microsoft SQL for Beginners
+","[""Course""]"
+"652","
+SQL for Data Analysis: Weekender Crash Course for Beginners
+","[""Course""]"
+"653","
+SQL for Beginners: Learn SQL using MySQL and Database Design
+","[""Course""]"
+"654","
+Master SQL For Data Science
+","[""Course""]"
+"655","
+70-461, 761: Querying Microsoft SQL Server with Transact-SQL
+","[""Course""]"
+"656","
+The Complete Oracle SQL Bootcamp (2021)
+","[""Course""]"
+"657","
+SQL Masterclass: SQL for Data Analytics
+","[""Course""]"
+"658","
+MySQL for Data Analysis - SQL Database for Beginners
+","[""Course""]"
+"659","
+SQL Server Administration Part1
+","[""Course""]"
+"660","
+Microsoft SQL from A to Z
+","[""Course""]"
+"661","
+SQL & Database Design A-Z™: Learn MS SQL Server + PostgreSQL
+","[""Course""]"
+"662","
+Oracle SQL Performance Tuning Masterclass 2021
+","[""Course""]"
+"663","
+Learn Python Programming Masterclass
+","[""Course""]"
+"664","
+The Python Mega Course: Build 10 Real World Applications
+","[""Course""]"
+"665","
+The Python Bible™ | Everything You Need to Program in Python
+","[""Course""]"
+"666","
+Python for Beginners: Learn Python Programming (Python 3)
+","[""Course""]"
+"667","
+The Complete Python Course | Learn Python by Doing
+","[""Course""]"
+"668","
+Python for Finance: Investment Fundamentals & Data Analytics
+","[""Course""]"
+"669","
+Python for Absolute Beginners
+","[""Course""]"
+"670","
+The Complete Python Course in the Professional OOP Approach
+","[""Course""]"
+"671","
+Python for Beginners with Examples
+","[""Course""]"
+"672","
+Python Bootcamp 2021 Build 15 working Applications and Games
+","[""Course""]"
+"673","
+Python OOP : Four Pillars of OOP in Python 3 for Beginners
+","[""Course""]"
+"674","
+Python Coding MADE EASY : A Python Coding Course in Python 3
+","[""Course""]"
+"675","
+The Complete Python Masterclass: Learn Python From Scratch
+","[""Course""]"
+"676","
+Python for beginners - Learn all the basics of python
+","[""Course""]"
+"677","
+Python Network Programming Complete Masterclass
+","[""Course""]"
+"678","
+Java Programming Masterclass for Software Developers
+","[""Course""]"
+"679","
+Java Programming for Complete Beginners
+","[""Course""]"
+"680","
+Java In-Depth: Become a Complete Java Engineer!
+","[""Course""]"
+"681","
+The Complete Java Certification Course
+","[""Course""]"
+"682","
+Java Programming: Complete Beginner to Advanced
+","[""Course""]"
+"683","
+JSP, Servlets and JDBC for Beginners: Build a Database App
+","[""Course""]"
+"684","
+Complete Java SE 8 Developer Bootcamp - OCA Prep Included
+","[""Course""]"
+"685","
+Design Patterns in Java
+","[""Course""]"
+"686","
+Absolute Introduction to Object Oriented Programming in Java
+","[""Course""]"
+"687","
+Full Stack Java developer - Java + JSP + Restful WS + Spring
+","[""Course""]"
+"688","
+Core Java Made Easy (Covers the latest Java 14)
+","[""Course""]"
+"689","
+Modern Java - Learn Java 8 features by coding it
+","[""Course""]"
+"690","
+Go Java Full Stack with Spring Boot and Angular
+","[""Course""]"
+"691","
+Java for Absolute Beginners
+","[""Course""]"
+"692","
+Java from Beginner to Expert
+","[""Course""]"
+"693","
+C/C++ Pointers & Applications
+","[""Course""]"
+"694","
+Detecting Memory Leaks in C/C++ Applications
+","[""Course""]"
+"695","
+Understanding basics of programming with C/C++
+","[""Course""]"
+"696","
+ C Programming For Beginners - Master the C Language
+","[""Course""]"
+"697","
+Embedded Systems Object-Oriented Programming in C/C++
+","[""Course""]"
+"698","
+Integrate CLI interface to your C/C++ Projects Quickly
+","[""Course""]"
+"699","
+C/C++ for Intermediate Students
+","[""Course""]"
+"700","
+C/C++ for Advanced Students
+","[""Course""]"
+"701","
+System C/C++ Course on Linux Timers Implementation & Design
+","[""Course""]"
+"702","
+Learn C#/C# 7 through Web Pages and Visual Studio 2017
+","[""Course""]"
+"703","
+Mastering Data Structures & Algorithms using C and C++
+","[""Course""]"
+"704","
+C, C++, Java; A Programming MegaPrimer for Beginners
+","[""Course""]"
+"705","
+Complete Modern C++ (C++11/14/17)
+","[""Course""]"
+"706","
+Demystifying Bitwise Operations In C
+","[""Course""]"
+"707","
+C and C++ Programming : Step-by-Step Tutorial
+","[""Course""]"
+"708","
+C# Basics for Beginners: Learn C# Fundamentals by Coding
+","[""Course""]"
+"709","
+Complete C# Unity Game Developer 2D
+","[""Course""]"
+"710","
+C# Intermediate: Classes, Interfaces and OOP
+","[""Course""]"
+"711","
+Complete C# Masterclass
+","[""Course""]"
+"712","
+C# Advanced Topics: Prepare for Technical Interviews
+","[""Course""]"
+"713","
+Complete C# Unity Game Developer 3D
+","[""Course""]"
+"714","
+Design Patterns in C# and .NET
+","[""Course""]"
+"715","
+Xamarin Forms: Build Native Cross-platform Apps with C#
+","[""Course""]"
+"716","
+Unit Testing for C# Developers
+","[""Course""]"
+"717","
+Learn C# By Building Applications
+","[""Course""]"
+"718","
+C# Developers: Learn the Art of Writing Clean Code
+","[""Course""]"
+"719","
+C# Developers: Double Your Coding Speed with Visual Studio
+","[""Course""]"
+"720","
+C# Basics: Learn to Code the Right Way
+","[""Course""]"
+"721","
+Programming in Microsoft C# - Exam 70-483
+","[""Course""]"
+"722","
+Programming for Complete Beginners in C#
+","[""Course""]"
+"723","
+PHP for Beginners - Become a PHP Master - CMS Project
+","[""Course""]"
+"724","
+Learn Object Oriented PHP By Building a Complete Website
+","[""Course""]"
+"725","
+E-Commerce Website in PHP & MySQL From Scratch!
+","[""Course""]"
+"726","
+Object Oriented PHP & MVC
+","[""Course""]"
+"727","
+PHP OOP: Object Oriented Programming for beginners + Project
+","[""Course""]"
+"728","
+The Complete 2020 PHP Full Stack Web Developer Bootcamp
+","[""Course""]"
+"729","
+Write PHP Like a Pro: Build a PHP MVC Framework From Scratch
+","[""Course""]"
+"730","
+PHP for Beginners
+","[""Course""]"
+"731","
+The Complete PHP MYSQL Professional Course with 5 Projects
+","[""Course""]"
+"732","
+Build a Social Network from Scratch: JavaScript PHP + MySQL
+","[""Course""]"
+"733","
+PHP & MySQL - Certification Course for Beginners
+","[""Course""]"
+"734","
+Make a Spotify Clone from Scratch: JavaScript PHP and MySQL
+","[""Course""]"
+"735","
+Learn PHP - For Beginners
+","[""Course""]"
+"736","
+Complete PHP Course With Bootstrap3 CMS System & Admin Panel
+","[""Course""]"
+"737","
+PHP for Beginners 2021: all PHP code used is fully explained
+","[""Course""]"
+"738","
+Learn MongoDB : Leading NoSQL Database from scratch
+","[""Course""]"
+"739","
+NoSQL Databases For Beginners
+","[""Course""]"
+"740","
+SQL, NoSQL, Big Data and Hadoop
+","[""Course""]"
+"741","
+NoSQL: Neo4j and Cypher (Part: 1-Beginners)
+","[""Course""]"
+"742","
+Learn NoSQL Database Design With CouchDB
+","[""Course""]"
+"743","
+Understanding CouchDB 3: Learn Basic & Advanced NoSQL Skills
+","[""Course""]"
+"744","
+NoSQL: Neo4j and Cypher (Part: 2-Intermediate)
+","[""Course""]"
+"745","
+Learn MongoDB 3 and Rapidly Develop Scalable Applications
+","[""Course""]"
+"746","
+Working with MongoDB
+","[""Course""]"
+"747","
+SQL to NoSQL Database & Handson with MongoDB
+","[""Course""]"
+"748","
+Learn How Python Works with NoSql Database MongoDB: PyMongo
+","[""Course""]"
+"749","
+Learn NoSQL Databases - Complete MongoDB Bootcamp 2021
+","[""Course""]"
+"750","
+Creating and Querying Databases with NoSQL and SQL
+","[""Course""]"
+"751","
+Mongodb fundamentals
+","[""Course""]"
+"752","
+A Complete Guide to OrientDB: A NoSQL Database
+","[""Course""]"
+"753","
+R Programming A-Z™: R For Data Science With Real Exercises!
+","[""Course""]"
+"754","
+Machine Learning A-Z™: Hands-On Python & R In Data Science
+","[""Course""]"
+"755","
+Data Science and Machine Learning Bootcamp with R
+","[""Course""]"
+"756","
+R Programming: Advanced Analytics In R For Data Science
+","[""Course""]"
+"757","
+R Programming for Statistics and Data Science 2021
+","[""Course""]"
+"758","
+R Level 1 - Data Analytics with R
+","[""Course""]"
+"759","
+R Programming For Absolute Beginners
+","[""Course""]"
+"760","
+The Complete R Programming for Data Science - 7 courses in 1
+","[""Course""]"
+"761","
+Machine Learning & Deep Learning in Python & R
+","[""Course""]"
+"762","
+Applied Statistical Modeling for Data Analysis in R
+","[""Course""]"
+"763","
+Statistics for Data Analysis Using R
+","[""Course""]"
+"764","
+Complete Machine Learning with R Studio - ML for 2021
+","[""Course""]"
+"765","
+R Tidyverse Reporting and Analytics for Excel Users
+","[""Course""]"
+"766","
+Introduction to Time Series Analysis and Forecasting in R
+","[""Course""]"
+"767","
+R for Beginners
+","[""Course""]"
+"768","
+Julia Programming For Data Science & Machine Learning: Julia
+","[""Course""]"
+"769","
+Getting Started With Julia
+","[""Course""]"
+"770","
+Machine Learning with Julia Programming for Everyone
+","[""Course""]"
+"771","
+Hello Julia: Learn the New Julia Programming Language
+","[""Course""]"
+"772","
+Learning Path: Julia: Explore Data Science with Julia
+","[""Course""]"
+"773","
+Building Command Line Tools with Python,JavaScript and Julia
+","[""Course""]"
+"774","
+(NEW) Coding for non-programmers in Julia
+","[""Course""]"
+"775","
+Julia: From Julia's Zero to Hero: 2 in 1
+","[""Course""]"
+"776","
+Julia Programming 2021 [UPDATED]
+","[""Course""]"
+"777","
+Probabilistic Programming with Python and Julia
+","[""Course""]"
+"778","
+Fast Introduction into Julia (2020)
+","[""Course""]"
+"779","
+Programming using Julia
+","[""Course""]"
+"780","
+Julia: Easy Programming to Next Level
+","[""Course""]"
+"781","
+Apache Spark with Scala - Hands On with Big Data!
+","[""Course""]"
+"782","
+Scala & Functional Programming for Beginners | Rock the JVM
+","[""Course""]"
+"783","
+Scala and Spark for Big Data and Machine Learning
+","[""Course""]"
+"784","
+Advanced Scala and Functional Programming | Rock the JVM
+","[""Course""]"
+"785","
+Scala Applied, Part 1
+","[""Course""]"
+"786","
+Streaming Big Data with Spark Streaming and Scala - Hands On
+","[""Course""]"
+"787","
+Spark 3.0 & Big Data Essentials with Scala | Rock the JVM
+","[""Course""]"
+"788","
+Akka Essentials with Scala | Rock the JVM
+","[""Course""]"
+"789","
+CCA 175 - Spark and Hadoop Developer Certification - Scala
+","[""Course""]"
+"790","
+Scala Applied, Part 3
+","[""Course""]"
+"791","
+Scala Advanced, Part 1 - The Scala Type System
+","[""Course""]"
+"792","
+Apache Spark 3 - Spark Programming in Scala for Beginners
+","[""Course""]"
+"793","
+Scala Applied, Part 2
+","[""Course""]"
+"794","
+Akka Persistence with Scala | Rock the JVM
+","[""Course""]"
+"795","
+Akka HTTP with Scala | Rock the JVM
+","[""Course""]"
+"796","
+Learn How To Code: Google's Go (golang) Programming Language
+","[""Course""]"
+"797","
+Go: The Complete Developer's Guide (Golang)
+","[""Course""]"
+"798","
+Web Development w/ Google’s Go (golang) Programming Language
+","[""Course""]"
+"799","
+Go Bootcamp: Master Golang with 1000+ Exercises and Projects
+","[""Course""]"
+"800","
+Building Modern Web Applications with Go (Golang)
+","[""Course""]"
+"801","
+Complete Guide to Protocol Buffers 3 [Java, Golang, Python]
+","[""Course""]"
+"802","
+gRPC [Golang] Master Class: Build Modern API & Microservices
+","[""Course""]"
+"803","
+Master Go (Golang) Programming:The Complete Go Bootcamp 2021
+","[""Course""]"
+"804","
+How to design & develop REST microservices in Golang (Go)
+","[""Course""]"
+"805","
+Exploring The Go (golang) Programming Language
+","[""Course""]"
+"806","
+Mastering Multithreading Programming with Go (Golang)
+","[""Course""]"
+"807","
+Concurrency in Go (Golang)
+","[""Course""]"
+"808","
+Collaboration and Crawling W/ Google's Go (Golang) Language
+","[""Course""]"
+"809","
+REST based microservices API development in Golang
+","[""Course""]"
+"810","
+Golang: Intro to REST APIs with Go programming lang (Golang)
+","[""Course""]"
+"811","
+iOS & Swift - The Complete iOS App Development Bootcamp
+","[""Course""]"
+"812","
+iOS 11 & Swift 4 - The Complete iOS App Development Bootcamp
+","[""Course""]"
+"813","
+iOS 10 & Swift 3: From Beginner to Paid Professional™
+","[""Course""]"
+"814","
+The Complete iOS 10 & Swift 3 Developer Course
+","[""Course""]"
+"815","
+iOS 9 and Swift 2: From Beginner to Paid Professional™
+","[""Course""]"
+"816","
+The Complete iOS 11 & Swift Developer Course - Build 20 Apps
+","[""Course""]"
+"817","
+SwiftUI Masterclass 2021 - iOS 14 App Development & Swift 5
+","[""Course""]"
+"818","
+iOS 11 & Swift 4: From Beginner to Paid Professional™
+","[""Course""]"
+"819","
+iOS & Swift: Become An App Developer
+","[""Course""]"
+"820","
+The Complete iOS 12 & Swift Developer Course - Build 28 Apps
+","[""Course""]"
+"821","
+How to Make a Freaking iPhone App - iOS 10 and Swift 3
+","[""Course""]"
+"822","
+Build Your First iPhone App - iOS 14 Apps Using Swift 5
+","[""Course""]"
+"823","
+Instagram Firestore App Clone | Swift 5 + iOS 14 | MVVM
+","[""Course""]"
+"824","
+iOS 13 - How to Make Amazing iPhone Apps: Xcode 11 & Swift 5
+","[""Course""]"
+"825","
+The Complete iOS Development Course. Swift Programming A-Z
+","[""Course""]"
+"826","
+Bash Scripting and Shell Programming (Linux Command Line)
+","[""Course""]"
+"827","
+Linux Shell Scripting: A Project-Based Approach to Learning
+","[""Course""]"
+"828","
+Bash Shell Scripting: Crash Course For Beginners
+","[""Course""]"
+"829","
+Complete Linux Bash Shell Scripting with Real Life Examples
+","[""Course""]"
+"830","
+Linux Bash Shell Scripting: Complete Guide (incl. AWK & SED)
+","[""Course""]"
+"831","
+Complete Bash Shell Scripting
+","[""Course""]"
+"832","
+BASH Programming Course: Master the Linux Command Line!
+","[""Course""]"
+"833","
+Bash Shell Scripting Tutorial for Beginners
+","[""Course""]"
+"834","
+Bash Shell scripting for admin and devops
+","[""Course""]"
+"835","
+Linux Bash Shell Scripting: A Practical way of Learning
+","[""Course""]"
+"836","
+Complete Linux Bootcamp for Beginners
+","[""Course""]"
+"837","
+Bash Shell scripting and automation
+","[""Course""]"
+"838","
+Bash Shell Scripting: From Scratch To Automation
+","[""Course""]"
+"839","
+Learn Bash Shell in Linux for Beginners
+","[""Course""]"
+"840","
+Bash scripting for beginners
+","[""Course""]"
+"841","
+The Complete Ruby on Rails Developer Course
+","[""Course""]"
+"842","
+Learn to Code with Ruby
+","[""Course""]"
+"843","
+Dissecting Ruby on Rails 5 - Become a Professional Developer
+","[""Course""]"
+"844","
+Learn Ruby on Rails from Scratch
+","[""Course""]"
+"845","
+Testing Ruby with RSpec: The Complete Guide
+","[""Course""]"
+"846","
+Comprehensive Ruby Programming
+","[""Course""]"
+"847","
+Ruby and Ruby on Rails Starter
+","[""Course""]"
+"848","
+2020 Complete Ruby on Rails 6 Bootcamp: Learn Ruby on Rails
+","[""Course""]"
+"849","
+Ruby Programming for Beginners
+","[""Course""]"
+"850","
+Master Ruby on Rails - For Beginners
+","[""Course""]"
+"851","
+Ruby on Rails 6: Learn 25+ gems and build a Startup MVP 2021
+","[""Course""]"
+"852","
+Professional Ruby on Rails Developer with Rails 5
+","[""Course""]"
+"853","
+Ruby Programming For Everyone
+","[""Course""]"
+"854","
+Ruby on Rails Foundations
+","[""Course""]"
+"855","
+Basics of GraphQL with Ruby on Rails
+","[""Course""]"
+"856","
+Learn Perl 5 By Doing It
+","[""Course""]"
+"857","
+Enhance Your Skill Set with Perl
+","[""Course""]"
+"858","
+Perl for Beginners: Learn A to Z of Perl Scripting Hands-on
+","[""Course""]"
+"859","
+Perl Programming for Beginners
+","[""Course""]"
+"860","
+COMPLETE PERL Programming 2021
+","[""Course""]"
+"861","
+Perl Fundamentals
+","[""Course""]"
+"862","
+Programming Perl for Beginners - The Ultimate Perl Tutorial
+","[""Course""]"
+"863","
+Learning Perl by Example
+","[""Course""]"
+"864","
+Getting Started with Perl for Beginners
+","[""Course""]"
+"865","
+Power of Perl :: Learn Basic and Advanced Perl Programming
+","[""Course""]"
+"866","
+PERL 5 Programming Course for Beginner to Advanced
+","[""Course""]"
+"867","
+New Backend Development with PHP and PERL
+","[""Course""]"
+"868","
+CIW Perl Specialist practice exams
+","[""Course""]"
+"869","
+LAMP Stack and WAMP, MAMP : Install PHP, Apache, Perl, MySQL
+","[""Course""]"
+"870","
+Become a Professional Programmer
+","[""Course""]"
+"871","
+Mathematics for Computer Games Development using Unity
+","[""Course""]"
+"872","
+Discrete Mathematics
+","[""Course""]"
+"873","
+Vedic Mathematics Course (Beginners to Intermediate Level)
+","[""Course""]"
+"874","
+En finir avec les difficultés en mathématiques au collège
+","[""Course""]"
+"875","
+S'initier aux mathématiques pour la finance et l'économie
+","[""Course""]"
+"876","
+Grade 7 Math in French - Mathématiques de 7e année
+","[""Course""]"
+"877","
+Grade 2 Math in French - Mathématiques de 2e année
+","[""Course""]"
+"878","
+A Transition to Higher Mathematics
+","[""Course""]"
+"879","
+Master Discrete Mathematics: Sets, Math Logic, and More
+","[""Course""]"
+"880","
+Master Discrete Mathematics: Set Theory
+","[""Course""]"
+"881","
+Mathematics Fundamentals
+","[""Course""]"
+"882","
+Mathematics a Graphical Approach (Intermediate)
+","[""Course""]"
+"883","
+MPLS VPN: Cours complet + Exercices corrigés
+","[""Course""]"
+"884","
+MPLS Layer 3 VPN
+","[""Course""]"
+"885","
+Introdução ao MPLS - Teoria e Laboratório Prático Explicado
+","[""Course""]"
+"886","
+Cisco MPLS para Telecom
+","[""Course""]"
+"887","
+MPLS on MikroTik with LABS
+","[""Course""]"
+"888","
+CCIE - MPLS Design and Configuration
+","[""Course""]"
+"889","
+CISCO MPLS VPN CAMADA 3
+","[""Course""]"
+"890","
+MPLS Intro To Expert
+","[""Course""]"
+"891","
+Nokia 4A0-M01 IP_MPLS Mobile Transport Certify Practice Exam
+","[""Course""]"
+"892","
+MPLS Fundamentals: Cisco CCNP & Real World
+","[""Course""]"
+"893","
+Data Science : Analyse de données avec Python
+","[""Course""]"
+"894","
+Les bases de Dynamics CRM 365
+","[""Course""]"
+"895","
+Optimiser la relation client : Concepts et Méthodes (CRM)
+","[""Course""]"
+"896","
+Bien débuter avec le CRM/ERP gratuit DOLIBARR
+","[""Course""]"
+"897","
+Sécuriser l'infrastructure IT grâce au Ethical Hacking
+","[""Course""]"
+"898","
+Ethical Hacking : Wifi
+","[""Course""]"
+"899","
+Hacking Éthique : Le Cours Complet
+","[""Course""]"
+"900","
+Hacking Éthique : Apprendre à programmer en Python
+","[""Course""]"
+"901","
+Hacking Éthique : Tests d'intrusion et sécurité web
+","[""Course""]"
+"902","
+Real-World Ethical Hacking: Hands-on Cybersecurity
+","[""Course""]"
+"903","
+Ethical Hacking with Metasploit: Exploit & Post Exploit
+","[""Course""]"
+"904","
+Hacking Éthique : Étude des logiciels malveillants
+","[""Course""]"
+"905","
+Hacking Éthique : Sécurité des réseaux
+","[""Course""]"
+"906","
+HACKING ÉTHIQUE | Le Hacker de Facebook
+","[""Course""]"
+"907","
+Hacking Éthique : Metasploit & Exploits Zero-days
+","[""Course""]"
+"908","
+HACKING ÉTHIQUE | Piratage des réseaux sans fil (WIFI)
+","[""Course""]"
+"909","
+L'essentiel du hacking éthique par la Pentest School
+","[""Course""]"
+"910","
+Hacking Éthique : Ingénierie Sociale
+","[""Course""]"
+"911","
+Practical Ethical Hacking - The Complete Course
+","[""Course""]"
+"912","
+Pratique pour l'examen | Oracle Database SQL 1Z0-071
+","[""Course""]"
+"913","
+SQL Oracle, Cours Théorique : Du débutant à la Maîtrise
+","[""Course""]"
+"914","
+Formez vous au métier de DBA SQL Server (cours de 19 heures)
+","[""Course""]"
+"915","
+SQL Server : Configuration et modification d'une BDD sur SQL
+","[""Course""]"
+"916","
+PHP-MongoDB#Développer une APP avec Cloudinary & FusionChart
+","[""Course""]"
+"917","
+Les Data Sciences de A à Z
+","[""Course""]"
+"918","
+SQL pour la Data Science de A à Z (analyse de data réelles)
+","[""Course""]"
+"919","
+Programmer en Python pour la Data Science de A à Z
+","[""Course""]"
+"920","
+Programmer en R pour la Data Science de A à Z
+","[""Course""]"
+"921","
+Apprendre la data science par la pratique avec Python !
+","[""Course""]"
+"922","
+Data Science: Supervised Machine Learning in Python
+","[""Course""]"
+"923","
+Apprendre la Data Science avec R
+","[""Course""]"
+"924","SQL Oracle, Theoretical Course: From Beginner to Mastery","[""Course""]"
+"925","Train yourself in the SQL Server DBA profession (19-hour course)","[""Course""]"
+"926","SQL Server: Configuration and modification of a database on SQL","[""Course""]"
+"927","PHP-MongoDB # Develop an APP with Cloudinary & FusionChart","[""Course""]"
+"928","Data Sciences from A to Z","[""Course""]"
+"929","Data Science: Data Analysis with Python","[""Course""]"
+"930","SQL for Data Science from A to Z (real data analysis)","[""Course""]"
+"931","Programming in Python for Data Science from A to Z","[""Course""]"
+"932","Programming in R for Data Science from A to Z","[""Course""]"
+"933","Learn data science by doing with Python!","[""Course""]"
+"934","Data Science: Supervised Machine Learning in Python","[""Course""]"
+"935","Learn Data Science with R","[""Course""]"
+"936","Statistics for Data Science","[""Course""]"
+"937","Data science - Discovery of the Pandas library for python","[""Course""]"
+"938","Data Science, the complete survival guide","[""Course""]"
+"939","
+Introduction to Data Science","[""Course""]"
+"940","Data Science - Business Applications","[""Course""]"
+"941","Data science for algorithmic trading (2020)","[""Course""]"
+"942","Data Science - Financial Applications","[""Course""]"
+"943","Business Intelligence SQL - ETL Integration Services","[""Course""]"
+"944","ETL Testing: From Beginner to Expert","[""Course""]"
+"945","ETL Framework for Data Warehouse Environments","[""Course""]"
+"946","SQL/ETL Developer - T-SQL/Stored Procedures/ETL/SSIS","[""Course""]"
+"947","Pentaho for ETL & Data Integration Masterclass 2021- PDI 9.0","[""Course""]"
+"948","Pentaho Data Integration - ETL Essencial","[""Course""]"
+"949","Data Science in R: ETL part 1- Import and Structure Data","[""Course""]"
+"950","Data Warehouse ETL Testing & Data Quality Management A-Z","[""Course""]"
+"951","Learn ETL Testing With Informatica PowerCenter Today","[""Course""]"
+"952","Automating ETL - Complete Code Challenges and ETL Projects","[""Course""]"
+"953","Data integration (ETL) with Talend Open Studio","[""Course""]"
+"954","Introduction to Process Automation in ETL","[""Course""]"
+"955","Data Science in R: ETL part 2 - Relationship between Data","[""Course""]"
+"956","Microsoft Power BI: ETL, Analytics and Business Intelligence","[""Course""]"
+"957","Learn to master ETL data integration with Pentaho kettle PDI","[""Course""]"
+"958","Learn Data Warehousing From Scratch- From Solution Architect","[""Course""]"
+"959","Design and Implementation of DataWarehouse with Sql Server 2019","[""Course""]"
+"960","Snowflake Datawarehouse & Cloud Analytics - Introduction","[""Course""]"
+"961","Data Warehouse For Beginners","[""Course""]"
+"962","ETL Framework for Data Warehouse Environments","[""Course""]"
+"963","ETL Testing: From Beginner to Expert","[""Course""]"
+"964","Learn Data Warehouse and ODI 11g - Step by Step Guide","[""Course""]"
+"965","Oracle SQL for Data Analytics and Data warehousing overview","[""Course""]"
+"966","TERADATA: Data Warehousing technology","[""Course""]"
+"967","Ski through SnowFlake : The Data WareHouse","[""Course""]"
+"968","Ski through SnowFlake : The Data WareHouse","[""Course""]"
+"969","C# Intermediate: Classes, Interfaces and OOP","[""Course""]"
+"970","The Complete Python Course in the Professional OOP Approach","[""Course""]"
+"971","Python OOP : Four Pillars of OOP in Python 3 for Beginners","[""Course""]"
+"972","PHP OOP: Object Oriented Programming for beginners + Project","[""Course""]"
+"973","Python OOP - Object Oriented Programming for Beginners","[""Course""]"
+"974","Object Oriented Programming (OOP) in PHP - Build An OOP Site","[""Course""]"
+"975","Python OOP Crash Course","[""Course""]"
+"976","OOP Object Oriented Programming In PHP 7","[""Course""]"
+"977","
+150+ Exercises - Python Object Oriented Programming - OOP","[""Course""]"
+"978","Python 3: Deep Dive (Part 4 - OOP)","[""Course""]"
+"979","C# OOP Concepts: Apply C# OOP Concepts On Real C# Projects","[""Course""]"
+"980","Software Development From A to Z - OOP, UML, Agile, Python","[""Course""]"
+"981","C# 8.0 - OOP - Ultimate Guide - Beginner to Advanced","[""Course""]"
+"982","Building Database Web App PHP | OOP | PDO | AJAX | MySQL","[""Course""]"
+"983","Demystifying OOP with C++","[""Course""]"
+"984","What is cloud computing or cloud computing?","[""Course""]"
+"985","Introduction to Cloud Computing with AWS","[""Course""]"
+"986","Cloud Computing Demystified","[""Course""]"
+"987","Introduction to Cloud Computing on Azure","[""Course""]"
+"988","AWS - The 12 Fundamental Cloud Services # 1","[""Course""]"
+"989","AWS Certified Cloud Practitioner 2021 [latest edition]","[""Course""]"
+"990","Certification AWS Certified Cloud Practitioner (CLF-C01)
+Plus de 70 vidos pour obtenir l'examen AWS Certifie","[""Course""]"
+"991","AZ-900 - Microsoft Azure Fundamentals - French (2021)","[""Course""]"
+"992","
+AWS Introduction to Network & Virtual Machines [cloud N ø 1]","[""Course""]"
+"993","AWS Certified Cloud Practitioner CLF-C01 [Practice FR - EN]","[""Course""]"
+"994","SAP-C01 AWS Solutions Architect Professional Certification","[""Course""]"
+"995","The FULL Guide to Mining Bitcoin with the AWS Cloud","[""Course""]"
+"996","Migration of databases to AWS in French!","[""Course""]"
+"997","AWS Solution Architect Associate in French [Mock exam]","[""Course""]"
+"998","Amazon AWS EC2 for Beginners","[""Course""]"
+"999","UI / UX App Design: Application Designer with Adobe XD","[""Course""]"
+"1000","User Experience Design Essentials - Adobe XD UI UX Design","[""Course""]"
+"1001","Flexbox CSS - The Complete Guide to Practice","[""Course""]"
+"1002","CSS Animations - The Practical Guide","[""Course""]"
+"1003","UX UI - Adobe XD from beginner to advanced","[""Course""]"
+"1004","Figma: master Graphic Design & Design","[""Course""]"
+"1005","Webdesign for beginners with Figma.","[""Course""]"
+"1006","Introduction to Design for Mobile Applications","[""Course""]"
+"1007","Sketch 3 from A to Z","[""Course""]"
+"1008","Sketch, learn to design mobile apps from A to Z!","[""Course""]"
+"1009","Logo design complete training","[""Course""]"
+"1010","WEB DESIGN - The Complete Course | 18 hours + 5 WORKSHOPS","[""Course""]"
+"1011","Figma create prototypes","[""Course""]"
+"1012","
+Adobe XD create prototypes","[""Course""]"
+"1013","HTML5 CSS3 & responsive design: professional training","[""Course""]"
+"1014","Python for Financial Analysis and Algorithmic Trading","[""Course""]"
+"1015","The basics of programming and algorithm","[""Course""]"
+"1016","Fundamentals in Algorithms","[""Course""]"
+"1017","51 algorithmic exercises (with Milo)","[""Course""]"
+"1018","Object Oriented Programming (OOP) & Algorithmics, from A to Z","[""Course""]"
+"1019","Learn and master Excel from A to Z","[""Course""]"
+"1020","Excel: Macro - VBA","[""Course""]"
+"1021","Excel, master the key skills to become an expert!","[""Course""]"
+"1022","Excel: SEARCH FUNCTIONS","[""Course""]"
+"1023","Excel from 0 to Hero become an expert too","[""Course""]"
+"1024","Excel 2019","[""Course""]"
+"1025","Learn the basics of Excel painlessly!","[""Course""]"
+"1026","Excel Advanced - Calculations and Data Analysis","[""Course""]"
+"1027","
+Excel - Practical tips on large Tables (lists)","[""Course""]"
+"1028","Excel VBA: become an expert!","[""Course""]"
+"1029","Professional Training EXCEL Improvement","[""Course""]"
+"1030","Certification ? EXCEL 2021 | + PRACTICAL WORKSHOPS","[""Course""]"
+"1031","Microsoft Excel 2019 in less than an hour for beginners","[""Course""]"
+"1032","Excel, the essentials to be productive!","[""Course""]"
+"1033","Excel & Data Visualization, create powerful reports","[""Course""]"
+"1034","Juniper JNCIA-Junos JN0-103","[""Course""]"
+"1035","Juniper Basics","[""Course""]"
+"1036","Juniper JNCIA-JUNOS (JN0-103) with LABS","[""Course""]"
+"1037","Juniper Chassis Clusters (SRX/EX)","[""Course""]"
+"1038","Juniper JNCIA-Junos JN0-103 with Ben Jacobson","[""Course""]"
+"1039","Juniper JNCIA-Junos (JN0-102) Full Pack","[""Course""]"
+"1040","Juniper JNCIA OSPF","[""Course""]"
+"1041","Complete OSPF for Juniper JNCIS JNCIP","[""Course""]"
+"1042","Juniper JNCIA Made Easy: Complete JNCIA Course with LAB","[""Course""]"
+"1043","Juniper JNCIA IPv6 OSPFv3","[""Course""]"
+"1044","Juniper JNCIA-Junos (JN0-102)","[""Course""]"
+"1045","Juniper JNCIA - Junos. JN0-102 Certification","[""Course""]"
+"1046","[NEW] Juniper JNCIA-SEC JN0-230 Practice Exams","[""Course""]"
+"1047","Juniper JNCIS-SP Part-1a PIR - Protocol Independent Routing","[""Course""]"
+"1048","Juniper Networks Certified Internet Associate, Junos exams","[""Course""]"
+"1049","Operating Systems from scratch - Part 1","[""Course""]"
+"1050","Linux Security - Learn How To Secure Your System","[""Course""]"
+"1051","Installer, configurer et administrer Ubuntu Server (Linux)","[""Course""]"
+"1052","Install, configure and administer Ubuntu Server (Linux)","[""Course""]"
+"1053","CompTIA Linux + Certification (XK0-004)","[""Course""]"
+"1054","Maintain, audit and automate Linux systems (Ubuntu)","[""Course""]"
+"1055","SDLC Overview (1 Hour) - Software Development Life Cycle","[""Course""]"
+"1056","Software Testing,QA Testing, Manual Testing,SDLC,Test Plan","[""Course""]"
+"1057","The Complete SDLC Course for Beginners","[""Course""]"
+"1058","Software Development Processes (SDLC Models)","[""Course""]"
+"1059","SDLC - The System Development Life Cycle for Beginners","[""Course""]"
+"1060","SDLC with SOA Spring Java JMS GIT ActiveMQ MongoDB Jenkins","[""Course""]"
+"1061","DevOps and SDLC on Microsoft AZURE","[""Course""]"
+"1062","AWS Development Tools for DevOps and SDLC","[""Course""]"
+"1063","SDLC models:basics for beginners","[""Course""]"
+"1064","SDLC and Gating for Testing Professionals","[""Course""]"
+"1065","Software Development Lifecycle & Methodologies","[""Course""]"
+"1066","The Software Development Process - The Complete Course","[""Course""]"
+"1067","Agile Project Management, Frameworks and Development Process","[""Course""]"
+"1068","Become # 1 on Google | Complete SEO Guide | SEO","[""Course""]"
+"1069","Google SEO ? Certification | The Complete Course (3 IN 1)","[""Course""]"
+"1070","Formation SEO & WordPress","[""Course""]"
+"1071","SEO: Local SEO, Being 1st in 1 month, Professional technique","[""Course""]"
+"1072","APPEARING ON PAGE 1 OF GOOGLE WITH SHOPIFY: SEO GUIDE 2021","[""Course""]"
+"1073","Wordpress SEO: 1st on Google thanks to SEO in 2020","[""Course""]"
+"1074","SEO: Local SEO, all you need to know","[""Course""]"
+"1075","Shopify SEO: Explode Your Profits With Google (Ecommerce)","[""Course""]"
+"1076","The GUIDE from 0 to 2000 qualified visitors thanks to SEO","[""Course""]"
+"1077","Google TOOLS ? Certification | The Complete Course","[""Course""]"
+"1078","SEO - natural referencing","[""Course""]"
+"1079","YOUTUBE SEO: Reference Your Videos In TOP 1 with TubeBuddy","[""Course""]"
+"1080","SEO: The keys to getting powerful organic traffic","[""Course""]"
+"1081","Youtube: SEO decoded - All about natural referencing","[""Course""]"
+"1082","Apple Search Ads | Ads management for iOS apps","[""Course""]"
+"1083","Advanced Git Training: Become a Git Expert","[""Course""]"
+"1084","Git and GitHub training: from Beginner to Expert","[""Course""]"
+"1085","Git & GitHub: the ULTIMATE training","[""Course""]"
+"1086","
+Learning Git - A Guide to Learning to Use Git","[""Course""]"
+"1087","Learn to use Git","[""Course""]"
+"1088","Git: the essential basics","[""Course""]"
+"1089","Git and GitHub training: from Beginner to Expert","[""Course""]"
+"1090","Complete Git Guide: Understand and master Git and GitHub","[""Course""]"
+"1091","Git and Github for dummies","[""Course""]"
+"1092","Git: The essential for any developer","[""Course""]"
+"1093","
+Master the fundamentals of Git and Github","[""Course""]"
+"1094","Java EE: Spring Framework / Hibernate / Git / Maven / Flickr","[""Course""]"
+"1095","Tableau 10 : Data Analytics, Visualization et Reporting","[""Course""]"
+"1096","SQL and Data Visualization - The Complete Course","[""Course""]"
+"1097","Data visualization with D3.js","[""Course""]"
+"1098","Microsoft Excel - Data Visualization, Excel Charts & Graphs","[""Course""]"
+"1099","Python Data Analysis & Visualization Bootcamp","[""Course""]"
+"1100","D3.js Data Visualization Fundamentals - Hands On","[""Course""]"
+"1101","The Complete Tableau Bootcamp for Data Visualization","[""Course""]"
+"1102","Interactive Data Visualization with Python and Bokeh","[""Course""]"
+"1103","Data Visualization with Kibana","[""Course""]"
+"1104","Build Data Visualizations with D3.js & Firebase","[""Course""]"
+"1105","Mastering data visualization in D3.js [2020 UPDATE]","[""Course""]"
+"1106","Data Visualization with Python for Beginners","[""Course""]"
+"1107","Mastering Excel Dashboard Creation and Data Visualizations","[""Course""]"
+"1108","Data Storytelling and Data Visualization 2020","[""Course""]"
+"1109","Data Visualization in Excel: All Excel Charts and Graphs","[""Course""]"
+"1110","Mastering Collaboration: Work together for the best results","[""Course""]"
+"1111","Taking the Pain Out of Collaboration: Tips & Best Practices","[""Course""]"
+"1112","Taking the Pain Out of Collaboration: Tips & Best Practices","[""Course""]"
+"1113","Facilitate great collaboration","[""Course""]"
+"1114","Online Teamwork: Manage Remote Teams & Remote Collaboration","[""Course""]"
+"1115","Get Big Things Done: Become a Standout Collaborator","[""Course""]"
+"1116","Mastering Excellence Through Collaboration & Culture Change","[""Course""]"
+"1117","Team Building: The 10 Secrets to High Performing Teams","[""Course""]"
+"1118","How to Survive in The Open Workspace Environment","[""Course""]"
+"1119","Project Leadership - create engaged project teams","[""Course""]"
+"1120","Customer Success: Build Cross-Functional Relationships","[""Course""]"
+"1121","Master Cognitive Biases and Improve Your Critical Thinking","[""Course""]"
+"1122","Master your Decision-Making, and Critical Thinking Skills","[""Course""]"
+"1123","The Ultimate Guide to Critical Thinking (140 Techniques)","[""Course""]"
+"1124","Critical Thinking","[""Course""]"
+"1125","Critical Thinking Strategies For Better Decisions","[""Course""]"
+"1126","Critical Thinking with Emotional Intelligence","[""Course""]"
+"1127","Critical Thinking: How To Find Out What Really Works","[""Course""]"
+"1128","Critical Thinking Academy: Boost Awareness & Intelligence","[""Course""]"
+"1129","Critical Thinking in Action","[""Course""]"
+"1130","Develop your CRITICAL THINKING skills - easily!","[""Course""]"
+"1131","Thinking Critically","[""Course""]"
+"1132","Critical Thinking: Improve Reasoning & Communication Skills","[""Course""]"
+"1133","Productivity and Time Management for the Overwhelmed","[""Course""]"
+"1134","Time Management Mastery: Do More, Stress Less","[""Course""]"
+"1135","Time and Task Management: Time Management Techniques","[""Course""]"
+"1136","Productivity Machine: Time Management & Productivity Hacks","[""Course""]"
+"1137","Effective Time Management - Get 10X More Done in Less Time","[""Course""]"
+"1138","Time Management & Productivity Best Practices: Get More Done","[""Course""]"
+"1139","Practical Time Management - Personal Productivity Tools","[""Course""]"
+"1140","Time Management Secrets For Busy People","[""Course""]"
+"1141","Time Management for Professionals","[""Course""]"
+"1142","Work from Home - Work Life Balance and Time Management","[""Course""]"
+"1143","Make Meetings Work & Tackle Time Management Troubles","[""Course""]"
+"1144","Complete Time Management Course Raise Personal Productivity","[""Course""]"
+"1145","Time Management & Productivity","[""Course""]"
+"1146","Practical Project Management for Managers and First Time PMs","[""Course""]"
+"1147","Time Management, Prioritization and Productivity","[""Course""]"
+"1148","The Secrets of Self-Motivation: ignite your inner fuel","[""Course""]"
+"1149","Self Motivation Through Fulfillment For Sustained Motivation","[""Course""]"
+"1150","The Secrets of Self-Motivation Mastery","[""Course""]"
+"1151","SELF-MOTIVATION FOR YOUR ULTIMATE SUCCESS","[""Course""]"
+"1152","overcoming laziness: lazy to discipline & self motivation","[""Course""]"
+"1153","The Power of Motivation - Shape and Control Your Destiny","[""Course""]"
+"1154","Master your brain: Neuroscience for personal development","[""Course""]"
+"1155","Motivation Mastery: Become Unstoppable & Crush Your Goals","[""Course""]"
+"1156","Self-Discipline Hacks: Increase Productivity & Achieve Goals","[""Course""]"
+"1157","Motivation Hacking","[""Course""]"
+"1158","Motivation for Learning and Performance","[""Course""]"
+"1159","The Complete Self-Discipline Course - Control Your Own Life","[""Course""]"
+"1160","Develop Positive Mindset, Optimism, Confidence & Self-Esteem","[""Course""]"
+"1161","Motivation - Learn to Take Action that Leads to Success","[""Course""]"
+"1162","Gamification Tools for Personal Motivation + Productivity","[""Course""]"
+"1163","Selenium WebDriver with Java -Basics to Advanced+Frameworks","[""Course""]"
+"1164","Rest API Testing (Automation) from Scratch -RestAssured Java","[""Course""]"
+"1165","Appium -Mobile Automation Testing from Scratch + Frameworks","[""Course""]"
+"1166","Learn JMETER from Scratch on Live Apps -Performance Testing","[""Course""]"
+"1167","Master Software Testing+Jira+Agile on Live App-Be a TeamLead","[""Course""]"
+"1168","Unit Testing for C# Developers","[""Course""]"
+"1169","Quick introduction to Postman for beginners","[""Course""]"
+"1170","The Complete 2021 Software Testing Bootcamp","[""Course""]"
+"1171","In-Depth Software Testing Training Course From Scratch","[""Course""]"
+"1172","Learn Protractor(Angular Testing) from scratch +Framework","[""Course""]"
+"1173","Automated Software Testing with Python","[""Course""]"
+"1174","POSTMAN API Testing - Step by Step for Beginners","[""Course""]"
+"1175","Become a Software Tester: Learn Software Testing & Get a Job","[""Course""]"
+"1176","REST API Testing, Automation using POSTMAN","[""Course""]"
+"1177","Ethical Hacking:Network Fundamentals & Network Layer Attacks","[""Course""]"
+"1178","Wireless Networking Fundamentals","[""Course""]"
+"1179","The Complete Networking Fundamentals Course. Your CCNA start","[""Course""]"
+"1180","Introduction to Computer Networks for Non-Techies","[""Course""]"
+"1181","Python Network Programming for Network Engineers (Python 3)","[""Course""]"
+"1182","Python Network Programming Complete Masterclass","[""Course""]"
+"1183","Cisco CCNA 200-301 : Full Course For Networking Basics","[""Course""]"
+"1184","Linux for Network Engineers: Practical Linux with GNS3","[""Course""]"
+"1185","Python for Network Engineers: Netmiko, NAPALM, pyntc, Telnet","[""Course""]"
+"1186","IT Networking Fundamentals For Complete Beginners","[""Course""]"
+"1187","Mastering Modbus RS485 Network Communication","[""Course""]"
+"1188","Computer Networking : Go from Zero to Hero (2021)","[""Course""]"
+"1189","Ansible for Network Engineers: Quick Start GNS3 & Ansible","[""Course""]"
+"1190","Certified Wireless Network Administrator (CWNA)","[""Course""]"
+"1191","Practical Cisco Networking Labs in Cisco Packet Tracer","[""Course""]"
+"1192","Mastering Data Modeling Fundamentals","[""Course""]"
+"1193","Power BI Master Class-Data Models and DAX Formulas 2020","[""Course""]"
+"1194","Data Modeling and Relational Database Design using Erwin","[""Course""]"
+"1195","Applied Statistical Modeling for Data Analysis in R","[""Course""]"
+"1196","Learning Data Modeling","[""Course""]"
+"1197","OBIEE 12c Data Modeling Course","[""Course""]"
+"1198","Build and train a data model to recognize objects in images!","[""Course""]"
+"1199","Introduction to information and data modeling","[""Course""]"
+"1200","Data Modelling For Beginners","[""Course""]"
+"1201","Microsoft SQL Server Certification (70-768): SQL Data Models","[""Course""]"
+"1202","Data Modelling and Database Design for Business Analysts","[""Course""]"
+"1203","SAP MDG - Data Modeling for Beginners with Hands-On","[""Course""]"
+"1204","Data modeling and Relational database design","[""Course""]"
+"1205","Microsoft 70-466:Implementing Data Models & Reports","[""Course""]"
+"1206","5) CBDM: Certified Business Data Modeler","[""Course""]"
+"1207","Statistics for Data Science and Business Analysis","[""Course""]"
+"1208","SQL for Data Analysis: Weekender Crash Course for Beginners","[""Course""]"
+"1209","Data Analysis Essentials Using Excel","[""Course""]"
+"1210","Microsoft Excel Data Analysis - Learn How The Experts Use It","[""Course""]"
+"1211","Complete Introduction to Business Data Analysis","[""Course""]"
+"1212","Python Data Analysis & Visualization Bootcamp","[""Course""]"
+"1213","Microsoft Excel Data Analysis and Dashboard Reporting","[""Course""]"
+"1214","SQL for Data Analysis: Beginner MySQL Business Intelligence","[""Course""]"
+"1215","Python A-Z?: Python For Data Science With Real Exercises!","[""Course""]"
+"1216","Python A-Z?: Python For Data Science With Real Exercises!","[""Course""]"
+"1217","Statistics for Data Analysis Using Excel 2016","[""Course""]"
+"1218","Excel Dashboard and Data Analysis Masterclass","[""Course""]"
+"1219","Statistics for Data Analysis Using R","[""Course""]"
+"1220","Data Analysis with Pandas and Python","[""Course""]"
+"1221","Learning Python for Data Analysis and Visualization","[""Course""]"
+"1222","The Complete Presentation and Public Speaking/Speech Course","[""Course""]"
+"1223","Presentation Skills: Master Confident Presentations","[""Course""]"
+"1224","
+PowerPoint Masterclass - Presentation Design & Animation
+","[""Course""]"
+"1225","
+Complete Presentation Skills Masterclass for Every Occasion
+","[""Course""]"
+"1226","
+Business Presentation Skills - Excellence Made Easy
+","[""Course""]"
+"1227","
+Presentation Skills: Give a Great Team Presentation
+","[""Course""]"
+"1228","
+Public Speaking and Presentations Pro: No Beginners Allowed!
+","[""Course""]"
+"1229","
+Presentation Skills
+","[""Course""]"
+"1230","
+Brain Hacking Presentations Skills
+","[""Course""]"
+"1231","
+Presentation Skills: Create Killer Presentations to WoW
+","[""Course""]"
+"1232","
+Jump Start Your Presentation Skills Today to Be The Best!
+","[""Course""]"
+"1233","
+Presentation Fundamentals: Effective Presentation Skills
+","[""Course""]"
+"1234","
+Powerpoint 2016 2019 - Master powerpoint presentation
+","[""Course""]"
+"1235","
+Acumen Presents: Elizabeth Gilbert's Creativity Workshop
+","[""Course""]"
+"1236","
+Accredited Aromatherapy Diploma 1 - Aromatherapy for All
+","[""Course""]"
+"1237","
+COMPLETE Creative Writing - All Genres - THE FULL COURSE!
+","[""Course""]"
+"1238","
+Creative Writing - Get Writing, Keep Writing
+","[""Course""]"
+"1239","
+Skyrocket Your Creativity and Get Better Ideas: 7 Easy Ways
+","[""Course""]"
+"1240","
+Troubleshoot & Repair Your Windows 10 PC in Minutes!
+","[""Course""]"
+"1241","
+Troubleshoot Network Issues
+","[""Course""]"
+"1242","
+Cisco ASA Firewall Lab Guide | IPSec VPN Troubleshoot
+","[""Course""]"
+"1243","
+Build, Modernize and Troubleshoot your Android Apps
+","[""Course""]"
+"1244","
+Mastering DNS on Windows Server 2016
+","[""Course""]"
+"1245","
+IT Help Desk Professional
+","[""Course""]"
+"1246","
+Windows 10 Troubleshooting
+","[""Course""]"
+"1247","
+Server Administration Fundamentals 2017 (Server+ SK0-004)
+","[""Course""]"
+"1248","
+Ubuntu Linux Server Troubleshooting
+","[""Course""]"
+"1249","
+Manage Change Through Collaboration and Team Work
+","[""Course""]"
+"1250","
+Learn Teamwork | Beginners Course
+","[""Course""]"
+"1251","
+Teamwork and Team building
+","[""Course""]"
+"1252","
+EIQ-2 Teamwork Makes the Dream Work
+","[""Course""]"
+"1253","
+Learn Teamwork | Quick Start Course
+","[""Course""]"
+"1254","
+Group Work to Team Work: Career Asset Building
+","[""Course""]"
+"1255","
+Building Your Team: How to put together the perfect team
+","[""Course""]"
+"1256","
+Learn Teamwork | Advanced Course
+","[""Course""]"
+"1257","
+Management 101 - Teamwork, Goal Setting and Accountability
+","[""Course""]"
+"1258","
+Effective teamwork using SharePoint and Lync 2010
+","[""Course""]"
+"1259","
+Teamwork Certification7 Management Coaching
+","[""Course""]"
+"1260","
+Online Teamwork: Manage Remote Teams & Remote Collaboration
+","[""Course""]"
+"1261","
+Leadership And Teamwork Essentials
+","[""Course""]"
+"1262","
+Mastering Teamwork
+","[""Course""]"
+"1263","
+Making Project Teams Work: A Quick Course
+","[""Course""]"
+"1264","
+How to Write a Successful Research Paper
+","[""Course""]"
+"1265","
+How to Write an Effective Research Paper
+","[""Course""]"
+"1266","
+Research Methodology
+","[""Course""]"
+"1267","
+Research Methods For Business 
+","[""Course""]"
+"1268","
+Research Methods and Statistics: An Introduction
+","[""Course""]"
+"1269","
+Write and publish Research paper(A-Z) for machine learning
+","[""Course""]"
+"1270","
+Writing & Publishing a Research Paper - Research Paper Guide
+","[""Course""]"
+"1271","
+Introduction to Qualitative Research Methods
+","[""Course""]"
+"1272","
+Master Strategic Thinking and Problem Solving Skills
+","[""Course""]"
+"1273","
+Highly Effective Problem Solving Skills
+","[""Course""]"
+"1274","
+Master Basic Strategic Thinking and Problem Solving Skills
+","[""Course""]"
+"1275","
+Problem Solving Skills
+","[""Course""]"
+"1276","
+Problem Solving Skills for Sales Managers
+","[""Course""]"
+"1277","
+Creativity, problem solving and generating alternatives
+","[""Course""]"
+"1278","
+Problem Solving in 5 Easy Steps
+","[""Course""]"
+"1279","
+Effective Problem Solving & Project Management Power Course
+","[""Course""]"
+"1280","
+Problem Solving Skills for Managers
+","[""Course""]"
+"1281","
+Technical Writing: How to Write Software Documentation
+","[""Course""]"
+"1282","
+CommonSensical Technical Documentation
+","[""Course""]"
+"1283","
+MS Word Training - Documentation level
+","[""Course""]"
+"1284","
+Fact-Finding and Documentation
+","[""Course""]"
+"1285","
+Design 1000: A Design & Documentation Primer
+","[""Course""]"
+"1286","
+Create your Microsoft Word documentation | From Zero to Pro
+","[""Course""]"
+"1287","
+Technical Writing: Graphics For Software Documentation
+","[""Course""]"
+"1288","
+Best Practices in Document Management
+","[""Course""]"
+"1289","
+A Clear Logical Argument Guaranteed
+","[""Course""]"
+"1290","
+Creativity, Design Thinking, and Innovation for Business
+","[""Course""]"
+"1291","
+Kinetic Thinking
+","[""Course""]"
+"1292","
+Mastering Logical Fallacies
+","[""Course""]"
+"1293","
+Security Awareness Training
+","[""Course""]"
+"1294","
+The Absolute Beginners Guide to Cyber Security 2021 - Part 1
+","[""Course""]"
+"1295","
+Information Security Awareness-ISO 27001:2013
+","[""Course""]"
+"1296","
+The Beginners 2021 Cyber Security Awareness Training Course
+","[""Course""]"
+"1297","
+Security Awareness Training, Internet Security for Employees
+","[""Course""]"
+"1298","
+The Ultimate Dark Web, Anonymity, Privacy & Security Course
+","[""Course""]"
+"1299","
+The Complete Cyber Security Course : Anonymous Browsing!
+","[""Course""]"
+"1300","
+The Absolute Beginners Guide to Cyber Security 2021 - Part 2
+","[""Course""]"
+"1301","
+Website Hacking / Penetration Testing & Bug Bounty Hunting
+","[""Course""]"
+"1302","
+Web Application Security for Absolute Beginners (no coding!)
+","[""Course""]"
+"1303","
+Learn Ethical Hacking From Scratch
+","[""Course""]"
+"1304","
+Practical Ethical Hacking - The Complete Course
+","[""Course""]"
+"1305","
+Information Security Management Fundamentals for Non-Techies
+","[""Course""]"
+"1306","
+The Complete Cyber Security Course : Hackers Exposed!
+","[""Course""]"
+"1307","
+AWS Certified Security Specialty 2020
+","[""Course""]"
+"1308","
+Stock market Basics- Full Course
+","[""Course""]"
+"1309","
+A Complete Introduction to Online Market Research
+","[""Course""]"
+"1310","
+Mastering Market Profile Trading: Professional Analysis Tool
+","[""Course""]"
+"1311","
+Technical Analysis MasterClass:Trading By Technical Analysis
+","[""Course""]"
+"1312","
+Python for Data Science and Machine Learning Bootcamp
+","[""Course""]"
+"1313","
+Machine Learning A-Z™: Hands-On Python & R In Data Science
+","[""Course""]"
+"1314","
+Machine Learning, Data Science and Deep Learning with Python
+","[""Course""]"
+"1315","
+Data Science and Machine Learning Bootcamp with R
+","[""Course""]"
+"1316","
+Deep Learning A-Z™: Hands-On Artificial Neural Networks
+","[""Course""]"
+"1317","
+Introduction to Machine Learning for Data Science
+","[""Course""]"
+"1318","
+Complete Machine Learning & Data Science Bootcamp 2021
+","[""Course""]"
+"1319","
+Cluster Analysis and Unsupervised Machine Learning in Python
+","[""Course""]"
+"1320","
+Bayesian Machine Learning in Python: A/B Testing
+","[""Course""]"
+"1321","
+Data Science 2021 : Complete Data Science & Machine Learning
+","[""Course""]"
+"1322","
+Python & Machine Learning for Financial Analysis
+","[""Course""]"
+"1323","
+A-Z Machine Learning using Azure Machine Learning (AzureML)
+","[""Course""]"
+"1324","
+Complete 2020 Data Science & Machine Learning Bootcamp
+","[""Course""]"
+"1325","
+Machine Learning & Deep Learning in Python & R
+","[""Course""]"
+"1326","
+Data Science: Supervised Machine Learning in Python
+","[""Course""]"
+"1327","
+Machine Learning, Data Science and Deep Learning with Python
+","[""Course""]"
+"1328","
+Deep Learning A-Z™: Hands-On Artificial Neural Networks
+","[""Course""]"
+"1329","
+Data Science: Deep Learning in Python
+","[""Course""]"
+"1330","
+Complete Guide to TensorFlow for Deep Learning with Python
+","[""Course""]"
+"1331","
+Deep Learning Prerequisites: The Numpy Stack in Python (V2+)
+","[""Course""]"
+"1332","
+Tensorflow 2.0: Deep Learning and Artificial Intelligence
+","[""Course""]"
+"1333","
+The Data Science Course 2021: Complete Data Science Bootcamp
+","[""Course""]"
+"1334","
+Deep Learning Prerequisites: Linear Regression in Python
+","[""Course""]"
+"1335","
+Deep Learning: Convolutional Neural Networks in Python
+","[""Course""]"
+"1336","
+Deep Learning Prerequisites: Logistic Regression in Python
+","[""Course""]"
+"1337","
+Deep Learning and Computer Vision A-Z™: OpenCV, SSD & GANs
+","[""Course""]"
+"1338","
+Deep Learning: Advanced Computer Vision (GANs, SSD, +More!)
+","[""Course""]"
+"1339","
+Deep Learning: Recurrent Neural Networks in Python
+","[""Course""]"
+"1340","
+Modern Deep Learning in Python
+","[""Course""]"
+"1341","
+Deep Learning: Advanced NLP and RNNs
+","[""Course""]"
+"1342","
+The Data Science Course 2021: Complete Data Science Bootcamp
+","[""Course""]"
+"1343","
+Machine Learning A-Z™: Hands-On Python & R In Data Science
+","[""Course""]"
+"1344","
+Data Science A-Z™: Real-Life Data Science Exercises Included
+","[""Course""]"
+"1345","
+Statistics for Data Science and Business Analysis
+","[""Course""]"
+"1346","
+Machine Learning, Data Science and Deep Learning with Python
+","[""Course""]"
+"1347","
+Tableau 2020 A-Z: Hands-On Tableau Training for Data Science
+","[""Course""]"
+"1348","
+R Programming A-Z™: R For Data Science With Real Exercises!
+","[""Course""]"
+"1349","
+Python A-Z™: Python For Data Science With Real Exercises!
+","[""Course""]"
+"1350","
+Data Science and Machine Learning Bootcamp with R
+","[""Course""]"
+"1351","
+Data Science: Deep Learning in Python
+","[""Course""]"
+"1352","
+Introduction to Machine Learning for Data Science
+","[""Course""]"
+"1353","
+Statistics for Business Analytics and Data Science A-Z™
+","[""Course""]"
+"1354","
+Complete Machine Learning & Data Science Bootcamp 2021
+","[""Course""]"
+"1355","
+Power BI A-Z: Hands-On Power BI Training For Data Science!
+","[""Course""]"
+"1356","
+R Programming: Advanced Analytics In R For Data Science
+","[""Course""]"
+"1357","
+The Business Intelligence Analyst Course 2021
+","[""Course""]"
+"1358","
+SQL - MySQL for Data Analytics and Business Intelligence
+","[""Course""]"
+"1359","
+Business Intelligence with Microsoft Power BI -With Material
+","[""Course""]"
+"1360","
+Power BI Masterclass Business Intelligence in action
+","[""Course""]"
+"1361","
+Excel 2013 PowerPivot & Advanced Business Intelligence Tools
+","[""Course""]"
+"1362","
+Data Warehousing and Business Intelligence for Managers
+","[""Course""]"
+"1363","
+Business Intelligence Development Using Python
+","[""Course""]"
+"1364","
+Oracle Business Intelligence Enterprise Edition (OBIEE 11g)
+","[""Course""]"
+"1365","
+Business Intelligence (BI) and Financial Forecasting
+","[""Course""]"
+"1366","
+Business Intelligence – Collecting, Cleaning, Merging Data
+","[""Course""]"
+"1367","
+Tableau 10 Business Intelligence Solutions - Volume 1
+","[""Course""]"
+"1368","
+Business Intelligence IT & Analytics
+","[""Course""]"
+"1369","
+Oracle DBA 11g/12c - Database Administration for Junior DBA
+","[""Course""]"
+"1370","
+Oracle Database Administrator DBA
+","[""Course""]"
+"1371","
+A Guide to becoming an Oracle Database Administrator (DBA)
+","[""Course""]"
+"1372","
+Foundation for Oracle Database Administrator (DBA)
+","[""Course""]"
+"1373","
+Oracle Database Administration for Absolute Beginners
+","[""Course""]"
+"1374","
+SQL Server Database Administrator: Learn SQL DBA Skills
+","[""Course""]"
+"1375","
+OCP MySQL 5.7 Database Administrator (1Z0-888) Practice Test
+","[""Course""]"
+"1376","
+Learn T-SQL From Scratch For SQL Server Administrator
+","[""Course""]"
+"1377","
+SQL and Database for Analysts - Increase your team value
+","[""Course""]"
+"1378","
+MySQL Database Administration - SQL Database for Beginners
+","[""Course""]"
+"1379","
+Database Management Systems - MySQL
+","[""Course""]"
+"1380","
+Oracle Database Administration
+","[""Course""]"
+"1381","
+Microsoft Certified: Data Analyst Associate with Power BI
+","[""Course""]"
+"1382","
+The Data Analyst Course: Complete Data Analyst Bootcamp 2021
+","[""Course""]"
+"1383","
+Practical SQL Bootcamp for Data Analysts and Data Scientists
+","[""Course""]"
+"1384","
+Data Analyst's Toolbox: Excel to MySQL
+","[""Course""]"
+"1385","
+Data Analysts Toolbox: Excel, Python, Power BI
+","[""Course""]"
+"1386","
+Become a Python Data Analyst
+","[""Course""]"
+"1387","
+CCA 159 - Data Analyst using Sqoop, Hive and Impala
+","[""Course""]"
+"1388","
+Learn Data Visualization and Become Data Analyst
+","[""Course""]"
+"1389","
+Python Interview Quiz for Data Analyst
+","[""Course""]"
+"1390","
+Microsoft Excel for Data Analysts
+","[""Course""]"
+"1391","
+Data Modelling and Database Design for Business Analysts
+","[""Course""]"
+"1392","
+Data Analysis Projects in Python
+","[""Course""]"
+"1393","
+Data Analysis with Microsoft Excel and Google Sheets
+","[""Course""]"
+"1394","
+Become a Game Designer the Complete Series Coding to Design
+","[""Course""]"
+"1395","
+Game Designer Briefcase: Virtual Reality & Character Sculpt
+","[""Course""]"
+"1396","
+Learn Professional 2D Game Asset Graphic Design in Photoshop
+","[""Course""]"
+"1397","
+Become a professional Game Designer
+","[""Course""]"
+"1398","
+Learn to Design Game Assets in Photoshop
+","[""Course""]"
+"1399","
+Learn Game Maker Studio 2: Introduction to Game Development
+","[""Course""]"
+"1400","
+Brief Introduction to Game Design
+","[""Course""]"
+"1401","
+Learning Game Design: Part 1
+","[""Course""]"
+"1402","
+Complete C# Unity Game Developer 2D
+","[""Course""]"
+"1403","
+Complete C# Unity Game Developer 3D
+","[""Course""]"
+"1404","
+Unreal Engine Blueprint Game Developer
+","[""Course""]"
+"1405","
+Unity 2D Game Developer Course Farming RPG
+","[""Course""]"
+"1406","
+The Complete Unity Indie Game Developer Course
+","[""Course""]"
+"1407","
+3D Modeling in Blender 2.8 for Unity Video Game Developers
+","[""Course""]"
+"1408","
+Unity Game Development Master Class
+","[""Course""]"
+"1409","
+Game Design Analysis for Developers
+","[""Course""]"
+"1410","
+The Game Developer Bootcamp
+","[""Course""]"
+"1411","
+Junior Game Developer
+","[""Course""]"
+"1412","
+Making Your First Game: GameMaker Studio 2
+","[""Course""]"
+"1413","
+Learn Game Maker Studio 2: Introduction to Game Development
+","[""Course""]"
+"1414","
+Game Development
+","[""Course""]"
+"1415","
+Unity Game Development Build 2D & 3D Games
+","[""Course""]"
+"1416","
+Unity Game Development Master Class
+","[""Course""]"
+"1417","
+React Native for Mobile Developers
+","[""Course""]"
+"1418","
+iOS - become a professional mobile developer
+","[""Course""]"
+"1419","
+How to Survive as a Mobile App/Game Developer in 2020
+","[""Course""]"
+"1420","
+Mobile Product Management for beginners
+","[""Course""]"
+"1421","
+Intermediate Mobile App Development (Swift 3, iPhone iOS10)
+","[""Course""]"
+"1422","
+9A0-064 Adobe Flash Lite 2.0 Mobile Developer Practice Exam
+","[""Course""]"
+"1423","
+Build Mobile Apps, No Coding, starting from a spreadsheet
+","[""Course""]"
+"1424","
+Mobile and Web Development with React JS & Native & Angular
+","[""Course""]"
+"1425","
+Mobile Development Architecture
+","[""Course""]"
+"1426","
+Android Mobile App - A Published RSS Reader App
+","[""Course""]"
+"1427","
+Create a Mobile App for Your Business -- Quick, Easy & Free!
+","[""Course""]"
+"1428","
+Mobile App Development – A Practical Lessons
+","[""Course""]"
+"1429","
+Android App Development with Kotlin
+","[""Course""]"
+"1430","
+Beginning Project Management: Project Management Level One
+","[""Course""]"
+"1431","
+The Project Management Course: Beginner to PROject Manager
+","[""Course""]"
+"1432","
+Practical Project Management for Managers and First Time PMs
+","[""Course""]"
+"1433","
+Project Management Essentials
+","[""Course""]"
+"1434","
+Project Management Fundamentals: Crash Course for Beginners
+","[""Course""]"
+"1435","
+Project Management: Getting Started and Beyond
+","[""Course""]"
+"1436","
+The Technical Project Manager - Leadership & Management
+","[""Course""]"
+"1437","
+Project management for Beginners:First step Project manager
+","[""Course""]"
+"1438","
+How to become a Project Manager for a Painting Company
+","[""Course""]"
+"1439","
+Project Management: From Beginner to ""Project Manager""
+","[""Course""]"
+"1440","
+How to become a successful SAP Project Manager
+","[""Course""]"
+"1441","
+Project Management Skills for Non Project Managers
+","[""Course""]"
+"1442","
+Successful Project Manager
+","[""Course""]"
+"1443","
+Project Management: Simple Software Project Management
+","[""Course""]"
+"1444","
+Project Integration Management
+","[""Course""]"
+"1445","
+How to become a Security Engineer from Scratch - Part 1 of 3
+","[""Course""]"
+"1446","
+MikroTik Security Engineer with LABS
+","[""Course""]"
+"1447","
+How to become a Security Engineer from scratch - Part 3 of 3
+","[""Course""]"
+"1448","
+Complete Cyber Security Course: Beginner's Guide
+","[""Course""]"
+"1449","
+Practice Exams - Professional Cloud Security Engineer
+","[""Course""]"
+"1450","
+Palo Alto PCNSE Certified Network Security Engineer 2021
+","[""Course""]"
+"1451","
+Palo Alto Networks Certified Network Security Engineer Exam
+","[""Course""]"
+"1452","
+IT Security 101 - Cyber Security for Beginners
+","[""Course""]"
+"1453","
+Java Programming Masterclass for Software Developers
+","[""Course""]"
+"1454","
+Become a Junior Java Software Developer
+","[""Course""]"
+"1455","
+How to Become a Software Developer From Scratch
+","[""Course""]"
+"1456","
+Learning How To Be A Software Developer
+","[""Course""]"
+"1457","
+C programming, Golden step to become software developer
+","[""Course""]"
+"1458","
+Visual Studio Code for Software Developers
+","[""Course""]"
+"1459","
+How to become a better software developer?
+","[""Course""]"
+"1460","
+Software Development: Better Requirements Gathering Skills
+","[""Course""]"
+"1461","
+Software Development From A to Z - OOP, UML, Agile, Python
+","[""Course""]"
+"1462","
+The Complete Guide to Becoming a Software Architect
+","[""Course""]"
+"1463","
+Software Architecture for the Enterprise Architect
+","[""Course""]"
+"1464","
+Software Architecture Case Studies
+","[""Course""]"
+"1465","
+Your First Steps from Programmer to Software Architect
+","[""Course""]"
+"1466","
+Software Architecture for Developers
+","[""Course""]"
+"1467","
+Principles of Software Architecture
+","[""Course""]"
+"1468","
+Software Architecture and Design Essentials
+","[""Course""]"
+"1469","
+SOLID Simplified - Software Design Fundamentals
+","[""Course""]"
+"1470","
+The Software Architecture and Design Course for Beginners
+","[""Course""]"
+"1471","
+Software Architecture : A Pragmatic Approach (Core Concepts)
+","[""Course""]"
+"1472","
+Software Architecture with Python
+","[""Course""]"
+"1473","
+The Complete ServiceNow System Administrator Course
+","[""Course""]"
+"1474","
+ServiceNow Certified System Administrator Practice Exam 2021
+","[""Course""]"
+"1475","
+ServiceNow Certified System Administrator (CSA): Paris Delta
+","[""Course""]"
+"1476","
+ServiceNow System Administrator from 0 to Hero
+","[""Course""]"
+"1477","
+The Complete ServiceNow System Administrator Course (2016)
+","[""Course""]"
+"1478","
+ServiceNow Certified System Administrator: CSA Practice Test
+","[""Course""]"
+"1479","
+Certified System Administrator - Paris DELTA Practice Test
+","[""Course""]"
+"1480","
+ServiceNow Certified System Administrator CSA Practice Exam
+","[""Course""]"
+"1481","
+Real time Azure training for System Administrators
+","[""Course""]"
+"1482","
+LPIC-1 (Exam 101 v5) : System Administrator Certification
+","[""Course""]"
+"1483","
+ServiceNow Certified System Administrator Practice Exams
+","[""Course""]"
+"1484","
+Red Hat System Administration II – SA2 (RHEL8)
+","[""Course""]"
+"1485","
+Software Testing 101
+","[""Course""]"
+"1486","
+Learn Software Testing from Scratch
+","[""Course""]"
+"1487","
+Introduction To Software Testing
+","[""Course""]"
+"1488","
+Software Testing
+","[""Course""]"
+"1489","
+Software Testing Training : Beginners to Professionals
+","[""Course""]"
+"1490","
+Software testing and Automation of APIs with UFT/QTP
+","[""Course""]"
+"1491","
+Software Testing,QA Testing, Manual Testing,SDLC,Test Plan
+","[""Course""]"
+"1492","
+Introduction to QA Software Testing Professionalism
+","[""Course""]"
+"1493","
+Software Testing Masterclass (2021) - From Novice to Expert
+","[""Course""]"
+"1494","
+The Complete 2021 Software Testing Bootcamp
+","[""Course""]"
+"1495","
+In-Depth Software Testing Training Course From Scratch
+","[""Course""]"
+"1496","
+Software Testing A-Z: Boost your career to the next level
+","[""Course""]"
+"1497","
+The Complete 2021 Software Testing Bootcamp
+","[""Course""]"
+"1498","
+Automated Software Testing with Python
+","[""Course""]"
+"1499","
+Appium -Mobile Automation Testing from Scratch + Frameworks
+","[""Course""]"
+"1500","
+Sketching for UX Designers - Boost UX work with pen & paper!
+","[""Course""]"
+"1501","
+Master Digital Product Design: UX Research & UI Design
+","[""Course""]"
+"1502","
+Complete Web & Mobile Designer in 2021: UI/UX, Figma, +more
+","[""Course""]"
+"1503","
+Learn User Experience Design from A-Z: Adobe XD UI/UX Design
+","[""Course""]"
+"1504","
+UX Design- From Beginner to Professional UX Designer: 4-in-1
+","[""Course""]"
+"1505","
+UI Design Handoff to Development. Course for UX/UI Designer
+","[""Course""]"
+"1506","
+Become a UI/UX Designer | Everything You need to know
+","[""Course""]"
+"1507","
+Professional UX/UI Designer start your profitable profession
+","[""Course""]"
+"1508","
+Get Started in UI/UX Design
+","[""Course""]"
+"1509","
+Mobile App Design in Affinity Designer: UX & UI from Scratch
+","[""Course""]"
+"1510","
+UX/UI Design: Design Beautiful Messaging App with Adobe XD
+","[""Course""]"
+"1511","
+Gestalt Theory for Web/UX/UI/App Designers
+","[""Course""]"
+"1512","
+How To Design for Accessibility: for UX Designers (WCAG 2.2)
+","[""Course""]"
+"1513","
+UI & Web Design using Adobe Illustrator CC
+","[""Course""]"
+"1514","
+The Complete App Design Course - UX, UI and Design Thinking
+","[""Course""]"
+"1515","
+The Web Developer Bootcamp 2021
+","[""Course""]"
+"1516","
+The Complete Web Developer Course 2.0
+","[""Course""]"
+"1517","
+The Complete Web Developer in 2021: Zero to Mastery
+","[""Course""]"
+"1518","
+The Advanced Web Developer Bootcamp
+","[""Course""]"
+"1519","
+The Complete Junior to Senior Web Developer Roadmap (2021)
+","[""Course""]"
+"1520","
+The Complete 2021 Web Development Bootcamp
+","[""Course""]"
+"1521","
+The Complete 2020 Fullstack Web Developer Course
+","[""Course""]"
+"1522","
+Web Developer Bootcamp with Flask and Python
+","[""Course""]"
+"1523","
+The Complete Web Developer Masterclass: Beginner To Advanced
+","[""Course""]"
+"1524","Laravel","[""Framework""]"
+"1525","Bootstrap","[""Framework""]"
+"1526","OpenCV","[""Framework""]"
+"1527","PyTorch","[""Framework""]"
+"1528","Anaconda","[""Framework""]"
+"1529","Tensorflow","[""Framework""]"
+"1530","Numpy","[""Framework""]"
+"1531","Pandas","[""Framework""]"
+"1532","Angular","[""Framework""]"
+"1533","MVC","[""Framework""]"
+"1534","jQuery","[""Framework""]"
+"1535","Redux","[""Framework""]"
+"1536","Protractor","[""Framework""]"
+"1537","Backbone.js","[""Framework""]"
+"1538","MVVM","[""Framework""]"
+"1539","MapReduce","[""Framework""]"
+"1540","Apache Hadoop","[""Framework""]"
+"1541","Flutter","[""Framework""]"
+"1542","MVP","[""Framework""]"
+"1543","Vue.js","[""Framework""]"
+"1544","Meteor","[""Framework""]"
+"1545","Web2py","[""Framework""]"
+"1546","React","[""Framework""]"
+"1547","SciPy","[""Framework""]"
+"1548","numpy","[""Framework""]"
+"1549","scikit-learn","[""Framework""]"
+"1550","Matplotlib","[""Framework""]"
+"1551","Junit","[""Framework""]"
+"1552","API","[""Framework""]"
+"1553","Bulma","[""Framework""]"
+"1554","Spring","[""Framework""]"
+"1555",".NET","[""Framework""]"
+"1556","Xamarin Forms","[""Framework""]"
+"1557","gRPC","[""Framework""]"
+"1558","ARKit","[""Framework""]"
+"1559","Metasploit","[""Framework""]"
+"1560","Appium","[""Framework""]"
+"1561","React Native","[""Framework""]"
+"1562","NativeScript","[""Framework""]"
+"1563","Webpack","[""Framework""]"
+"1564","Generative Adversarial Networks","[""Framework""]"
+"1565","D3.js","[""Framework""]"
+"1566","AngularJS","[""Framework""]"
+"1567","Apache Spark SQL","[""Framework""]"
+"1568","PySpark","[""Framework""]"
+"1569","SQLAlchemy","[""Framework""]"
+"1570","Ember.js","[""Framework""]"
+"1571","Jasmine","[""Framework""]"
+"1572","pandas","[""Framework""]"
+"1573","Seaborn","[""Framework""]"
+"1574","seaborn","[""Framework""]"
+"1575","Svelte","[""Framework""]"
+"1576","ASP .NET","[""Framework""]"
+"1577","UIKit","[""Framework""]"
+"1578","ASP .NET Core MVC","[""Framework""]"
+"1579","Xamarin","[""Framework""]"
+"1580","HTML","[""Language""]"
+"1581","CSS","[""Language""]"
+"1582","Python","[""Language""]"
+"1583","JavaScript","[""Language""]"
+"1584","Java","[""Language""]"
+"1585","PHP","[""Language""]"
+"1586","Go","[""Language""]"
+"1587","C++","[""Language""]"
+"1588","C#","[""Language""]"
+"1589","Scala","[""Language""]"
+"1590","Ruby","[""Language""]"
+"1591","SQL","[""Language""]"
+"1592","C","[""Language""]"
+"1593","JSON","[""Language""]"
+"1594","Sass","[""Language""]"
+"1595","XAML","[""Language""]"
+"1596","Julia","[""Language""]"
+"1597","Bash","[""Language""]"
+"1598","Perl","[""Language""]"
+"1599","VBA","[""Language""]"
+"1600","XML","[""Language""]"
+"1601","Kotlin","[""Language""]"
+"1602","UML","[""Language""]"
+"1603","Scratch","[""Language""]"
+"1604","PL/SQL","[""Language""]"
+"1605","GraphQL","[""Language""]"
+"1606","HSQLDB","[""Language""]"
+"1607","LINQ","[""Language""]"
+"1608","ABAP","[""Language""]"
+"1609","Machine Learning","[""Technique""]"
+"1610","Artificial Intelligence","[""Technique""]"
+"1611","OOP","[""Technique""]"
+"1612","Recommender system","[""Technique""]"
+"1613","Business Intelligence","[""Technique""]"
+"1614","Neural network","[""Technique""]"
+"1615","Repository pattern","[""Technique""]"
+"1616","N-Tier Architecture","[""Technique""]"
+"1617","UI/UX","[""Technique""]"
+"1618","Big Data","[""Technique""]"
+"1619","Game Development","[""Technique""]"
+"1620","Ethical hacking","[""Technique""]"
+"1621","Network Security","[""Technique""]"
+"1622","Relational database","[""Technique""]"
+"1623","Databases","[""Technique""]"
+"1624","Business Analysis","[""Technique""]"
+"1625","Data Structure","[""Technique""]"
+"1626"," Data Analysis","[""Technique""]"
+"1627","Data Visualization","[""Technique""]"
+"1628","Automated Software Testing","[""Technique""]"
+"1629","Code coverage","[""Technique""]"
+"1630","Machine learning","[""Technique""]"
+"1631","Project management","[""Technique""]"
+"1632","Ajax","[""Technique""]"
+"1633","Regular expression","[""Technique""]"
+"1634","Local Storage","[""Technique""]"
+"1635","Functional programming","[""Technique""]"
+"1636","FrontEnd","[""Technique""]"
+"1637","Real-time database","[""Technique""]"
+"1638","Responsive web design","[""Technique""]"
+"1639","Backend","[""Technique""]"
+"1640","Performance tuning","[""Technique""]"
+"1641","Financial analysis","[""Technique""]"
+"1642","REST API","[""Technique""]"
+"1643","Desktop graphical","[""Technique""]"
+"1644","Image Processing","[""Technique""]"
+"1645","Network automation","[""Technique""]"
+"1646","Design Pattern","[""Technique""]"
+"1647","Parallel programming","[""Technique""]"
+"1648","Pointer","[""Technique""]"
+"1649","Embedded firmware development","[""Technique""]"
+"1650","Driver development","[""Technique""]"
+"1651","Mobile application design","[""Technique""]"
+"1652","Password hashing","[""Technique""]"
+"1653","Graph database","[""Technique""]"
+"1654","Probabilistic programming","[""Technique""]"
+"1655","Reactive Microservices","[""Technique""]"
+"1656","RESTful API","[""Technique""]"
+"1657","Protocol Buffers","[""Technique""]"
+"1658","Domain-driven design","[""Technique""]"
+"1659","Hexagonal Architecture","[""Technique""]"
+"1660","Escape analysis","[""Technique""]"
+"1661","Multithreading","[""Technique""]"
+"1662","Microservices","[""Technique""]"
+"1663","RBAC","[""Technique""]"
+"1664","Perl programming","[""Technique""]"
+"1665","Routing","[""Technique""]"
+"1666","Network design","[""Technique""]"
+"1667","CRM","[""Technique""]"
+"1668","Linux hacking","[""Technique""]"
+"1669","IT security","[""Technique""]"
+"1670","Improve performance","[""Technique""]"
+"1671","Backup & Restore","[""Technique""]"
+"1672","Data Warehouse","[""Technique""]"
+"1673","Property decorator","[""Technique""]"
+"1674","Observer pattern","[""Technique""]"
+"1675","RDP","[""Technique""]"
+"1676","OSI model","[""Technique""]"
+"1677","Waterfall Model","[""Technique""]"
+"1678","RUP","[""Technique""]"
+"1679","Manual Testing","[""Technique""]"
+"1680","LAN","[""Technique""]"
+"1681","IP Address","[""Technique""]"
+"1682","RS-485","[""Technique""]"
+"1683","Networking protocol","[""Technique""]"
+"1685","RDD","[""Technique""]"
+"1686","F-test","[""Technique""]"
+"1687","Project management ","[""Technique""]"
+"1688","WYSIWYG","[""Tool""]"
+"1689","MongoDB","[""Tool""]"
+"1690","Git","[""Tool""]"
+"1691","Jupyter Notebook","[""Tool""]"
+"1692","Node.js","[""Tool""]"
+"1693","PostgreSQL","[""Tool""]"
+"1694","Redis","[""Tool""]"
+"1695","Chrome DevTools","[""Tool""]"
+"1696","Netlify","[""Tool""]"
+"1697","PyCharm","[""Tool""]"
+"1698","Android Studio","[""Tool""]"
+"1699","iPython","[""Tool""]"
+"1700","Visual Code","[""Tool""]"
+"1701","Visual Studio","[""Tool""]"
+"1702","SSMS","[""Tool""]"
+"1703","Postman","[""Tool""]"
+"1704","Firebase","[""Tool""]"
+"1705","TKInter","[""Tool""]"
+"1706","GitHub","[""Tool""]"
+"1707","Sketch","[""Tool""]"
+"1708","InVision Studio","[""Tool""]"
+"1709","Jira","[""Tool""]"
+"1710","Adobe XD","[""Tool""]"
+"1711","WordPress","[""Tool""]"
+"1712","IntelliJ IDEA","[""Tool""]"
+"1713","VirtualBox","[""Tool""]"
+"1714","Power BI","[""Tool""]"
+"1715","Tableau","[""Tool""]"
+"1716","Wireshark","[""Tool""]"
+"1717","Heroku","[""Tool""]"
+"1718","Microsoft SQL Server","[""Tool""]"
+"1719","Amazon DynamoDB","[""Tool""]"
+"1720","Windows","[""Tool""]"
+"1721","RStudio","[""Tool""]"
+"1722","IBM Watson Studio","[""Tool""]"
+"1723","Microsoft Azure","[""Tool""]"
+"1724","Google Cloud Platform","[""Tool""]"
+"1725","Google","[""Tool""]"
+"1726","LightSide","[""Tool""]"
+"1727","Apache Spark","[""Tool""]"
+"1728","Amazon CloudWatch","[""Tool""]"
+"1729","Amazon GuardDuty","[""Tool""]"
+"1730","Amazon SageMaker","[""Tool""]"
+"1731","MySQL","[""Tool""]"
+"1732","Oracle","[""Tool""]"
+"1733","Jshell","[""Tool""]"
+"1734","Unity","[""Tool""]"
+"1735","ReSharper","[""Tool""]"
+"1736","Neo4j","[""Tool""]"
+"1737","OrientDB","[""Tool""]"
+"1738","Akka","[""Tool""]"
+"1739","Xcode","[""Tool""]"
+"1740","RSpec","[""Tool""]"
+"1741","Active Directory","[""Tool""]"
+"1742","SQL*Plus","[""Tool""]"
+"1743","SQL Developer","[""Tool""]"
+"1744","SQL Server","[""Tool""]"
+"1745","SSIS","[""Tool""]"
+"1746","MySQL WorkBench","[""Tool""]"
+"1747","Adobe After Effects","[""Tool""]"
+"1748","Microsoft Excel","[""Tool""]"
+"1749","Google Analytics","[""Tool""]"
+"1750","Google Search Console","[""Tool""]"
+"1751","Google Chrome","[""Tool""]"
+"1752","Kibana","[""Tool""]"
+"1753","Selenium","[""Tool""]"
+"1754","Apache JMeter","[""Tool""]"
+"1755","Bugzilla","[""Tool""]"
+"1756","OBIEE","[""Tool""]"
+"1757","SharePoint ","[""Tool""]"
+"1758","PowerPoint","[""Tool""]"
+"1759","Microsoft Power BI","[""Tool""]"
+"1760","Power Query","[""Tool""]"
+"1761","Apache Sqoop","[""Tool""]"
+"1762","Google Sheets","[""Tool""]"
+"1763","Blender","[""Tool""]"
+"1764","Bitbucket ","[""Tool""]"
+"1765","Adobe Flash Player","[""Tool""]"
+"1766","Travis CI","[""Tool""]"
+"1767","Adobe Illustrator","[""Tool""]"
+"1768","Zeplin","[""Tool""]"
+"1769","Adobe Photoshop","[""Tool""]"
+"1770","Google Colab","[""Tool""]"
+"1771","Notepad++","[""Tool""]"
+"1772","Brackets","[""Tool""]"
+"1773","Sublime Text","[""Tool""]"
+"1774","Node Package Manager","[""Tool""]"
+"1775","Prism","[""Tool""]"
+"1776","MVVM Light Toolkit","[""Tool""]"
+"1777","Apache Hive","[""Tool""]"
+"1778","Apache Maven","[""Tool""]"
+"1779","Gunicorn","[""Tool""]"
+"1780","Nginx","[""Tool""]"
+"1781","Webfaction","[""Tool""]"
+"1782","NetBeans","[""Tool""]"
+"1783","VMWare Server","[""Tool""]"
+"1784","Katalon Studio","[""Tool""]"
+"1785","LaTeX","[""Tool""]"
+"1786","Pandoc","[""Tool""]"
+"1787","npm","[""Tool""]"
+"1788","Parcel","[""Tool""]"
+"1789","Babel","[""Tool""]"
+"1790","Eclipse","[""Tool""]"
+"1791","JDK","[""Tool""]"
+"1792","JVM","[""Tool""]"
+"1793","Apache Hbase","[""Tool""]"
+"1794","Replit","[""Tool""]"
+"1795","Apache Kafka","[""Tool""]"
+"1796","Apache Flume","[""Tool""]"
+"1797","Amazon Kinesis","[""Tool""]"
+"1798","Apache Cassandra","[""Tool""]"
+"1799","Microsoft Dynamics 365","[""Tool""]"
+"1800","Social Engineering Toolkit","[""Tool""]"
+"1801","Microsoft Visual Studio Shell","[""Tool""]"
+"1802","SSDT","[""Tool""]"
+"1803","Pentaho Data Integration","[""Tool""]"
+"1804","Talend Data Integration","[""Tool""]"
+"1805","SAS","[""Tool""]"
+"1806","Windows PowerShell ISE","[""Tool""]"
+"1807","Pentaho","[""Tool""]"
+"1808","Microsoft SQL Server Management Studio","[""Tool""]"
+"1809","XAMPP","[""Tool""]"
+"1810","Ubuntu Server","[""Tool""]"
+"1811","GitLab","[""Tool""]"
+"1812","Adobe Acrobat Reader DC","[""Tool""]"
+"1813","Microsoft Office","[""Tool""]"
+"1814","Trello","[""Tool""]"
+"1815","erwin data modeler","[""Tool""]"
+"1816","Microsoft Access","[""Tool""]"
+"1817","Microsoft SharePoint","[""Tool""]"
+"1818","Microsoft Lync","[""Tool""]"
+"1819","Microsoft PowerPoint","[""Tool""]"
+"1820","Google Slides","[""Tool""]"
+"1821","Microsoft Word","[""Tool""]"
+"1822","Bridge Engineer","[""Job""]"
+"1823","Software Developer","[""Job""]"
+"1824","Technical Consultant","[""Job""]"
+"1825","Technical Manager","[""Job""]"
+"1826","Web Designer","[""Job""]"
+"1827","Web Developer","[""Job""]"
+"1828","Backend Dev","[""Job""]"
+"1829","Business Analyst","[""Job""]"
+"1830","Business Intelligence","[""Job""]"
+"1831","Data Engineer","[""Job""]"
+"1832","Database Administrator","[""Job""]"
+"1833","DevOps Engineer","[""Job""]"
+"1834","Embedded Developer","[""Job""]"
+"1835","Embedded Engineer","[""Job""]"
+"1836","Front end Dev","[""Job""]"
+"1837","Full Stack Dev","[""Job""]"
+"1838","Game Developer","[""Job""]"
+"1839","Mobile Developer","[""Job""]"
+"1840","Network Engineer","[""Job""]"
+"1841","Project Manager","[""Job""]"
+"1842","Quality Engineer","[""Job""]"
+"1843","Security Engineer","[""Job""]"
+"1844","Security Specialist","[""Job""]"
+"1845","Software Architect","[""Job""]"
+"1846","Software Engineer","[""Job""]"
+"1847","System Administrator","[""Job""]"
+"1848","System Engineer","[""Job""]"
+"1849","Technical Architect","[""Job""]"
+"1850","Tester","[""Job""]"
+"1851","UX UI Designer","[""Job""]"
+"1852","Data Analyst","[""Job""]"
+"1853","Data Scientist","[""Job""]"
+"1854","ERP Manager","[""Job""]"
+"1855","Graphic Designer","[""Job""]"
+"1856","Hardware Engineer","[""Job""]"
+"1857","Network Administrator","[""Job""]"
+"1858","ReactJS","[""Framework""]"
+"1859","TestNG","[""Framework""]"
+"1860","TypeScript","[""Language""]"
+"1861","T-SQL","[""Language""]"
+"1862","Groovy","[""Language""]"
+"1863","Objective-C","[""Language""]"
+"1864","SysML","[""Language""]"
+"1865","WSDL","[""Language""]"
+"1866","X++","[""Language""]"
+"1867","Distributed system","[""Technique""]"
+"1868","SOLID","[""Technique""]"
+"1869","Hybrid mobile app development","[""Technique""]"
+"1870","Detail design","[""Technique""]"
+"1871","Online community","[""Technique""]"
+"1872","Data visualization","[""Technique""]"
+"1873","Information Management","[""Technique""]"
+"1874","Information  technology","[""Technique""]"
+"1875","OLAP","[""Technique""]"
+"1876","System analysis","[""Technique""]"
+"1877","Information System","[""Technique""]"
+"1878","Digital marketing","[""Technique""]"
+"1879","NLP","[""Technique""]"
+"1880","Robotics","[""Technique""]"
+"1881","Information extraction","[""Technique""]"
+"1882","Finance","[""Technique""]"
+"1883","Risk management","[""Technique""]"
+"1884","Quantitative Analysis","[""Technique""]"
+"1885","ETL","[""Technique""]"
+"1886","Information security","[""Technique""]"
+"1887","Business process management","[""Technique""]"
+"1888","Analytics","[""Technique""]"
+"1889","Data mining","[""Technique""]"
+"1890","Financial technology","[""Technique""]"
+"1891","NoSQL","[""Technique""]"
+"1892","Generalized linear model","[""Technique""]"
+"1893","Random forests","[""Technique""]"
+"1894","
+Become a Web Developer from Scratch
+","[""Course""]"
+"1895","
+Become A Full Stack Web Developer - Beginner To Advanced
+","[""Course""]"
+"1896","
+Advanced Web Developer Course: Beginner to Advanced
+","[""Course""]"
+"1897","
+The Essential Web Developer Course - Build 12 Websites
+","[""Course""]"
+"1898","
+The Complete 2020 Web Developer Master Course
+","[""Course""]"
+"1899","
+Bootcamp programistyczny 2020 (PL): Web dev Full stack
+","[""Course""]"
+"1900","
+Dev FullStack con Spring Boot Java 8 y Angular 9 Typescript
+","[""Course""]"
+"1901","
+Full stack web development and AI with Python (Django)
+","[""Course""]"
+"1902","
+Fullstack Go Golang Node.Js Python PHP Sci Fi Dev Framework
+","[""Course""]"
+"1903","
+Node with React: Fullstack Web Development
+","[""Course""]"
+"1904","
+MERN Stack Front To Back: Full Stack React, Redux & Node.js
+","[""Course""]"
+"1905","
+Python and Django Full Stack Web Developer Bootcamp
+","[""Course""]"
+"1906","
+The Complete Full-Stack JavaScript Course!
+","[""Course""]"
+"1907","
+The Complete 2020 Fullstack Web Developer Course
+","[""Course""]"
+"1908","
+Full Stack JavaScript Developer en Español
+","[""Course""]"
+"1909","
+The Full Stack Web Development
+","[""Course""]"
+"1910","
+Full-Stack Web Development For Beginners
+","[""Course""]"
+"1911","
+The complete React Fullstack course ( 2021 edition )
+","[""Course""]"
+"1912","
+React and Serverless - Fullstack Web Development
+","[""Course""]"
+"1913","
+Desenvolvimento Web Full Stack com Python e Django
+","[""Course""]"
+"1914","
+Python for Computer Vision with OpenCV and Deep Learning
+","[""Course""]"
+"1915","
+Deep Learning and Computer Vision A-Z™: OpenCV, SSD & GANs
+","[""Course""]"
+"1916","
+Deep Learning: Advanced Computer Vision (GANs, SSD, +More!)
+","[""Course""]"
+"1917","
+Master Computer Vision™ OpenCV4 in Python with Deep Learning
+","[""Course""]"
+"1918","
+Deep Learning Computer Vision™ CNN, OpenCV, YOLO, SSD & GANs
+","[""Course""]"
+"1919","
+PyTorch for Deep Learning and Computer Vision
+","[""Course""]"
+"1920","
+Convolutional Neural Networks in Python: CNN Computer Vision
+","[""Course""]"
+"1921","
+Computer Vision: YOLO Custom Object Detection with Colab GPU
+","[""Course""]"
+"1922","
+Computer Vision: Face Recognition Quick Starter in Python
+","[""Course""]"
+"1923","
+OpenCV Python For Beginners | Hands on Computer Vision
+","[""Course""]"
+"1924","
+Computer Vision: Python OCR & Object Detection Quick Starter
+","[""Course""]"
+"1927","
+Hands-On Computer Vision with OpenCV 4, Keras & TensorFlow 2
+","[""Course""]"
+"1928","
+Computer Vision and Machine Learning with OpenCV 4
+","[""Course""]"
+"1929","
+Computer Vision In Python! Face Detection & Image Processing
+","[""Course""]"
+"1930","
+Certified Wireless Network Administrator (CWNA)
+","[""Course""]"
+"1931","
+CWNA-108 : Certified Wireless Network Administrator : Tests
+","[""Course""]"
+"1932","
+CWNP - Certified Wireless Network Administrator
+","[""Course""]"
+"1933","
+Certified Wireless Network Administrator CWNA-108 :Exam 2021
+","[""Course""]"
+"1934","
+CWNA-106 Certified Wireless Network Administrator Exam
+","[""Course""]"
+"1935","
+Palo Alto Networks Certified Network Security Administrator
+","[""Course""]"
+"1936","
+CWNA-108 Certified Wireless Network Administrator
+","[""Course""]"
+"1937","
+CWNA - Certified Wireless Network Administrator
+","[""Course""]"
+"1938","
+CWNA-106 Certified Wireless Network Administrator Exam
+","[""Course""]"
+"1939","
+CWNA-106 Certified Wireless Network Administrator Exam
+","[""Course""]"
+"1940","
+Sun 310-044 Network Administrator Solaris Practice Exam
+","[""Course""]"
+"1941","
+Complete Guide to TensorFlow for Deep Learning with Python
+","[""Course""]"
+"1942","
+Learning Path:TensorFlow: The Road to TensorFlow-2nd Edition
+","[""Course""]"
+"1943","
+TensorFlow 2.0 Masterclass: Hands-On Deep Learning and AI
+","[""Course""]"
+"1944","
+TensorFlow - Hands-on Machine Learning with TensorFlow 2021
+","[""Course""]"
+"1945","
+TensorFlow: Artificial Intelligence with TensorFlow: 3-in-1
+","[""Course""]"
+"1946","
+Intro to TensorFlow - For iOS & Android
+","[""Course""]"
+"1947","
+Introduction to tensorflow 2
+","[""Course""]"
+"1948","
+Tensorflow 2.0: Deep Learning and Artificial Intelligence
+","[""Course""]"
+"1949","
+Complete Tensorflow 2 and Keras Deep Learning Bootcamp
+","[""Course""]"
+"1950","
+Deep Learning with TensorFlow 2.0 [2021]
+","[""Course""]"
+"1951","
+A Complete Guide on TensorFlow 2.0 using Keras API
+","[""Course""]"
+"1952","
+Machine Learning in JavaScript with TensorFlow.js
+","[""Course""]"
+"1953","
+Tensorflow and Keras For Neural Networks and Deep Learning
+","[""Course""]"
+"1954","
+PyTorch: Deep Learning and Artificial Intelligence
+","[""Course""]"
+"1955","
+PyTorch for Deep Learning with Python Bootcamp
+","[""Course""]"
+"1956","
+PyTorch for Deep Learning and Computer Vision
+","[""Course""]"
+"1957","
+Practical Deep Learning with PyTorch
+","[""Course""]"
+"1958","
+Modern Reinforcement Learning: Deep Q Learning in PyTorch
+","[""Course""]"
+"1959","
+Reinforcement Learning with Pytorch
+","[""Course""]"
+"1960","
+Introduction to Generative Adversarial Networks with PyTorch
+","[""Course""]"
+"1961","
+PyTorch Tutorial - Neural Networks & Deep Learning in Python
+","[""Course""]"
+"1962","
+Build an app with ASPNET Core and Angular from scratch
+","[""Course""]"
+"1963","Mathematical optimization","[""Technique""]"
+"1964","Agile","[""Technique""]"
+"1965","Entity-Relationship Diagram","[""Technique""]"
+"1966","Database Design","[""Technique""]"
+"1967","Disaster recovery","[""Technique""]"
+"1968","SCRUM","[""Technique""]"
+"1969","Scheduling","[""Technique""]"
+"1970","Preemption","[""Technique""]"
+"1971","Round-robin","[""Technique""]"
+"1972","Integration Testing","[""Technique""]"
+"1973","RTOS","[""Technique""]"
+"1974","Embedded software development","[""Technique""]"
+"1975","Requirements analysis","[""Technique""]"
+"1976","Black-box testing","[""Technique""]"
+"1977","Embedded software testing","[""Technique""]"
+"1978","Hardware designs","[""Technique""]"
+"1979","Embedded system","[""Technique""]"
+"1980","Software development lifecycle","[""Technique""]"
+"1981","Real Time Operating System","[""Technique""]"
+"1982","Automotive communication protocols","[""Technique""]"
+"1983","AUTOSAR","[""Technique""]"
+"1984","Automotive domain","[""Technique""]"
+"1985","Network programming","[""Technique""]"
+"1986","Network management","[""Technique""]"
+"1987","Optical networking","[""Technique""]"
+"1988","Configuration Toolchain","[""Technique""]"
+"1989","Linux system call","[""Technique""]"
+"1990","POSIX","[""Technique""]"
+"1991","SPI","[""Technique""]"
+"1992","Embedded operating system","[""Technique""]"
+"1994","Linux","[""Technique""]"
+"1995","RFID/NFC","[""Technique""]"
+"1996","Object-oriented design","[""Technique""]"
+"1997","Electronics","[""Technique""]"
+"1998","Physics","[""Technique""]"
+"1999","Endpoint security ","[""Technique""]"
+"2000","Data Loss Prevention","[""Technique""]"
+"2001","Network Security Auditing","[""Technique""]"
+"2002","Penetration test","[""Technique""]"
+"2003","Firewall","[""Technique""]"
+"2004","Networking monitoring","[""Technique""]"
+"2005","Business Administration","[""Technique""]"
+"2006","Operating system development","[""Technique""]"
+"2007","SFTP","[""Technique""]"
+"2008","RTSP","[""Technique""]"
+"2009","Load balancing","[""Technique""]"
+"2010","Routers","[""Technique""]"
+"2011","Cisco Switches Peplink","[""Technique""]"
+"2012","A10","[""Technique""]"
+"2013","F5 load balancers","[""Technique""]"
+"2014","Wireless Networks","[""Technique""]"
+"2015","AnyConnect VPN","[""Technique""]"
+"2016","IPSec site-to-site VPN","[""Technique""]"
+"2017","DLP","[""Technique""]"
+"2018","Antispam","[""Technique""]"
+"2019","Endpoint Security","[""Technique""]"
+"2020","Squid Proxy","[""Technique""]"
+"2021","IPS/IDS Solutions","[""Technique""]"
+"2022","CDN","[""Technique""]"
+"2023","Anti-DDoS Protection","[""Technique""]"
+"2024","ISO 27000","[""Technique""]"
+"2025","Electric engineering","[""Technique""]"
+"2026","Server administration","[""Technique""]"
+"2027","Resource management","[""Technique""]"
+"2028","Time management","[""Technique""]"
+"2029","Quality management","[""Technique""]"
+"2030","Embedded firmware testing","[""Technique""]"
+"2031","Project budgeting","[""Technique""]"
+"2032","E-commerce","[""Technique""]"
+"2033","Magento","[""Technique""]"
+"2034","Enterprise resource planning","[""Technique""]"
+"2035","Partner management","[""Technique""]"
+"2036","Operational Performance Management","[""Technique""]"
+"2037","Test-Driven đevelopment","[""Technique""]"
+"2038","CMMI","[""Technique""]"
+"2039","System engineering","[""Technique""]"
+"2040","Software engineering","[""Technique""]"
+"2041","SDLC","[""Technique""]"
+"2042","ALM","[""Technique""]"
+"2043","DevOps","[""Technique""]"
+"2044","Blockchain","[""Technique""]"
+"2045","BackEnd","[""Technique""]"
+"2046","SQAP","[""Technique""]"
+"2047","Java Persistence API","[""Technique""]"
+"2048","LAMP","[""Technique""]"
+"2049","Java application development","[""Technique""]"
+"2050","RAID","[""Technique""]"
+"2051","Linux Systems administration","[""Technique""]"
+"2052","IAAS","[""Technique""]"
+"2053","PaaS","[""Technique""]"
+"2054","Kentico CMS","[""Technique""]"
+"2055","Lambda architecture","[""Technique""]"
+"2056","Functional Testing","[""Technique""]"
+"2057","Regression testing","[""Technique""]"
+"2058","Prototyping","[""Technique""]"
+"2059","Mockup design","[""Technique""]"
+"2060","Page speed optimization","[""Technique""]"
+"2061","Jenkins","[""Tool""]"
+"2062","SSRS","[""Tool""]"
+"2063","Twitter","[""Tool""]"
+"2064","Instagram","[""Tool""]"
+"2065","Pinterest","[""Tool""]"
+"2066","Linkedin","[""Tool""]"
+"2067","reddit","[""Tool""]"
+"2068","TikTok","[""Tool""]"
+"2069","YouTube","[""Tool""]"
+"2070","BigQuery","[""Tool""]"
+"2071","Google Data Studio","[""Tool""]"
+"2072","Qlik Sense","[""Tool""]"
+"2073","QlikView","[""Tool""]"
+"2074","IBM Cognos Analytics","[""Tool""]"
+"2075","Microsoft Project","[""Tool""]"
+"2076","Ansible","[""Tool""]"
+"2077","Kubernetes","[""Tool""]"
+"2078","Puppet","[""Tool""]"
+"2079","Terraform","[""Tool""]"
+"2080","Gerrit","[""Tool""]"
+"2081","Odoo","[""Tool""]"
+"2082","Microsoft Dynamics ERP","[""Tool""]"
+"2083","Microsoft Dynamics AX","[""Tool""]"
+"2084","Simulink","[""Tool""]"
+"2085","RTRT Converter","[""Tool""]"
+"2086","Qt","[""Tool""]"
+"2087","AWS Lambda","[""Tool""]"
+"2088","SmartFoxServer","[""Tool""]"
+"2089","Adobe InDesign","[""Tool""]"
+"2090","Adobe Premiere Pro","[""Tool""]"
+"2091","Affinity","[""Tool""]"
+"2092","OpenDNS","[""Tool""]"
+"2093","NoSQL","[""Tool""]"
+"2094","Asana","[""Tool""]"
+"2095","Tcpdump","[""Tool""]"
+"2096","SonarQube","[""Tool""]"
+"2097","TeamCity","[""Tool""]"
+"2098","ReQtest","[""Tool""]"
+"2099","SharePoint","[""Tool""]"
+"2100","Word","[""Tool""]"
+"2101","Power Apps","[""Tool""]"
+"2102","Microsoft Dynamics CRM","[""Tool""]"
+"2103","Microsoft Outlook","[""Tool""]"
+"2104","Creative Cloud","[""Tool""]"
+"2105","InVision","[""Tool""]"
+"2106","UXPin","[""Tool""]"
+"2107","Adode Illustrator","[""Tool""]"
+"2108","Design","[""Tool""]"
+"2109","Principle","[""Tool""]"
+"2110","SOFiSTiK","[""Tool""]"
+"2111","MATLAB","[""Tool""]"
+"2112","Stateflow","[""Tool""]"
+"2113","CANoe","[""Tool""]"
+"2114","Subversion","[""Tool""]"
+"2115","RabbitMQ","[""Tool""]"
+"2116","Suricata","[""Tool""]"
+"2117","OpenGL","[""Tool""]"
+"2118","Oracle Fusion Middleware","[""Tool""]"
+"2119","Nagios","[""Tool""]"
+"2120","Apache TomCat","[""Tool""]"
+"2121","Oracle WebLogic Server","[""Tool""]"
+"2122","IBM WebSphere","[""Tool""]"
+"2123","G Suite","[""Tool""]"
+"2124","Gulp.js","[""Tool""]"
+"2125","Gradle","[""Tool""]"
+"2126","Windows Azure","[""Tool""]"
+"2127","SoapUI","[""Tool""]"
+"2128","Apache Subversion","[""Tool""]"
+"2129","Apache Airflow","[""Framework""]"
+"2130","AngularCLI","[""Framework""]"
+"2131","Angular Material","[""Framework""]"
+"2132","AngularFire","[""Framework""]"
+"2133","Apache Solr","[""Framework""]"
+"2134","Behave WebDriver","[""Framework""]"
+"2135","Blazor","[""Framework""]"
+"2136","Bokeh","[""Framework""]"
+"2137","Cocos2d-x","[""Framework""]"
+"2138","Construct 2","[""Framework""]"
+"2139","Cordova","[""Framework""]"
+"2140","Corona","[""Framework""]"
+"2141","GameSalad","[""Framework""]"
+"2142","Jest","[""Framework""]"
+"2143","LibGDX","[""Framework""]"
+"2144","Love2d","[""Framework""]"
+"2145","PDO","[""Framework""]"
+"2146","Panda3D","[""Framework""]"
+"2147","Passport","[""Framework""]"
+"2148","Puppeteer","[""Framework""]"
+"2149","PyMongo","[""Framework""]"
+"2150","PyQt","[""Framework""]"
+"2151","Pygame","[""Framework""]"
+"2152","React JSX","[""Framework""]"
+"2153","SQLite","[""Framework""]"
+"2154","Sci-Kit Learn","[""Framework""]"
+"2155","Servlets","[""Framework""]"
+"2156","Vuex","[""Framework""]"
+"2157","PowerShell","[""Framework""]"
+"2158","Lua","[""Language""]"
+"2159","Mobile app development","[""Technique""]"
+"2160","Web development","[""Technique""]"
+"2161","Razor","[""Technique""]"
+"2162","Scrapy","[""Framework""]"
+"2163","RapidMiner","[""Framework""]"
+"2164","Weka","[""Framework""]"
+"2165","NumPy","[""Framework""]"
+"2166","Serenity","[""Framework""]"
+"2167","Cypress","[""Framework""]"
+"2168","Django","[""Framework""]"
+"2169","Dialog","[""Framework""]"
+"2170","Hadoop","[""Framework""]"
+"2171","Exonum","[""Framework""]"
+"2172","Hyperledger","[""Framework""]"
+"2173","Node.js","[""Framework""]"
+"2174","MDA","[""Framework""]"
+"2175","Ionic","[""Framework""]"
+"2176","Keras","[""Framework""]"
+"2177","Grinder","[""Framework""]"
+"2178","ASP.NET","[""Framework""]"
+"2179","OpenNLP","[""Framework""]"
+"2180","Java Dabase Connectivity","[""Technique""]"
+"2181","MCAL","[""Technique""]"
+"2182","POP","[""Technique""]"
+"2183","SVG","[""Technique""]"
+"2184","iOS","[""Technique""]"
+"2185","R","[""Language""]"
+"2186","Rust","[""Language""]"
+"2187","Cypher","[""Language""]"
+"2188","HTML5","[""Language""]"
+"2189","x86 assembly language","[""Language""]"
+"2190","BASIC","[""Language""]"
+"2191","Fortran","[""Language""]"
+"2192","Visual Basic .NET","[""Language""]"
+"2193","No-SQL","[""Language""]"
+"2194","Graphic design","[""Technique""]"
+"2195","IDS/IPS","[""Technique""]"
+"2196","Visual Studio Code","[""Tool""]"
+"2197","Atom","[""Tool""]"
+"2198","Visio","[""Tool""]"
+"2199","Enterprise Architect","[""Tool""]"
+"2200","Microsoft Dynamics","[""Tool""]"
+"2201","SAP","[""Tool""]"
+"2202","WebStorm","[""Tool""]"
+"2203","Tessy","[""Tool""]"
+"2204","TestPlant","[""Tool""]"
+"2205","Ettercap","[""Tool""]"
+"2206","Nmap","[""Tool""]"
+"2207","Ratio Analysis","[""Tool""]"
+"2208","GameMaker","[""Tool""]"
+"2209","Neo4J","[""Tool""]"
+"2210","ProofHub","[""Tool""]"
+"2211","Abode Photoshop","[""Tool""]"
+"2212","Cisco","[""Tool""]"
+"2213","SolarWinds","[""Tool""]"
+"2214","AVG Free Antivirus","[""Tool""]"
+"2215","Jmeter","[""Tool""]"
+"2216","Gmail","[""Tool""]"
+"2217","Google Calendar","[""Tool""]"
+"2218","OutWitHub","[""Tool""]"
+"2219","Spinn3r","[""Tool""]"
+"2220","Access control","[""Tool""]"
+"2221","Anti-malware software","[""Tool""]"
+"2222","DBUnit","[""Tool""]"
+"2223","Greenmail","[""Tool""]"
+"2224","H2 Database","[""Tool""]"
+"2225","What Is My IP","[""Tool""]"
+"2226","Whatleaks","[""Tool""]"
+"2227","Check Host","[""Tool""]"
+"2228","ElasticSearch","[""Tool""]"
+"2229","John the Ripper","[""Tool""]"
+"2230","nginx","[""Tool""]"
+"2231","Protopie","[""Tool""]"
+"2232","Proto.io","[""Tool""]"
+"2233","CouchDB","[""Tool""]"
+"2234","RavenDB","[""Tool""]"
+"2235","NLTK","[""Tool""]"
+"2236","Argus","[""Tool""]"
+"2237","P0f","[""Tool""]"
+"2238","SolarWinds Network Configuration Manager","[""Tool""]"
+"2239","Kiwi CatTools","[""Tool""]"
+"2240","SolarWinds Network Topology Mapper","[""Tool""]"
+"2241","CADE","[""Tool""]"
+"2242","Dia Diagram Editor","[""Tool""]"
+"2243","Microsoft Visio","[""Tool""]"
+"2244","Zabbix","[""Tool""]"
+"2245","Datadog Network Monitoring","[""Tool""]"
+"2246","ManageEngine OpManager","[""Tool""]"
+"2247","Linux","[""Tool""]"
+"2248","upBOARD","[""Tool""]"
+"2249","PageSpeed Insights","[""Tool""]"
+"2250","BackBox","[""Tool""]"
+"2251","hping","[""Tool""]"
+"2252","Metasploit Project","[""Tool""]"
+"2253","OWASP ZAP","[""Tool""]"
+"2254","Nessus","[""Tool""]"
+"2255","SAINT","[""Tool""]"
+"2256","Scoro","[""Tool""]"
+"2257","Basecamp","[""Tool""]"
+"2258","Abode XD","[""Tool""]"
+"2259","AWS SDKs","[""Tool""]"
+"2260","FreeRTOS","[""Tool""]"
+"2261","Grafana","[""Tool""]"
+"2262","HAProxy","[""Tool""]"
+"2263","MonoGame","[""Tool""]"
+"2264","PlayCanvas","[""Tool""]"
+"2265","RPG Maker","[""Tool""]"
+"2266","RubyGems","[""Tool""]"
+"2267","Ruby on Rails","[""Tool""]"
+"2268","Semantic UI","[""Tool""]"
+"2269","Spyder","[""Tool""]"
+"2270","Stencyl","[""Tool""]"
+"2271","Umbraco","[""Tool""]"
+"2272","Unix","[""Tool""]"
+"2273","Unreal Engine 4","[""Tool""]"
