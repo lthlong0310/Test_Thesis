@@ -27,8 +27,8 @@ MAX_STEPS=${12}
 TEST_BATCH_SIZE=${13}
 MODULUS_WEIGHT=${14}
 PHASE_WEIGHT=${15}
-CMIN=${16}
-CMAX=${17}
+#CMIN=${16}
+#CMAX=${17}
 
 if [ $MODE == "train" ]
 then
@@ -58,7 +58,7 @@ echo "Start Training......"
             -g $GAMMA -a $ALPHA \
             -lr $LEARNING_RATE --max_steps $MAX_STEPS \
             -save $SAVE --test_batch_size $TEST_BATCH_SIZE \
-            -cmin $CMIN -cmax $CMAX
+            ${16} ${17}
      
      else
          CUDA_VISIBLE_DEVICES=$GPU_DEVICE python -u $CODE_PATH/runs.py --do_train \
