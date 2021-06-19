@@ -36,6 +36,8 @@ def parse_args(args=None):
     parser.add_argument('--test_batch_size', default=4, type=int, help='valid/test batch size')
     parser.add_argument('-mw', '--modulus_weight', default=1.0, type=float)
     parser.add_argument('-pw', '--phase_weight', default=0.5, type=float)
+    parser.add_argument('-cmin', '--cmin', default=0.05, type=float)
+    parser.add_argument('-cmax', '--cmax', default=5.0, type=float)
 
     parser.add_argument('-lr', '--learning_rate', default=0.0001, type=float)
     parser.add_argument('-cpu', '--cpu_num', default=10, type=int)
@@ -94,6 +96,19 @@ def save_model(model, optimizer, save_variable_list, args):
         os.path.join(args.save_path, 'relation_embedding'),
         relation_embedding
     )
+    
+    if args.model == 'KG2E_KL' | args.model == 'KG2E_EL':
+        entity_cov = model.entity_cov.detach().cpu().numpy()
+        np.save(
+            os.path.join(args.save_path, 'entity_cov'),
+            entity_cov
+        )
+
+        relation_cov = model.relation_cov.detach().cpu().numpy()
+        np.save(
+            os.path.join(args.save_path, 'relation_cov'),
+            relation_cov
+        )
 
 
 def set_logger(args):
@@ -169,6 +184,10 @@ def main(args):
         kge_model = RotatE(num_entity, num_relation, args.hidden_dim, args.gamma)
     elif args.model == 'HAKE':
         kge_model = HAKE(num_entity, num_relation, args.hidden_dim, args.gamma, args.modulus_weight, args.phase_weight)
+    elif args.model == 'KG2E_KL':
+        kge_model = KG2E_KL(num_entity, num_relation, args.hidden_dim, args.gamma, args.cmin, args.cmax)
+    elif args.model == 'KG2E_EL':
+        kge_model = KG2E_EL(num_entity, num_relation, args.hidden_dim, args.gamma, args.cmin, args.cmax)
 
     logging.info('Model Parameter Configuration:')
     for name, param in kge_model.named_parameters():
