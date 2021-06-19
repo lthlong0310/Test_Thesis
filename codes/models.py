@@ -634,7 +634,7 @@ class KG2E_KL(KGEModel):
         mu_e = head - tail
         sigma_e = head_v - tail_v
         mu_r = rel
-        sigma_r = relation_v
+        sigma_r = rel_v
         
         #: a = tr(\Sigma_r^{-1}\Sigma_e)
         a = torch.sum(sigma_e / sigma_r, dim = 2)
@@ -742,7 +742,7 @@ class KG2E_EL(KGEModel):
         mu_e = head - tail
         sigma_e = head_v - tail_v
         mu_r = rel
-        sigma_r = relation_v
+        sigma_r = rel_v
         
         #: a = \mu^T\Sigma^{-1}\mu
         if batch_type == BatchType.HEAD_BATCH:
