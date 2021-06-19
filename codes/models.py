@@ -78,7 +78,7 @@ class KGEModel(nn.Module, ABC):
                 index=sample[:, 2]
             ).unsqueeze(1)
             
-            if ('sefl.entity_cov' in locals()) & ('sefl.relation_cov' in locals()):
+            if self.name in ['KG2E_KL', 'KG2E_EL']:
                 head_v = torch.index_select(
                     self.entity_cov,
                     dim=0,
@@ -119,7 +119,7 @@ class KGEModel(nn.Module, ABC):
                 index=tail_part[:, 2]
             ).unsqueeze(1)
             
-            if ('sefl.entity_cov' in locals()) & ('sefl.relation_cov' in locals()):
+            if self.name in ['KG2E_KL', 'KG2E_EL']:
                 head_v = torch.index_select(
                     self.entity_cov,
                     dim=0,
@@ -160,7 +160,7 @@ class KGEModel(nn.Module, ABC):
                 index=tail_part.view(-1)
             ).view(batch_size, negative_sample_size, -1)
             
-            if ('sefl.entity_cov' in locals()) & ('sefl.relation_cov' in locals()):
+            if self.name in ['KG2E_KL', 'KG2E_EL']:
                 head_v = torch.index_select(
                 self.entity_cov,
                 dim=0,
@@ -183,7 +183,7 @@ class KGEModel(nn.Module, ABC):
             raise ValueError('batch_type %s not supported!'.format(batch_type))
 
         # return scores
-        if ('head_v' in locals()) & ('relation_v' in locals()) & ('tail_v' in locals()):
+        if self.name in ['KG2E_KL', 'KG2E_EL']:
             return self.func(head, relation, tail, batch_type, head_v, relation_v, tail_v)
         else:
             return self.func(head, relation, tail, batch_type)
@@ -319,8 +319,9 @@ class KGEModel(nn.Module, ABC):
 
 
 class ModE(KGEModel):
-    def __init__(self, num_entity, num_relation, hidden_dim, gamma):
+    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma):
         super(ModE, self).__init__()
+        self.name = model_name
         self.num_entity = num_entity
         self.num_relation = num_relation
         self.hidden_dim = hidden_dim
@@ -355,8 +356,9 @@ class ModE(KGEModel):
 
 
 class HAKE(KGEModel):
-    def __init__(self, num_entity, num_relation, hidden_dim, gamma, modulus_weight=1.0, phase_weight=0.5):
+    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma, modulus_weight=1.0, phase_weight=0.5):
         super(HAKE, self).__init__()
+        self.name = model_name
         self.num_entity = num_entity
         self.num_relation = num_relation
         self.hidden_dim = hidden_dim
@@ -428,8 +430,9 @@ class HAKE(KGEModel):
         return self.gamma.item() - (phase_score + r_score)
     
 class RotatE(KGEModel):
-    def __init__(self, num_entity, num_relation, hidden_dim, gamma):
+    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma):
         super(RotatE, self).__init__()
+        self.name = model_name
         self.num_entity = num_entity
         self.num_relation = num_relation
         self.hidden_dim = hidden_dim
@@ -490,8 +493,9 @@ class RotatE(KGEModel):
         return self.gamma.item() - score.sum(dim = 2)
     
 class TransE(KGEModel):
-    def __init__(self, num_entity, num_relation, hidden_dim, gamma):
+    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma):
         super(TransE, self).__init__()
+        self.name = model_name
         self.num_entity = num_entity
         self.num_relation = num_relation
         self.hidden_dim = hidden_dim
@@ -531,8 +535,9 @@ class TransE(KGEModel):
         return self.gamma.item() - torch.norm(score, p=1, dim=2)
     
 class UM(KGEModel):
-    def __init__(self, num_entity, num_relation, hidden_dim, gamma):
+    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma):
         super(UM, self).__init__()
+        self.name = model_name
         self.num_entity = num_entity
         self.num_relation = num_relation
         self.hidden_dim = hidden_dim
@@ -567,8 +572,9 @@ class UM(KGEModel):
   
 
 class KG2E_KL(KGEModel):
-    def __init__(self, num_entity, num_relation, hidden_dim, gamma, cmin, cmax):
+    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma, cmin, cmax):
         super(KG2E_KL, self).__init__()
+        self.name = model_name
         self.num_entity = num_entity
         self.num_relation = num_relation
         self.hidden_dim = hidden_dim
@@ -670,8 +676,9 @@ class KG2E_KL(KGEModel):
     
    
 class KG2E_EL(KGEModel):
-    def __init__(self, num_entity, num_relation, hidden_dim, gamma, cmin, cmax):
+    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma, cmin, cmax):
         super(KG2E_EL, self).__init__()
+        self.name = model_name
         self.num_entity = num_entity
         self.num_relation = num_relation
         self.hidden_dim = hidden_dim
