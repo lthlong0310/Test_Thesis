@@ -40,8 +40,6 @@ class KGEModel(nn.Module, ABC):
             tail: [batch_size, negative_sample_size, hidden_dim]
         """
         ...
-      
-    def normalize_embedding(self):
         
 
     def forward(self, sample, batch_type=BatchType.SINGLE):
