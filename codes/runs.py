@@ -97,7 +97,7 @@ def save_model(model, optimizer, save_variable_list, args):
         relation_embedding
     )
     
-    if args.model == 'KG2E_KL' | args.model == 'KG2E_EL':
+    if args.model in ['KG2E_KL', 'KG2E_EL']:
         entity_cov = model.entity_cov.detach().cpu().numpy()
         np.save(
             os.path.join(args.save_path, 'entity_cov'),
