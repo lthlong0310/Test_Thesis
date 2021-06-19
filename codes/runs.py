@@ -175,19 +175,19 @@ def main(args):
     logging.info('Num Test: {}'.format(len(data_reader.test_data)))
 
     if args.model == 'ModE':
-        kge_model = ModE(num_entity, num_relation, args.hidden_dim, args.gamma)
+        kge_model = ModE(args.model, num_entity, num_relation, args.hidden_dim, args.gamma)
     elif args.model == 'TransE':
-        kge_model = TransE(num_entity, num_relation, args.hidden_dim, args.gamma)
+        kge_model = TransE(args.model, num_entity, num_relation, args.hidden_dim, args.gamma)
     elif args.model == 'UM':
-        kge_model = UM(num_entity, num_relation, args.hidden_dim, args.gamma)
+        kge_model = UM(args.model, num_entity, num_relation, args.hidden_dim, args.gamma)
     elif args.model == 'RotatE':
-        kge_model = RotatE(num_entity, num_relation, args.hidden_dim, args.gamma)
+        kge_model = RotatE(args.model, num_entity, num_relation, args.hidden_dim, args.gamma)
     elif args.model == 'HAKE':
-        kge_model = HAKE(num_entity, num_relation, args.hidden_dim, args.gamma, args.modulus_weight, args.phase_weight)
+        kge_model = HAKE(args.model, num_entity, num_relation, args.hidden_dim, args.gamma, args.modulus_weight, args.phase_weight)
     elif args.model == 'KG2E_KL':
-        kge_model = KG2E_KL(num_entity, num_relation, args.hidden_dim, args.gamma, args.clamp_min, args.clamp_max)
+        kge_model = KG2E_KL(args.model, num_entity, num_relation, args.hidden_dim, args.gamma, args.clamp_min, args.clamp_max)
     elif args.model == 'KG2E_EL':
-        kge_model = KG2E_EL(num_entity, num_relation, args.hidden_dim, args.gamma, args.clamp_min, args.clamp_max)
+        kge_model = KG2E_EL(args.model, num_entity, num_relation, args.hidden_dim, args.gamma, args.clamp_min, args.clamp_max)
 
     logging.info('Model Parameter Configuration:')
     for name, param in kge_model.named_parameters():
