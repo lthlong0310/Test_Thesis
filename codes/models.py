@@ -648,7 +648,7 @@ class KG2E_KL(KGEModel):
         
         #: c = \log \frac{det(\Sigma_e)}{det(\Sigma_r)}
         # = sum log (sigma_e)_i - sum log (sigma_r)_i
-        c = torch.sum(torch.log(sigma_e) - torch.og(sigma_r), dim = 2)
+        c = torch.sum(torch.log(sigma_e) - torch.log(sigma_r), dim = 2)
         
         return 0.5 * (a + b - c - self.hidden_dim)
        
