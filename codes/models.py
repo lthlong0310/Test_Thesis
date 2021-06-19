@@ -39,6 +39,9 @@ class KGEModel(nn.Module, ABC):
             tail: [batch_size, negative_sample_size, hidden_dim]
         """
         ...
+      
+    def normalize_embedding(self):
+        
 
     def forward(self, sample, batch_type=BatchType.SINGLE):
         """
@@ -502,3 +505,149 @@ class UM(KGEModel):
         score = torch.norm(score, p=2, dim=2)
 
         return self.gamma.item() - score*score
+  
+
+class KG2E_KL(KGEModel):
+    def __init__(self, num_entity, num_relation, hidden_dim, gamma, cmin, cmax):
+        super(KG2E_KL, self).__init__()
+        self.num_entity = num_entity
+        self.num_relation = num_relation
+        self.hidden_dim = hidden_dim
+        self.cmin = cmin
+        self.cmax = cmax
+        self.epsilon = 2.0
+
+        self.gamma = nn.Parameter(
+            torch.Tensor([gamma]),
+            requires_grad=False
+        )
+
+        self.embedding_range = nn.Parameter(
+            torch.Tensor([(self.gamma.item() + self.epsilon) / hidden_dim]),
+            requires_grad=False
+        )
+
+        self.entity_embedding = nn.Parameter(torch.zeros(num_entity, hidden_dim))
+        nn.init.uniform_(
+            tensor=self.entity_embedding,
+            a=-self.embedding_range.item(),
+            b=self.embedding_range.item()
+        )
+
+        self.relation_embedding = nn.Parameter(torch.zeros(num_relation, hidden_dim))
+        nn.init.uniform_(
+            tensor=self.relation_embedding,
+            a=-self.embedding_range.item(),
+            b=self.embedding_range.item()
+        )
+        
+        self.entity_cov = nn.Parameter(torch.zeros(num_entity, hidden_dim))
+        nn.init.uniform_(
+            tensor=self.entity_embedding,
+            a=self.cmin,
+            b=self.cmax
+        )
+
+        self.relation_cov = nn.Parameter(torch.zeros(num_relation, hidden_dim))
+        nn.init.uniform_(
+            tensor=self.relation_embedding,
+            a=self.cmin,
+            b=self.cmax
+        )
+       
+    
+    def func(self, head, rel, tail, batch_type):
+       
+    
+    def normalize_embedding(self):
+        self.entity_embedding.weight.data.copy_(torch.renorm(input=self.entity_embedding.weight.detach().cpu(),
+                                                            p=2,
+                                                            dim=0,
+                                                            maxnorm=1.0))
+        
+        self.relation_embedding.weight.data.copy_(torch.renorm(input=self.relation_embedding.weight.detach().cpu(),
+                                                            p=2,
+                                                            dim=0,
+                                                            maxnorm=1.0))
+        
+        self.entity_cov.weight.data.copy_(torch.clamp(input=self.entity_cov.weight.detach().cpu(),
+                                                       min=self.cmin,
+                                                       max=self.cmax))
+        
+        self.relation_cov.weight.data.copy_(torch.clamp(input=self.relation_cov.weight.detach().cpu(),
+                                                       min=self.cmin,
+                                                       max=self.cmax))
+
+    
+    
+   
+class KG2E_EL(KGEModel):
+    def __init__(self, num_entity, num_relation, hidden_dim, gamma, cmin, cmax):
+        super(KG2E_EL, self).__init__()
+        self.num_entity = num_entity
+        self.num_relation = num_relation
+        self.hidden_dim = hidden_dim
+        self.cmin = cmin
+        self.cmax = cmax
+        self.epsilon = 2.0
+
+        self.gamma = nn.Parameter(
+            torch.Tensor([gamma]),
+            requires_grad=False
+        )
+
+        self.embedding_range = nn.Parameter(
+            torch.Tensor([(self.gamma.item() + self.epsilon) / hidden_dim]),
+            requires_grad=False
+        )
+
+        self.entity_embedding = nn.Parameter(torch.zeros(num_entity, hidden_dim))
+        nn.init.uniform_(
+            tensor=self.entity_embedding,
+            a=-self.embedding_range.item(),
+            b=self.embedding_range.item()
+        )
+
+        self.relation_embedding = nn.Parameter(torch.zeros(num_relation, hidden_dim))
+        nn.init.uniform_(
+            tensor=self.relation_embedding,
+            a=-self.embedding_range.item(),
+            b=self.embedding_range.item()
+        )
+        
+        self.entity_cov = nn.Parameter(torch.zeros(num_entity, hidden_dim))
+        nn.init.uniform_(
+            tensor=self.entity_embedding,
+            a=self.cmin,
+            b=self.cmax
+        )
+
+        self.relation_cov = nn.Parameter(torch.zeros(num_relation, hidden_dim))
+        nn.init.uniform_(
+            tensor=self.relation_embedding,
+            a=self.cmin,
+            b=self.cmax
+        )
+        
+       
+    def func(self, head, rel, tail, batch_type):
+       
+    
+    def normalize_embedding(self):
+        self.entity_embedding.weight.data.copy_(torch.renorm(input=self.entity_embedding.weight.detach().cpu(),
+                                                            p=2,
+                                                            dim=0,
+                                                            maxnorm=1.0))
+        
+        self.relation_embedding.weight.data.copy_(torch.renorm(input=self.relation_embedding.weight.detach().cpu(),
+                                                            p=2,
+                                                            dim=0,
+                                                            maxnorm=1.0))
+        
+        self.entity_cov.weight.data.copy_(torch.clamp(input=self.entity_cov.weight.detach().cpu(),
+                                                       min=self.cmin,
+                                                       max=self.cmax))
+        
+        self.relation_cov.weight.data.copy_(torch.clamp(input=self.relation_cov.weight.detach().cpu(),
+                                                       min=self.cmin,
+                                                       max=self.cmax))
