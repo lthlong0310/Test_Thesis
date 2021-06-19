@@ -9,7 +9,7 @@ import torch
 
 from torch.utils.data import DataLoader
 
-from models import KGEModel, ModE, HAKE, TransE, RotatE, UM
+from models import KGEModel, ModE, HAKE, TransE, RotatE, UM, KG2E_KL, KG2E_EL
 
 from data import TrainDataset, BatchType, ModeType, DataReader
 from data import BidirectionalOneShotIterator
