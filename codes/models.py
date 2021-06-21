@@ -206,6 +206,9 @@ class KGEModel(nn.Module, ABC):
         positive_sample = positive_sample.cuda()
         negative_sample = negative_sample.cuda()
         subsampling_weight = subsampling_weight.cuda()
+        
+        if self.name in ['KG2E_KL', 'KG2E_EL']:
+            model.normalize_embedding()
 
         # negative scores
         negative_score = model((positive_sample, negative_sample), batch_type=batch_type)
@@ -280,6 +283,9 @@ class KGEModel(nn.Module, ABC):
                     filter_bias = filter_bias.cuda()
 
                     batch_size = positive_sample.size(0)
+                    
+                    if self.name in ['KG2E_KL', 'KG2E_EL']:
+                        model.normalize_embedding()
 
                     score = model((positive_sample, negative_sample), batch_type)
                     score += filter_bias
