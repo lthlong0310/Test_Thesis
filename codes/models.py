@@ -665,10 +665,13 @@ class KG2E_KL(KGEModel):
         a = torch.sum(sigma_e / sigma_r, dim = 2)
         
         #: b = (\mu_r - \mu_e)^T\Sigma_r^{-1}(\mu_r - \mu_e)
+        """
         if batch_type == BatchType.HEAD_BATCH:
             b = torch.sum((mu_r - mu_e) ** 2 / sigma_r, dim = 2)
         else:
             b = torch.sum((mu_e - mu_r) ** 2 / sigma_r, dim = 2)
+        """
+        b = torch.sum((mu_r - mu_e) ** 2 / sigma_r, dim = 2)
         
         
         #: c = \log \frac{det(\Sigma_e)}{det(\Sigma_r)}
@@ -772,10 +775,13 @@ class KG2E_EL(KGEModel):
         sigma_r = rel_v
         
         #: a = \mu^T\Sigma^{-1}\mu
+        """
         if batch_type == BatchType.HEAD_BATCH:
             a = torch.sum((mu_e - mu_r) ** 2 / (sigma_e + sigma_r), dim=2)
         else:
             a = torch.sum((mu_r - mu_e) ** 2 / (sigma_e + sigma_r), dim=2)
+        """
+        a = torch.sum((mu_e - mu_r) ** 2 / (sigma_e + sigma_r), dim=2)
         
         #: b = \log \det \Sigma
         b = torch.sum(torch.log(sigma_e + sigma_r), dim=2)
