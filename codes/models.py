@@ -650,7 +650,7 @@ class KG2E_KL(KGEModel):
         # = sum log (sigma_e)_i - sum log (sigma_r)_i
         c = torch.sum(torch.log(sigma_e) - torch.log(sigma_r), dim = 2)
         
-        return 0.5 * (a + b - c - self.hidden_dim)
+        return self.gamma.item() - 0.5 * (a + b - c - self.hidden_dim)
        
     
     def normalize_embedding(self):
@@ -753,7 +753,7 @@ class KG2E_EL(KGEModel):
         #: b = \log \det \Sigma
         b = torch.sum(torch.log(sigma_e + sigma_r), dim=2)
         
-        return 0.5 * (a + b + self.hidden_dim * self.log_2_pi)
+        return self.gamma.item() - 0.5 * (a + b + self.hidden_dim * self.log_2_pi)
        
     
     def normalize_embedding(self):
