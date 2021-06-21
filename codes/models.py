@@ -362,7 +362,9 @@ class ModE(KGEModel):
         )
 
     def func(self, head, rel, tail, batch_type):
-        return self.gamma.item() - torch.norm(head * rel - tail, p=1, dim=2)
+        score = self.gamma.item() - torch.norm(head * rel - tail, p=1, dim=2)
+        
+        return score
     
     def normalize_embedding(self):
         ...
@@ -440,7 +442,10 @@ class HAKE(KGEModel):
         phase_score = torch.sum(torch.abs(torch.sin(phase_score / 2)), dim=2) * self.phase_weight
         r_score = torch.norm(r_score, dim=2) * self.modulus_weight
 
-        return self.gamma.item() - (phase_score + r_score)
+        score = self.gamma.item() - (phase_score + r_score)
+        print(score)
+        
+        return score
     
     def normalize_embedding(self):
         ...
@@ -506,7 +511,9 @@ class RotatE(KGEModel):
         score = torch.stack([re_score, im_score], dim = 0)
         score = score.norm(dim = 0)
 
-        return self.gamma.item() - score.sum(dim = 2)
+        score = self.gamma.item() - score.sum(dim = 2)
+        
+        return score
     
     def normalize_embedding(self):
         ...
@@ -551,7 +558,9 @@ class TransE(KGEModel):
         else:
             score = (head + rel) - tail
 
-        return self.gamma.item() - torch.norm(score, p=1, dim=2)
+        score = self.gamma.item() - torch.norm(score, p=1, dim=2)
+        
+        return score
     
     def normalize_embedding(self):
         ...
@@ -590,7 +599,9 @@ class UM(KGEModel):
         
         score = torch.norm(score, p=2, dim=2)
 
-        return self.gamma.item() - score*score
+        score = self.gamma.item() - score*score
+        
+        return score
     
     def normalize_embedding(self):
         ...
