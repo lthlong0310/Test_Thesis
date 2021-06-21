@@ -210,22 +210,30 @@ class KGEModel(nn.Module, ABC):
         
         if model.name in ['KG2E_KL', 'KG2E_EL']:
             model.normalize_embedding()
+           
+        if model.name in ['KG2E_KL', 'KG2E_EL']:
+            negative_score = model(positive_sample, negative_sample)
+            
+            positive_score = model(positive_sample)
+            
+            loss =  torch.sum(F.relu(input= positive_score - negative_score + self.gamma.item())) / positive_sample.size()[0]
+           
+        else:
+            # negative scores
+            negative_score = model((positive_sample, negative_sample), batch_type=batch_type)
 
-        # negative scores
-        negative_score = model((positive_sample, negative_sample), batch_type=batch_type)
+            negative_score = (F.softmax(negative_score * args.adversarial_temperature, dim=1).detach()
+                              * F.logsigmoid(-negative_score)).sum(dim=1)
 
-        negative_score = (F.softmax(negative_score * args.adversarial_temperature, dim=1).detach()
-                          * F.logsigmoid(-negative_score)).sum(dim=1)
+            # positive scores
+            positive_score = model(positive_sample)
 
-        # positive scores
-        positive_score = model(positive_sample)
+            positive_score = F.logsigmoid(positive_score).squeeze(dim=1)
 
-        positive_score = F.logsigmoid(positive_score).squeeze(dim=1)
+            positive_sample_loss = - (subsampling_weight * positive_score).sum() / subsampling_weight.sum()
+            negative_sample_loss = - (subsampling_weight * negative_score).sum() / subsampling_weight.sum()
 
-        positive_sample_loss = - (subsampling_weight * positive_score).sum() / subsampling_weight.sum()
-        negative_sample_loss = - (subsampling_weight * negative_score).sum() / subsampling_weight.sum()
-
-        loss = (positive_sample_loss + negative_sample_loss) / 2
+            loss = (positive_sample_loss + negative_sample_loss) / 2
 
         loss.backward()
 
