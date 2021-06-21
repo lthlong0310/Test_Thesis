@@ -365,6 +365,7 @@ class ModE(KGEModel):
         return self.gamma.item() - torch.norm(head * rel - tail, p=1, dim=2)
     
     def normalize_embedding(self):
+        ...
 
 
 class HAKE(KGEModel):
@@ -442,6 +443,7 @@ class HAKE(KGEModel):
         return self.gamma.item() - (phase_score + r_score)
     
     def normalize_embedding(self):
+        ...
     
 class RotatE(KGEModel):
     def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma):
@@ -507,6 +509,7 @@ class RotatE(KGEModel):
         return self.gamma.item() - score.sum(dim = 2)
     
     def normalize_embedding(self):
+        ...
     
 class TransE(KGEModel):
     def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma):
@@ -551,6 +554,7 @@ class TransE(KGEModel):
         return self.gamma.item() - torch.norm(score, p=1, dim=2)
     
     def normalize_embedding(self):
+        ...
     
 class UM(KGEModel):
     def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma):
@@ -589,6 +593,7 @@ class UM(KGEModel):
         return self.gamma.item() - score*score
     
     def normalize_embedding(self):
+        ...
   
 
 class KG2E_KL(KGEModel):
