@@ -212,7 +212,7 @@ class KGEModel(nn.Module, ABC):
             model.normalize_embedding()
            
         if model.name in ['KG2E_KL', 'KG2E_EL']:
-            negative_score = model(positive_sample, negative_sample)
+            negative_score = model(negative_sample)
             
             positive_score = model(positive_sample)
             
