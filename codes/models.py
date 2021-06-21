@@ -671,7 +671,7 @@ class KG2E_KL(KGEModel):
         mu_e = head - tail
         sigma_e = head_v - tail_v
         mu_r = rel
-        sigma_r = torch.clamp_min(rel_v, min=epsilon)
+        sigma_r = torch.clamp_min(rel_v, min=eps)
         
         #: a = tr(\Sigma_r^{-1}\Sigma_e)
         a = torch.sum(sigma_e / sigma_r, dim = 2)
@@ -690,7 +690,7 @@ class KG2E_KL(KGEModel):
         
         #: c = \log \frac{det(\Sigma_e)}{det(\Sigma_r)}
         # = sum log (sigma_e)_i - sum log (sigma_r)_i
-        c = torch.sum(torch.log(sigma_e) - torch.log(sigma_r), dim = 2)
+        c = torch.sum(torch.log(sigma_e.clamp_min(rel_v, min=eps)) - torch.log(sigma_r), dim = 2)
         print('c = ', c)
         
         score = self.gamma.item() - 0.5 * (a + b - c - self.hidden_dim)
@@ -790,7 +790,7 @@ class KG2E_EL(KGEModel):
         mu_e = head - tail
         sigma_e = head_v - tail_v
         mu_r = rel
-        sigma_r = torch.clamp_min(rel_v, min=epsilon)
+        sigma_r = torch.clamp_min(rel_v, min=eps)
         
         #: a = \mu^T\Sigma^{-1}\mu
         """
