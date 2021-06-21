@@ -804,7 +804,7 @@ class KG2E_EL(KGEModel):
         #print('a = ', a)
         
         #: b = \log \det \Sigma
-        b = torch.sum(torch.log(sigma_e + sigma_r), dim=2)
+        b = torch.sum(torch.log(sigma_e.clamp_min(min=eps) + sigma_r), dim=2)
         #print('b =', b)
         
         score = self.gamma.item() - 0.5 * (a + b + self.hidden_dim * self.log_2_pi)
