@@ -670,7 +670,7 @@ class KG2E_KL(KGEModel):
         """
         eps = 1.0e-10
         mu_e = head - tail
-        sigma_e = head_v - tail_v
+        sigma_e = head_v + tail_v
         mu_r = rel
         sigma_r = torch.clamp_min(rel_v, min=eps)
         
@@ -789,7 +789,7 @@ class KG2E_EL(KGEModel):
         """
         eps = 1.0e-10
         mu_e = head - tail
-        sigma_e = head_v - tail_v
+        sigma_e = head_v + tail_v
         mu_r = rel
         sigma_r = torch.clamp_min(rel_v, min=eps)
         
