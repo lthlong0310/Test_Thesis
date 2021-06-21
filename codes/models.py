@@ -43,6 +43,7 @@ class KGEModel(nn.Module, ABC):
       
     @abstractmethod
     def normalize_embedding(self):
+        ...
         
 
     def forward(self, sample, batch_type=BatchType.SINGLE):
