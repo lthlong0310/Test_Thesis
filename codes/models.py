@@ -676,7 +676,7 @@ class KG2E_KL(KGEModel):
         #: a = tr(\Sigma_r^{-1}\Sigma_e)
         a = torch.sum(sigma_e / sigma_r, dim = 2)
         
-        print('a = ', a)
+        #print('a = ', a)
         
         #: b = (\mu_r - \mu_e)^T\Sigma_r^{-1}(\mu_r - \mu_e)
         """
@@ -686,12 +686,12 @@ class KG2E_KL(KGEModel):
             b = torch.sum((mu_e - mu_r) ** 2 / sigma_r, dim = 2)
         """
         b = torch.sum((mu_r - mu_e) ** 2 / sigma_r, dim = 2)
-        print('b = ', b)
+        #print('b = ', b)
         
         #: c = \log \frac{det(\Sigma_e)}{det(\Sigma_r)}
         # = sum log (sigma_e)_i - sum log (sigma_r)_i
         c = torch.sum(torch.log(sigma_e.clamp_min(min=eps)) - torch.log(sigma_r), dim = 2)
-        print('c = ', c)
+        #print('c = ', c)
         
         score = self.gamma.item() - 0.5 * (a + b - c - self.hidden_dim)
         
@@ -800,11 +800,11 @@ class KG2E_EL(KGEModel):
             a = torch.sum((mu_r - mu_e) ** 2 / (sigma_e + sigma_r), dim=2)
         """
         a = torch.sum((mu_e - mu_r) ** 2 / (sigma_e + sigma_r), dim=2)
-        print('a = ', a)
+        #print('a = ', a)
         
         #: b = \log \det \Sigma
         b = torch.sum(torch.log(sigma_e + sigma_r), dim=2)
-        print('b =', b)
+        #print('b =', b)
         
         score = self.gamma.item() - 0.5 * (a + b + self.hidden_dim * self.log_2_pi)
         
