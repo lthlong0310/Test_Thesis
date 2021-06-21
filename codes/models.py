@@ -682,20 +682,20 @@ class KG2E_KL(KGEModel):
         self.entity_embedding = torch.renorm(input=self.entity_embedding.detach().cpu(),
                                                             p=2,
                                                             dim=0,
-                                                            maxnorm=1.0))
+                                                            maxnorm=1.0)
         
         self.relation_embedding = torch.renorm(input=self.relation_embedding.detach().cpu(),
                                                             p=2,
                                                             dim=0,
-                                                            maxnorm=1.0))
+                                                            maxnorm=1.0)
         
         self.entity_cov = torch.clamp(input=self.entity_cov.detach().cpu(),
                                                        min=self.cmin,
-                                                       max=self.cmax))
+                                                       max=self.cmax)
         
         self.relation_cov = torch.clamp(input=self.relation_cov.detach().cpu(),
                                                        min=self.cmin,
-                                                       max=self.cmax))
+                                                       max=self.cmax)
 
 
     
@@ -786,17 +786,17 @@ class KG2E_EL(KGEModel):
         self.entity_embedding = torch.renorm(input=self.entity_embedding.detach().cpu(),
                                                             p=2,
                                                             dim=0,
-                                                            maxnorm=1.0))
+                                                            maxnorm=1.0)
         
         self.relation_embedding = torch.renorm(input=self.relation_embedding.detach().cpu(),
                                                             p=2,
                                                             dim=0,
-                                                            maxnorm=1.0))
+                                                            maxnorm=1.0)
         
         self.entity_cov = torch.clamp(input=self.entity_cov.detach().cpu(),
                                                        min=self.cmin,
-                                                       max=self.cmax))
+                                                       max=self.cmax)
         
         self.relation_cov = torch.clamp(input=self.relation_cov.detach().cpu(),
                                                        min=self.cmin,
-                                                       max=self.cmax))
+                                                       max=self.cmax)
