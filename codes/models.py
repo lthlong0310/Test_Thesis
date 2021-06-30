@@ -677,17 +677,8 @@ class KG2E_KL(KGEModel):
         #: a = tr(\Sigma_r^{-1}\Sigma_e)
         a = torch.sum(sigma_e / sigma_r, dim = 2)
         
-        #print('a = ', a)
-        
         #: b = (\mu_r - \mu_e)^T\Sigma_r^{-1}(\mu_r - \mu_e)
-        """
-        if batch_type == BatchType.HEAD_BATCH:
-            b = torch.sum((mu_r - mu_e) ** 2 / sigma_r, dim = 2)
-        else:
-            b = torch.sum((mu_e - mu_r) ** 2 / sigma_r, dim = 2)
-        """
         b = torch.sum((mu_r - mu_e) ** 2 / sigma_r, dim = 2)
-        #print('b = ', b)
         
         #: c = \log \frac{det(\Sigma_e)}{det(\Sigma_r)}
         # = sum log (sigma_e)_i - sum log (sigma_r)_i
@@ -794,18 +785,10 @@ class KG2E_EL(KGEModel):
         sigma_r = torch.clamp_min(rel_v, min=eps)
         
         #: a = \mu^T\Sigma^{-1}\mu
-        """
-        if batch_type == BatchType.HEAD_BATCH:
-            a = torch.sum((mu_e - mu_r) ** 2 / (sigma_e + sigma_r), dim=2)
-        else:
-            a = torch.sum((mu_r - mu_e) ** 2 / (sigma_e + sigma_r), dim=2)
-        """
         a = torch.sum((mu_e - mu_r) ** 2 / (sigma_e + sigma_r), dim=2)
-        #print('a = ', a)
         
         #: b = \log \det \Sigma
         b = torch.sum(torch.log(sigma_e.clamp_min(min=eps) + sigma_r), dim=2)
-        #print('b =', b)
         
         score = self.gamma.item() - 0.5 * (a + b + self.hidden_dim * self.log_2_pi)
         
