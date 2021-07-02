@@ -9,7 +9,7 @@ import torch
 
 from torch.utils.data import DataLoader
 
-from models import KGEModel, ModE, HAKE, TransE, RotatE, UM, KG2E_KL, KG2E_EL
+from models import KGEModel, KG2E_KL, KG2E_EL
 
 from data import TrainDataset, BatchType, ModeType, DataReader
 from data import BidirectionalOneShotIterator
@@ -97,18 +97,17 @@ def save_model(model, optimizer, save_variable_list, args):
         relation_embedding
     )
     
-    if args.model in ['KG2E_KL', 'KG2E_EL']:
-        entity_cov = model.entity_cov.detach().cpu().numpy()
-        np.save(
-            os.path.join(args.save_path, 'entity_cov'),
-            entity_cov
-        )
+    entity_cov = model.entity_cov.detach().cpu().numpy()
+    np.save(
+        os.path.join(args.save_path, 'entity_cov'),
+        entity_cov
+    )
 
-        relation_cov = model.relation_cov.detach().cpu().numpy()
-        np.save(
-            os.path.join(args.save_path, 'relation_cov'),
-            relation_cov
-        )
+    relation_cov = model.relation_cov.detach().cpu().numpy()
+    np.save(
+        os.path.join(args.save_path, 'relation_cov'),
+        relation_cov
+    )
 
 
 def set_logger(args):
@@ -174,17 +173,7 @@ def main(args):
     logging.info('Num Valid: {}'.format(len(data_reader.valid_data)))
     logging.info('Num Test: {}'.format(len(data_reader.test_data)))
 
-    if args.model == 'ModE':
-        kge_model = ModE(args.model, num_entity, num_relation, args.hidden_dim, args.gamma)
-    elif args.model == 'TransE':
-        kge_model = TransE(args.model, num_entity, num_relation, args.hidden_dim, args.gamma)
-    elif args.model == 'UM':
-        kge_model = UM(args.model, num_entity, num_relation, args.hidden_dim, args.gamma)
-    elif args.model == 'RotatE':
-        kge_model = RotatE(args.model, num_entity, num_relation, args.hidden_dim, args.gamma)
-    elif args.model == 'HAKE':
-        kge_model = HAKE(args.model, num_entity, num_relation, args.hidden_dim, args.gamma, args.modulus_weight, args.phase_weight)
-    elif args.model == 'KG2E_KL':
+    if args.model == 'KG2E_KL':
         kge_model = KG2E_KL(args.model, num_entity, num_relation, args.hidden_dim, args.gamma, args.clamp_min, args.clamp_max)
     elif args.model == 'KG2E_EL':
         kge_model = KG2E_EL(args.model, num_entity, num_relation, args.hidden_dim, args.gamma, args.clamp_min, args.clamp_max)
