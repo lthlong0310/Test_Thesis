@@ -17,6 +17,8 @@ class KGEModel(nn.Module, ABC):
     Must define
         `self.entity_embedding`
         `self.relation_embedding`
+        `self.entity_cov`
+        `self.relation_cov`
     in the subclasses.
     """
 
@@ -82,24 +84,24 @@ class KGEModel(nn.Module, ABC):
                 index=sample[:, 2]
             ).unsqueeze(1)
             
-            if self.name in ['KG2E_KL', 'KG2E_EL']:
-                head_v = torch.index_select(
-                    self.entity_cov,
-                    dim=0,
-                    index=sample[:, 0]
-                ).unsqueeze(1)
+            head_v = torch.index_select(
+                self.entity_cov,
+                dim=0,
+                index=sample[:, 0]
+            ).unsqueeze(1)
 
-                relation_v = torch.index_select(
-                    self.relation_cov,
-                    dim=0,
-                    index=sample[:, 1]
-                ).unsqueeze(1)
+            relation_v = torch.index_select(
+                self.relation_cov,
+                dim=0,
+                index=sample[:, 1]
+            ).unsqueeze(1)
 
-                tail_v = torch.index_select(
+            tail_v = torch.index_select(
                     self.entity_cov,
                     dim=0,
                     index=sample[:, 2]
                 ).unsqueeze(1)
+                
 
         elif batch_type == BatchType.HEAD_BATCH:
             tail_part, head_part = sample
@@ -123,24 +125,24 @@ class KGEModel(nn.Module, ABC):
                 index=tail_part[:, 2]
             ).unsqueeze(1)
             
-            if self.name in ['KG2E_KL', 'KG2E_EL']:
-                head_v = torch.index_select(
-                    self.entity_cov,
-                    dim=0,
-                    index=head_part.view(-1)
-                ).view(batch_size, negative_sample_size, -1)
+            head_v = torch.index_select(
+                self.entity_cov,
+                dim=0,
+                index=head_part.view(-1)
+            ).view(batch_size, negative_sample_size, -1)
 
-                relation_v = torch.index_select(
-                    self.relation_cov,
-                    dim=0,
-                    index=tail_part[:, 1]
-                ).unsqueeze(1)
+            relation_v = torch.index_select(
+                self.relation_cov,
+                dim=0,
+                index=tail_part[:, 1]
+            ).unsqueeze(1)
 
-                tail_v = torch.index_select(
-                    self.entity_cov,
-                    dim=0,
-                    index=tail_part[:, 2]
-                ).unsqueeze(1)
+            tail_v = torch.index_select(
+                self.entity_cov,
+                dim=0,
+                index=tail_part[:, 2]
+            ).unsqueeze(1)
+            
 
         elif batch_type == BatchType.TAIL_BATCH:
             head_part, tail_part = sample
@@ -164,8 +166,7 @@ class KGEModel(nn.Module, ABC):
                 index=tail_part.view(-1)
             ).view(batch_size, negative_sample_size, -1)
             
-            if self.name in ['KG2E_KL', 'KG2E_EL']:
-                head_v = torch.index_select(
+            head_v = torch.index_select(
                 self.entity_cov,
                 dim=0,
                 index=head_part[:, 0]
@@ -182,6 +183,7 @@ class KGEModel(nn.Module, ABC):
                 dim=0,
                 index=tail_part.view(-1)
             ).view(batch_size, negative_sample_size, -1)
+                
 
         else:
             raise ValueError('batch_type %s not supported!'.format(batch_type))
@@ -208,8 +210,7 @@ class KGEModel(nn.Module, ABC):
         negative_sample = negative_sample.cuda()
         subsampling_weight = subsampling_weight.cuda()
         
-        if model.name in ['KG2E_KL', 'KG2E_EL']:
-            model.normalize_embedding()
+        model.normalize_embedding()
            
         # negative scores
         negative_score = model((positive_sample, negative_sample), batch_type=batch_type)
@@ -284,10 +285,6 @@ class KGEModel(nn.Module, ABC):
                     filter_bias = filter_bias.cuda()
 
                     batch_size = positive_sample.size(0)
-                    """
-                    if model.name in ['KG2E_KL', 'KG2E_EL']:
-                        model.normalize_embedding()
-                    """
 
                     score = model((positive_sample, negative_sample), batch_type)
                     score += filter_bias
@@ -329,284 +326,6 @@ class KGEModel(nn.Module, ABC):
         return metrics
 
 
-class ModE(KGEModel):
-    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma):
-        super(ModE, self).__init__()
-        self.name = model_name
-        self.num_entity = num_entity
-        self.num_relation = num_relation
-        self.hidden_dim = hidden_dim
-        self.epsilon = 2.0
-
-        self.gamma = nn.Parameter(
-            torch.Tensor([gamma]),
-            requires_grad=False
-        )
-
-        self.embedding_range = nn.Parameter(
-            torch.Tensor([(self.gamma.item() + self.epsilon) / hidden_dim]),
-            requires_grad=False
-        )
-
-        self.entity_embedding = nn.Parameter(torch.zeros(num_entity, hidden_dim))
-        nn.init.uniform_(
-            tensor=self.entity_embedding,
-            a=-self.embedding_range.item(),
-            b=self.embedding_range.item()
-        )
-
-        self.relation_embedding = nn.Parameter(torch.zeros(num_relation, hidden_dim))
-        nn.init.uniform_(
-            tensor=self.relation_embedding,
-            a=-self.embedding_range.item(),
-            b=self.embedding_range.item()
-        )
-
-    def func(self, head, rel, tail, batch_type):
-        score = self.gamma.item() - torch.norm(head * rel - tail, p=1, dim=2)
-        
-        return score
-    
-    def normalize_embedding(self):
-        ...
-
-
-class HAKE(KGEModel):
-    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma, modulus_weight=1.0, phase_weight=0.5):
-        super(HAKE, self).__init__()
-        self.name = model_name
-        self.num_entity = num_entity
-        self.num_relation = num_relation
-        self.hidden_dim = hidden_dim
-        self.epsilon = 2.0
-
-        self.gamma = nn.Parameter(
-            torch.Tensor([gamma]),
-            requires_grad=False
-        )
-
-        self.embedding_range = nn.Parameter(
-            torch.Tensor([(self.gamma.item() + self.epsilon) / hidden_dim]),
-            requires_grad=False
-        )
-
-        self.entity_embedding = nn.Parameter(torch.zeros(num_entity, hidden_dim * 2))
-        nn.init.uniform_(
-            tensor=self.entity_embedding,
-            a=-self.embedding_range.item(),
-            b=self.embedding_range.item()
-        )
-
-        self.relation_embedding = nn.Parameter(torch.zeros(num_relation, hidden_dim * 2))
-        nn.init.uniform_(
-            tensor=self.relation_embedding,
-            a=-self.embedding_range.item(),
-            b=self.embedding_range.item()
-        )
-
-        nn.init.ones_(
-            tensor=self.relation_embedding[:, hidden_dim:2 * hidden_dim]
-        )
-
-        #nn.init.zeros_(
-         #   tensor=self.relation_embedding[:, 2 * hidden_dim:3 * hidden_dim]
-        #)
-
-        self.phase_weight = nn.Parameter(torch.Tensor([[phase_weight * self.embedding_range.item()]]))
-        self.modulus_weight = nn.Parameter(torch.Tensor([[modulus_weight]]))
-
-        self.pi = 3.14159262358979323846
-
-
-    def func(self, head, rel, tail, batch_type):
-        phase_head, mod_head = torch.chunk(head, 2, dim=2)
-        phase_relation, mod_relation = torch.chunk(rel, 2, dim=2)
-        phase_tail, mod_tail = torch.chunk(tail, 2, dim=2)
-
-        phase_head = phase_head / (self.embedding_range.item() / self.pi)
-        phase_relation = phase_relation / (self.embedding_range.item() / self.pi)
-        phase_tail = phase_tail / (self.embedding_range.item() / self.pi)
-
-        if batch_type == BatchType.HEAD_BATCH:
-            phase_score = phase_head + (phase_relation - phase_tail)
-        else:
-            phase_score = (phase_head + phase_relation) - phase_tail
-
-        mod_relation = torch.abs(mod_relation)
-        #bias_relation = torch.clamp(bias_relation, max=1)
-        #indicator = (bias_relation < -mod_relation)
-        #bias_relation[indicator] = -mod_relation[indicator]
-
-        #r_score = mod_head * (mod_relation + bias_relation) - mod_tail * (1 - bias_relation)
-        r_score = mod_head * mod_relation - mod_tail
-
-        phase_score = torch.sum(torch.abs(torch.sin(phase_score / 2)), dim=2) * self.phase_weight
-        r_score = torch.norm(r_score, dim=2) * self.modulus_weight
-
-        score = self.gamma.item() - (phase_score + r_score)
-        print(score)
-        
-        return score
-    
-    def normalize_embedding(self):
-        ...
-    
-class RotatE(KGEModel):
-    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma):
-        super(RotatE, self).__init__()
-        self.name = model_name
-        self.num_entity = num_entity
-        self.num_relation = num_relation
-        self.hidden_dim = hidden_dim
-        self.epsilon = 2.0
-
-        self.gamma = nn.Parameter(
-            torch.Tensor([gamma]),
-            requires_grad=False
-        )
-
-        self.embedding_range = nn.Parameter(
-            torch.Tensor([(self.gamma.item() + self.epsilon) / hidden_dim]),
-            requires_grad=False
-        )
-
-        self.entity_embedding = nn.Parameter(torch.zeros(num_entity, hidden_dim * 2))
-        nn.init.uniform_(
-            tensor=self.entity_embedding,
-            a=-self.embedding_range.item(),
-            b=self.embedding_range.item()
-        )
-
-        self.relation_embedding = nn.Parameter(torch.zeros(num_relation, hidden_dim))
-        nn.init.uniform_(
-            tensor=self.relation_embedding,
-            a=-self.embedding_range.item(),
-            b=self.embedding_range.item()
-        )
-
-        self.pi = 3.14159262358979323846
-
-
-    def func(self, head, rel, tail, batch_type):
-        re_head, im_head = torch.chunk(head, 2, dim=2)
-        re_tail, im_tail = torch.chunk(tail, 2, dim=2)
-
-        #Make phases of relations uniformly distributed in [-pi, pi]
-
-        phase_relation = rel/(self.embedding_range.item()/self.pi)
-
-        re_relation = torch.cos(phase_relation)
-        im_relation = torch.sin(phase_relation)
-
-        if batch_type == BatchType.HEAD_BATCH:
-            re_score = re_relation * re_tail + im_relation * im_tail
-            im_score = re_relation * im_tail - im_relation * re_tail
-            re_score = re_score - re_head
-            im_score = im_score - im_head
-        else:
-            re_score = re_head * re_relation - im_head * im_relation
-            im_score = re_head * im_relation + im_head * re_relation
-            re_score = re_score - re_tail
-            im_score = im_score - im_tail
-
-        score = torch.stack([re_score, im_score], dim = 0)
-        score = score.norm(dim = 0)
-
-        score = self.gamma.item() - score.sum(dim = 2)
-        
-        return score
-    
-    def normalize_embedding(self):
-        ...
-    
-class TransE(KGEModel):
-    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma):
-        super(TransE, self).__init__()
-        self.name = model_name
-        self.num_entity = num_entity
-        self.num_relation = num_relation
-        self.hidden_dim = hidden_dim
-        self.epsilon = 2.0
-
-        self.gamma = nn.Parameter(
-            torch.Tensor([gamma]),
-            requires_grad=False
-        )
-
-        self.embedding_range = nn.Parameter(
-            torch.Tensor([(self.gamma.item() + self.epsilon) / hidden_dim]),
-            requires_grad=False
-        )
-
-        self.entity_embedding = nn.Parameter(torch.zeros(num_entity, hidden_dim))
-        nn.init.uniform_(
-            tensor=self.entity_embedding,
-            a=-self.embedding_range.item(),
-            b=self.embedding_range.item()
-        )
-
-        self.relation_embedding = nn.Parameter(torch.zeros(num_relation, hidden_dim))
-        nn.init.uniform_(
-            tensor=self.relation_embedding,
-            a=-self.embedding_range.item(),
-            b=self.embedding_range.item()
-        )
-
-
-    def func(self, head, rel, tail, batch_type):
-        if batch_type == BatchType.HEAD_BATCH:
-            score = head + (rel - tail)
-        else:
-            score = (head + rel) - tail
-
-        score = self.gamma.item() - torch.norm(score, p=1, dim=2)
-        
-        return score
-    
-    def normalize_embedding(self):
-        ...
-    
-class UM(KGEModel):
-    def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma):
-        super(UM, self).__init__()
-        self.name = model_name
-        self.num_entity = num_entity
-        self.num_relation = num_relation
-        self.hidden_dim = hidden_dim
-        self.epsilon = 2.0
-
-        self.gamma = nn.Parameter(
-            torch.Tensor([gamma]),
-            requires_grad=False
-        )
-
-        self.embedding_range = nn.Parameter(
-            torch.Tensor([(self.gamma.item() + self.epsilon) / hidden_dim]),
-            requires_grad=False
-        )
-
-        self.entity_embedding = nn.Parameter(torch.zeros(num_entity, hidden_dim))
-        nn.init.uniform_(
-            tensor=self.entity_embedding,
-            a=-self.embedding_range.item(),
-            b=self.embedding_range.item()
-        )
-
-        self.relation_embedding = nn.Parameter(torch.zeros(num_relation, hidden_dim), requires_grad=False)
-
-
-    def func(self, head, rel, tail, batch_type):
-        score = head - tail
-        
-        score = torch.norm(score, p=2, dim=2)
-
-        score = self.gamma.item() - score*score
-        
-        return score
-    
-    def normalize_embedding(self):
-        ...
-  
 
 class KG2E_KL(KGEModel):
     def __init__(self, model_name, num_entity, num_relation, hidden_dim, gamma, cmin, cmax):
