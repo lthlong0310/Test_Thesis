@@ -25,19 +25,15 @@ ALPHA=${10}
 LEARNING_RATE=${11}
 MAX_STEPS=${12}
 TEST_BATCH_SIZE=${13}
-MODULUS_WEIGHT=${14}
-PHASE_WEIGHT=${15}
-#CMIN=${16}
-#CMAX=${17}
+CMIN=${14}
+CMAX=${15}
 
 if [ $MODE == "train" ]
 then
 
 echo "Start Training......"
 
-    if [ $MODEL == "HAKE" ]
-    then
-        CUDA_VISIBLE_DEVICES=$GPU_DEVICE python -u $CODE_PATH/runs.py --do_train \
+CUDA_VISIBLE_DEVICES=$GPU_DEVICE python -u $CODE_PATH/runs.py --do_train \
             --do_valid \
             --do_test \
             --data_path $FULL_DATA_PATH \
@@ -46,31 +42,7 @@ echo "Start Training......"
             -g $GAMMA -a $ALPHA \
             -lr $LEARNING_RATE --max_steps $MAX_STEPS \
             -save $SAVE --test_batch_size $TEST_BATCH_SIZE \
-            -mw $MODULUS_WEIGHT -pw $PHASE_WEIGHT
-     elif [ $MODEL == "KG2E_KL" ] || [ $MODEL == "KG2E_EL" ] 
-     then
-        CUDA_VISIBLE_DEVICES=$GPU_DEVICE python -u $CODE_PATH/runs.py --do_train \
-            --do_valid \
-            --do_test \
-            --data_path $FULL_DATA_PATH \
-            --model $MODEL \
-            -n $NEGATIVE_SAMPLE_SIZE -b $BATCH_SIZE -d $HIDDEN_DIM \
-            -g $GAMMA -a $ALPHA \
-            -lr $LEARNING_RATE --max_steps $MAX_STEPS \
-            -save $SAVE --test_batch_size $TEST_BATCH_SIZE \
-            ${16} ${17}
-     
-     else
-         CUDA_VISIBLE_DEVICES=$GPU_DEVICE python -u $CODE_PATH/runs.py --do_train \
-            --do_valid \
-            --do_test \
-            --data_path $FULL_DATA_PATH \
-            --model $MODEL \
-            -n $NEGATIVE_SAMPLE_SIZE -b $BATCH_SIZE -d $HIDDEN_DIM \
-            -g $GAMMA -a $ALPHA \
-            -lr $LEARNING_RATE --max_steps $MAX_STEPS \
-            -save $SAVE --test_batch_size $TEST_BATCH_SIZE
-     fi
+            -cmin $CMIN -cmax $CMAX
 
 elif [ $MODE == "valid" ]
 then
