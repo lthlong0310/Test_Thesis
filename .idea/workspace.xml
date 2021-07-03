@@ -13,17 +13,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codes/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="573" column="24" selection-start-line="573" selection-start-column="24" selection-end-line="573" selection-end-column="24" />
+            <state relative-caret-position="15524">
+              <caret line="610" column="24" selection-start-line="610" selection-start-column="24" selection-end-line="610" selection-end-column="24" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <element signature="e#279#10708#0" />
-                <element signature="e#10737#11928#0" />
-                <element signature="e#11957#14773#0" />
-                <element signature="e#14807#16972#0" />
-                <element signature="e#17006#18330#0" />
-                <element signature="e#18360#19459#0" />
-                <element signature="e#19493#23402#0" />
                 <element signature="e#23447#27331#0" />
               </folding>
             </state>
@@ -73,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="75" />
     <option name="width" value="950" />
@@ -132,8 +126,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -157,17 +150,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/codes/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="573" column="24" selection-start-line="573" selection-start-column="24" selection-end-line="573" selection-end-column="24" />
+        <state relative-caret-position="15524">
+          <caret line="610" column="24" selection-start-line="610" selection-start-column="24" selection-end-line="610" selection-end-column="24" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#279#10708#0" />
-            <element signature="e#10737#11928#0" />
-            <element signature="e#11957#14773#0" />
-            <element signature="e#14807#16972#0" />
-            <element signature="e#17006#18330#0" />
-            <element signature="e#18360#19459#0" />
-            <element signature="e#19493#23402#0" />
             <element signature="e#23447#27331#0" />
           </folding>
         </state>
